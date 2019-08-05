@@ -22,14 +22,16 @@ Content
 
 * Colour is not used as the only way ....
 
-* **Links styling**. Links in sentences or paragraphs have a contrast ratio of at least 3:1 with their surrounding text, and are also indicated by another visual cue beyond just colour (e.g. underline, weight, arrow, border). [More about Links styling](https://www.tesco.com).
+#### Links styling
+
+* [Links in sentences or paragraphs have a **3:1 contrast ratio with their surrounding text**](https://www.tesco.com).
+* [Links in sentences or paragraphs are indicated by **another visual cue, beyond just colour**](https://www.tesco.com).
 
 #### Text contrast
 
-* Text that is 18 points or larger has a contrast ratio of at least 3:1. Text that that is smaller than 18 points has a contrast ratio of at least 4.5:1.
+* [Text 18 points of larger has a **3:1 contrast ratio with its background**.](https://www.tesco.com).
+* [Text that is smaller than 18 points has a **4.5:1 contrast ratio with its background**.](https://www.tesco.com).
 <!-- Include 'bold' -->
-
-See also: Links styling [LINK].
 
 #### Contrast of non-text elements
 
@@ -39,34 +41,27 @@ See also: Links styling [LINK].
 
 #### Text resizing
 
-* Zoom and scrolling are not disabled in web views in native apps.
-
-* Native apps honour the text resizing preferences set by users' in the device's settings.
+* [**Zoom and scrolling are not disabled** in web views](https://www.tesco.com).
+* [Native views **honour the text resizing preferences** set by users' in the device's settings](https://www.tesco.com).
 
 #### Content reflow when resizing
 
 #### Device orientation
 
-**Device orientation**. The orientation of content isn't locked. Content can be viewed horizontally or vertically. [More about Device orientation](https://www.tesco.com)
+* [Content **can be viewed both vertically and horizontally**](https://www.tesco.com).
 
 ### 3. Structure and navigation
 
 #### Title of page
 
-* [Title of page](https://www.tesco.com). A unique and descriptibve title is displayed at the top of each screen, and is read out by screen readers.
+* [Each page has a **unique and descriptive title**.](https://www.tesco.com)
+* [Each page's title is **displayed at the top** of the screen and **read out by screen readers**.](https://www.tesco.com)
 
 #### Headings
 
-##### [Headings are identified as headings in the code.](https://www.tesco.com)
-
-Via `UIAccessibilityTraitHeader` in iOS, and `<h1> - <h6>` in HTML. Note: Text cannot be coded as a heading in Android apps.
-
-##### [Text that doesn't represent a heading is not identified as a heading in code.](https://www.tesco.com)
-
-**Only headings are headings in code**. Text that does not represent a heading is not identified as a heading in code. [More about 'Only headings are headings in code'](https://www.tesco.com)
-
-[Correct heading level](https://www.tesco.com). In HTML, headings are assigned the correct heading level: the main page heading is coded with `<h1>`, its subheadings are coded with `<h2>`, subheadings of any `<h2>` are coded with `<h3>`, etc.
-
+* [**Headings are identified as headings** in the code.](https://www.tesco.com)
+* [Text that's **not a heading** is not identified as a heading in code.](https://www.tesco.com)
+* [Headings have the **correct heading level**.](https://www.tesco.com)
 
 #### Lists
 
