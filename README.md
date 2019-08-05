@@ -2,3 +2,5 @@
 
 * [iOS Accessibility Checklist v0.0.1](./ios.md)
 * Web Guidelines
+
+## How to use
