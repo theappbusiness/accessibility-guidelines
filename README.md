@@ -43,7 +43,9 @@ Content
 
 #### Help text for form inputs
 
-#### Error messages
+#### Input error messages
+
+Note: for system errors, see [System messages and notifications](#system-messages-and-notifications).
 
 #### Review step before submission
 
@@ -69,11 +71,11 @@ Content
 
 #### Language set in code
 
-### 7. Events and interruptions
+### 7. Notifications, overlays and interruptions
+
+#### System messages and notifications
 
 #### Time-outs
-
-#### Notifications
 
 #### Focus management
 
