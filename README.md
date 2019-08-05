@@ -3,15 +3,15 @@
 ## Guidelines
 
 Content
-1. Colour and contrast
-2. Dynamic size and layout
-3. Structure and navigation
-4. Form inputs
-5. Multiple ways to interact
-6. Language and instructions
-7. Events and interruptions
-8. Images, audio, video and animation
-9. Custom components
+1. [Colour and contrast](#1-colour-and-contrast)
+2. [Dynamic size and layout](#2-dynamic-size-and-layout)
+3. [Structure and navigation](#3-structure-and-navigation)
+4. [Form inputs](#4-form-inputs)
+5. [Multiple ways to interact](#5-multiple-ways-to-interact)
+6. [Language and instructions](#6-language-and-instructions)
+7. [Notifications, overlays and interruptions](#7-notifications-overlays-and-interruptions)
+8. [Images, audio, video and animation](#8-images-animations-audio-and-video)
+9. [Custom components](#9-custom-components)
 
 ### 1. Colour and contrast
 
