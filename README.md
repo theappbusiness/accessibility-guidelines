@@ -4,3 +4,7 @@
 * Web Guidelines
 
 ## How to use
+
+## Sources
+
+WCAG, BBC, Barclays, GDS
