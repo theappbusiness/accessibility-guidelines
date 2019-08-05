@@ -24,8 +24,8 @@ Content
 
 #### Links styling
 
-* [Links in sentences or paragraphs have a **3:1 contrast ratio with their surrounding text**](https://www.tesco.com).
-* [Links in sentences or paragraphs are indicated by **another visual cue, beyond just colour**](https://www.tesco.com).
+* [Links in sentences or paragraphs must have a **3:1 contrast ratio with their surrounding text**](https://www.tesco.com).
+* [Links in sentences or paragraphs must be indicated by **another visual cue, beyond just colour**](https://www.tesco.com).
 
 #### Text contrast
 
@@ -41,27 +41,27 @@ Content
 
 #### Text resizing
 
-* [**Zoom and scrolling are not disabled** in web views](https://www.tesco.com).
-* [Native views **honour the text resizing preferences** set by users' in the device's settings](https://www.tesco.com).
+* [**Zoom and scrolling must not be disabled** in web views](https://www.tesco.com).
+* [Native views must **honour the text resizing preferences** set by users' in the device's settings](https://www.tesco.com).
 
 #### Content reflow when resizing
 
 #### Device orientation
 
-* [Content **can be viewed both vertically and horizontally**](https://www.tesco.com).
+* [Content must not be **locked to one orientation** (e.g. vertically or horizontally)](https://www.tesco.com).
 
 ### 3. Structure and navigation
 
 #### Title of page
 
-* [Each page has a **unique and descriptive title**.](https://www.tesco.com)
-* [Each page's title is **displayed at the top** of the screen and **read out by screen readers**.](https://www.tesco.com)
+* [Each page must have a **unique and descriptive title**.](https://www.tesco.com)
+* [Each page's title must be **displayed at the top** of the screen and **read out by screen readers**.](https://www.tesco.com)
 
 #### Headings
 
-* [**Headings are identified as headings** in the code.](https://www.tesco.com)
-* [Text that's **not a heading** is not identified as a heading in code.](https://www.tesco.com)
-* [Headings have the **correct heading level**.](https://www.tesco.com)
+* [**Headings must be identified as headings** in the code.](https://www.tesco.com)
+* [Text that's **not a heading** must not be identified as a heading in code.](https://www.tesco.com)
+* [Headings must have the **correct heading level**.](https://www.tesco.com)
 
 #### Lists
 
