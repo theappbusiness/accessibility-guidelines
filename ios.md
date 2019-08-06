@@ -5,57 +5,58 @@ v0.0.1
 
 ### Use of colour
 
-* [Colour **must not** be **used as the only way** to communicate a piece of information.](https://www.tesco.com).
+* [Colour **must not** be **used as the only way** to communicate a piece of information.]().
 
 ### Links styling
 
-* [Links in sentences or paragraphs **must** have **3:1 contrast with their surrounding text**](https://www.tesco.com).
-* [Links in sentences or paragraphs **must** be indicated by **another visual cue, beyond just colour**](https://www.tesco.com).
+* [Links in sentences or paragraphs **must** have **3:1 contrast with their surrounding text**]().
+* [Links in sentences or paragraphs **must** be indicated by **another visual cue, beyond just colour**]().
 
 ### Text contrast
 
-* [Text 18 points of larger **must have** **3:1 contrast** with its background.](https://www.tesco.com).
-* [Text that is smaller than 18 points **must have** **4.5:1 contrast** with its background.](https://www.tesco.com).
+* [Text 18 points of larger **must have** **3:1 contrast** with its background.]().
+* [Text that is smaller than 18 points **must have** **4.5:1 contrast** with its background.]().
 <!-- BUG: Missing 'bold' -->
 
 ### Contrast of non-text elements
 
-* [Visual information required to **identify interactive components must have** **3:1 contrast** with adjacent colours](https://www.tesco.com).
-* [Visual information required to **identify the state** of interactive components **must have** **3:1 contrast** with adjacent colours](https://www.tesco.com).
-  
+* [**Interactive components must have** **3:1 contrast** with what's next to them]().
+* [Visual elements that **indicate the state** of interactive components **must have** **3:1 contrast** with what's next to them]().
+
 ## 2. Dynamic size and layout
 
 ### Text resizing
 
-* [**Zoom and scrolling must not be disabled** in web views](https://www.tesco.com).
-* [Native views must **honour the text resizing preferences** set by users' in the device's settings](https://www.tesco.com).
+* [**Zoom and scrolling must not be disabled** in web views]().
+* [Native views must **honour the text resizing preferences** set by users' in the device's settings]().
+* [Users can increase the space between lines, paragraphs, letters and words without loss]().
 
 ### Responsive layout
 
-* [All information and functionality **must be** **available on a 320-pixel wide screen**, **without scrolling horizontally**](https://www.tesco.com).
+* [All information and functionality **must fit on a 320-pixel wide screen**, **without scrolling horizontally**]().
 
 ### Device orientation
 
-* [Content must not be **locked to one orientation** (e.g. vertical or horizontal)](https://www.tesco.com).
+* [Content must not be **locked to one orientation** (e.g. vertical or horizontal)]().
 
 ## 3. Structure and navigation
 
 ### Title of page
 
-* [Each page must have a **unique and descriptive title**.](https://www.tesco.com)
-* [Each page's title must be **displayed at the top** of the screen and **read out by screen readers**.](https://www.tesco.com)
+* [Each page must have a **unique and descriptive title**.]()
+* [Each page's title must be **displayed at the top** of the screen and **read out by screen readers**.]()
 
 ### Headings
 
-* [**Headings must be identified as headings** in the code.](https://www.tesco.com)
-* [Text that's **not a heading** must not be identified as a heading in code.](https://www.tesco.com)
-* [Headings must have the **correct heading level**.](https://www.tesco.com)
+* [**Headings must be identified as headings** in the code.]()
+* [Text that's **not a heading** must not be identified as a heading in code.]()
+* [Headings must have the **correct heading level**.]()
 
 ## 4. Form inputs
 
 ### Labels for form inputs
 
-* [**Form inputs must be associated with a label** in code, or given an accessible name in code.](https://www.tesco.com)
+* [**Form inputs must be associated with a label** in code, or given an accessible name in code.]()
 
 <!-- See also: label in name -->
 
@@ -103,11 +104,17 @@ Note: for system errors, see [System messages and notifications](#system-message
 
 ### Images
 
+* [Provide a **text description** for images, that **serves the same purpose** as the image.]()
+
 ### Animations
 
 ### Audio
 
 ### Video
+
+* [Provide **captions** for video content that has audio]().
+* [Make sure that **video content doesn't play automatically**]().
+* [**Nothing flashes** more than 3 times a second]().
 
 ## 9. Custom components
 
