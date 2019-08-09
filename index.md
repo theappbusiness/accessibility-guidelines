@@ -24,7 +24,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * <strong>Audio description of pre-recorded videos or presentations</strong>. If the video or presentation is prerecorded (rather than live), provide an audio description of the recording (even if you're already provided a text description). [More about 1.2.5]()
 
-#### Guideline 1.3: Create content that can be presented in different ways
+#### Create content that can be presented in different ways
 
 * Make sure that the visual structure of information is conveyed in code, so that assistive technologies can understand it. [More about 1.3.1]()
 
@@ -38,7 +38,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [WEB ONLY]. In forms that collect information <strong>about the user</strong>, add autocomplete attributes to identify the purpose of the input. [More about 1.3.5]()
 
-#### Guideline 1.4: Make content easy for people to see and hear
+#### Make content easy for people to see and hear
 
 * Do not use colour as the only way to convey information of any kind. [More about 1.4.1]()
 
@@ -63,23 +63,16 @@ Your website/app must present information in ways people can recognise and use, 
 
 * If extra content appears when users focus or hover an element, that extra content is easily dismissable, hoverable and persistent. [More about 1.4.13]()
 
-
-
-
-
-
-
-
-
-
-
 ### Principle 2: Operable
 
-Your service must be navigable and usable no matter how someone uses it (without a mouse, with voice commands, or with a screen magnifier for example).
+Your website/app must be navigable and usable no matter how someone uses it (without a mouse, with voice commands, or with a screen magnifier for example).
 
-#### Guideline 2.1: Make functionality work with a keyboard
-* 2.1.1 Make sure every task can be completed without a mouse. [More about 2.1.1](/all.html#2-1-1-keyboard-a)
+#### Make functionality work with a keyboard
+
+* Make sure every task can be completed using just a keyboard. [More about 2.1.1]()
+
 * 2.1.2 Make sure that keyboard users don't get stuck when navigating through content. [More about 2.1.2](/all.html#2-1-2-no-keyboard-trap-a)
+
 * 2.1.4 <strong>[NEW]</strong> Provide a way to switch off or remap keyboard shortcuts. [More about 2.1.4](/all.html#2-1-4-character-key-shortcuts-a)
 
 #### Guideline 2.2: Give people enough time to read and use content
