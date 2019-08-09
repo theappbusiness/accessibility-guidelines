@@ -39,15 +39,37 @@ Your website/app must present information in ways people can recognise and use, 
 * [WEB ONLY]. In forms that collect information <strong>about the user</strong>, add autocomplete attributes to identify the purpose of the input. [More about 1.3.5]()
 
 #### Guideline 1.4: Make content easy for people to see and hear
-* 1.4.1 Do not use colour as the only way to convey information of any kind. [More about 1.4.1](/all.html#1-4-1-use-of-colour-a)
-* 1.4.2 Give people a way to stop audio content if it plays automatically and lasts longer than three seconds, or give them a way to change the volume without changing their system settings. [More about 1.4.2](/all.html#1-4-2-audio-control-a)
-* 1.4.3 Make sure that the colour of text contrasts clearly against its background colour. [More about 1.4.3](/all.html#1-4-3-contrast-minimum-aa)
-* 1.4.4 Make sure it is possible to complete all tasks when text is resized up to 200% in the browser. [More about 1.4.4](/all.html#1-4-4-resize-text-aa)
-* 1.4.5 Do not use images that contain text. [More about 1.4.5](/all.html#1-4-5-images-of-text-aa)
-* 1.4.10 <strong>[NEW]</strong> Make sure content will reflow to a single column when zoomed and not produce scrolling in both directions. [More about 1.4.10](/all.html#1-4-10-reflow-aa)
-* 1.4.11 <strong>[NEW]</strong> Make sure sight impaired users can see important controls and understand graphics. [More about 1.4.11](/all.html#1-4-11-non-text-contrast-aa)
-* 1.4.12 <strong>[NEW]</strong> Make sure users can modify text line height, letter or word spacing. [More about 1.4.12](/all.html#1-4-12-text-spacing-aa)
-* 1.4.13 <strong><strong>[NEW]</strong></strong> Provide a way to control how people can interact with or dismiss any ‘extra’ content that becomes visible. [More about 1.4.13](/all.html#1-4-13-content-on-hover-or-focus-aa)
+
+* Do not use colour as the only way to convey information of any kind. [More about 1.4.1]()
+
+* Give people a way to stop audio content if it plays automatically and lasts longer than three seconds, or give them a way to change the volume without changing their system settings. [More about 1.4.2]()
+
+* Make sure that text has enough contrast against the background colour. [More about 1.4.3]()
+
+* Make sure it is possible to complete all tasks when text is resized up to 200%. [More about 1.4.4]()
+
+* Do not use images that contain text (except logos). [More about 1.4.5]()
+
+* All information and functionality must be available a screen that's 320 CCS pixel wide, without needing to scroll horizontally [More about 1.4.10]().
+
+<!-- ALTERNATIVES
+* Make sure content will reflow to a single column when zoomed and not produce scrolling in both directions. [More about 1.4.10]()
+
+* All information and functionality must be available when 320 CSS pixel worth of concent fills the full width of the screen, without needing to scroll horizontally [More about 1.4.10](). -->
+
+* Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours. [More about 1.4.11]()
+
+* Users that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words. [More about 1.4.12]()
+
+* If extra content appears when users focus or hover an element, that extra content is easily dismissable, hoverable and persistent. [More about 1.4.13]()
+
+
+
+
+
+
+
+
 
 
 
