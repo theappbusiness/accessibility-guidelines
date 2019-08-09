@@ -4,7 +4,7 @@ This document will help you quickly get up to speed with Web Content Accessibili
 
 It gives a short description of the requirements you must meet to ensure that a website or app is accessible under the Public Sector Bodies Accessibility Regulation 2018, and to ensure clients meet their legal obligations under the 2010 Equality Act.
 
-This short description is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
+This summary is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
 
 ### Principle 1: Perceivable
 
@@ -31,7 +31,7 @@ Your website/app must present information in ways people can recognise and use, 
 <!-- ALTERNATIVE: * Use elements like headings, lists, tables, fieldsets and legends to make sure that assistive technologies understand the structure of the information presented on screen. [More about 1.3.1]() -->
 
 * Make sure that elements appear in the a logical reading order in website's Document Object Model or the app's View Hierarchy. [More about 1.3.2]()
-  
+
 * Do not use colour, size, shape, sound or location as the only way to convey any instruction. [More about 1.3.3]()
 
 * Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential. [More about 1.3.4]()
@@ -71,29 +71,45 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 * Make sure every task can be completed using just a keyboard. [More about 2.1.1]()
 
-* 2.1.2 Make sure that keyboard users don't get stuck when navigating through content. [More about 2.1.2](/all.html#2-1-2-no-keyboard-trap-a)
+* Make sure that keyboard-only users don't get trapped within any element. [More about 2.1.2]()
 
-* 2.1.4 <strong>[NEW]</strong> Provide a way to switch off or remap keyboard shortcuts. [More about 2.1.4](/all.html#2-1-4-character-key-shortcuts-a)
+* If you've added custom keyboard shortcuts, provide a way to switch off or remap these shortcuts. [More about 2.1.4]()
 
-#### Guideline 2.2: Give people enough time to read and use content
-* 2.2.1 Give people a way to turn off or extend time limits. [More about 2.2.1](/all.html#2-2-1-timing-adjustable-a)
-* 2.2.2 Give people a way to stop content that updates frequently, blinks or scrolls automatically. [More about 2.2.2](/all.html#2-2-2-pause-stop-hide-a)
+#### Give people enough time to read and use content
 
-#### Guideline 2.3: Do not cause seizures
-* 2.3.1 Do not use content that flashes more than three times a second. [More about 2.3.1](/all.html#2-3-1-three-flashes-or-below-a)
+* If there are time limits, give people a way to turn off or extend them. [More about 2.2.1]()
 
-#### Guideline 2.4: Provide ways to help people navigate and find content
-* 2.4.1 Give people who do not use a mouse a way to move to the start of the main content. [More about 2.4.1](/all.html#2-4-1-bypass-blocks-a)
-* 2.4.2 Give every page a unique and helpful title that indicates the purpose of the page. [More about 2.4.2](/all.html#2-4-2-page-title-a)
-* 2.4.3 Make sure that things receive focus in an order that makes sense. [More about 2.4.3](/all.html#2-4-3-focus-order-a)
-* 2.4.4 Make sure the purpose of a link is obvious from its link text, or its link text in association with nearby content. [More about 2.4.4](/all.html#2-4-4-link-purpose-in-context-a)
-* 2.4.5 Unless a page is a step in a process, give people different ways of finding content (like searching or browsing links). [More about 2.4.5](/all.html#2-4-5-multiple-ways)
-* 2.4.6 Provide headings and form labels that will help people find content and complete tasks. [More about 2.4.6](/all.html#2-4-6-headings-and-labels-aa)
-* 2.4.7 Make sure that people using a keyboard to navigate can always see where they are on a page. [More about 2.4.7](/all.html#2-4-7-focus-visible-aa)
-* 2.5.1 <strong>[NEW]</strong> Do not require complex gestures to do things. [More about 2.5.1](/all.html#2-5-1-pointer-gestures-a)
-* 2.5.2 <strong>[NEW]</strong> Do not have controls or user interface components that fire as soon as they are touched. [More about 2.5.2](/all.html#2-5-2-pointer-cancellation-a)
-* 2.5.3 <strong>[NEW]</strong> Make sure that for user interface components with a visible label the accessible name matches. [More about 2.5.3](/all.html#2-5-3-label-in-name-a)
-* 2.5.4 <strong>[NEW]</strong> Make sure functionality can not only be activated by shaking or tilting the device. [More about 2.5.4](/all.html#2-5-4-motion-actuation-a)
+* If any blinking, scrolling, animation or frequent updating happens automatically and last more than 5 seconds, give people a way to stop it. [More about 2.2.2]()
+
+#### Do not cause seizures
+
+* Do not use content that flashes more than three times a second. [More about 2.3.1]()
+
+#### Provide ways to help people navigate and find content
+
+* [WEB ONLY] Give keyboard users a way to go directly to the page's main content. [More about 2.4.1]()
+
+* [WEB ONLY] Give every page a unique and helpful title that indicates the purpose of the page. [More about 2.4.2]()
+
+* [WEB ONLY] Make sure that interactive elements receive focus in an order that makes sense. [More about 2.4.3]()
+
+* Make sure the purpose of a link is obvious from its link text alone, or its link text in context. [More about 2.4.4]()
+
+* Give people different ways of finding each page (like searching or browsing links), unless the page is a step in a process. [More about 2.4.5]()
+
+* Provide headings and form labels that will help people find content and complete tasks. [More about 2.4.6]()
+
+* Make sure that keyboard-only users can clearly see which element has the keyboard focus on a page. [More about 2.4.7]()
+
+* Make sure that keyboard focus indicators are clearly visible. [More about 2.4.7]()
+
+* Do not require complex gestures or using more than one finger to do things. [More about 2.5.1]()
+
+* Controls do not make things happen as soon as they are touched. [More about 2.5.2]()
+
+* When an interactive element has a visible label, make sure that the element's accessible name matches (or at least includes) what's on the label. [More about 2.5.3]()
+
+* If a feature uses shaking or tilting, make sure that it can also be activated in another way. And that responses to these motion can be turned off. [More about 2.5.4]()
 
 ### Principle 3: Understandable
 
