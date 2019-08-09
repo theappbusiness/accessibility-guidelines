@@ -113,36 +113,42 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 ### Principle 3: Understandable
 
-Your service must make information understandable, and make it easy for people to understand how to complete tasks.
+Your website/app must make information understandable, and make it easy for people to understand how to complete tasks.
 
-#### Guideline 3.1: Make text readable and understandable
-* 3.1.1 Identify the language that the content is written in. [More about 3.1.1](/all.html#3-1-1-language-of-page-a)
-* 3.1.2 Identify any changes in the default written language of the content. [More about 3.1.2](/all.html#3-1-2-language-of-parts-a)
+#### Make text readable and understandable
 
-#### Guideline 3.2: Make things appear and behave in consistent ways
-* 3.2.1 Do not cause surprising things to happen (like opening a new page), when someone focuses on something. [More about 3.2.1](/all.html#3-2-1-on-focus-a)
-* 3.2.2 Do not cause surprising things to happen when someone interacts with content (like scrolling through a set of options). [More about 3.2.2](/all.html#3-2-2-on-input-a)
-* 3.2.3 Make sure that ways to find and navigate content (like search) look and behave the same way when they are used in multiple places. [More about 3.2.3](/all.html#3-2-3-consistent-navigation-aa)
-* 3.2.4 Make sure that features look and behave the same way when they are used in multiple places. [More about 3.2.4](/all.html#3-2-4-consistent-identification-aa)
+* Identify the language that the content is written in. [More about 3.1.1]()
 
-#### Guideline 3.3: Help people avoid and correct mistakes
-* 3.3.1 When someone makes a mistake, provide an error message and make it obvious where the mistake was made. [More about 3.3.1](/all.html#3-3-1-error-identification-a)
-* 3.3.2 Provide form labels to make it clear what information is expected, and optionally provide extra hints to help people avoid mistakes. [More about 3.3.2](/all.html#3-3-2-labels-or-instructions-a)
-* 3.3.3 When someone makes a mistake give them suggestions on how to correct it, but do not offer suggestions that will have a negative impact on security. [More about 3.3.3](/all.html#3-3-3-error-suggestion-a)
-* 3.4.4 Give people a way to review and check the information they have entered, and to correct any mistakes they have made. [More about 3.4.4](/all.html#3-3-4-error-prevention-legal-financial-data-a)
+* Identify any changes in language within the content. [More about 3.1.2]()
+
+#### Make things appear and behave in consistent ways
+
+* Do not any trigger important or disorientating change when an element just receives focus. [More about 3.2.1]()
+
+* Do not any trigger important or disorientating change when someone just changes the value of an form input. [More about 3.2.2]()
+
+* [WEB ONLY] Make sure that navigation elements that appear on multiple pages look and behave consistently. [More about 3.2.3]()
+
+* [WEB ONLY] Make sure that navigation elements that appear on multiple page are identified consistently. [More about 3.2.4]()
+
+#### Help people avoid and correct mistakes
+
+* When someone makes a mistake, provide an error message in text and make it obvious where the mistake was made. [More about 3.3.1]()
+
+* Provide form labels to make it clear what information is expected, and optionally provide extra hints to help people avoid mistakes. [More about 3.3.2]()
+
+* When someone makes a mistake give them suggestions on how to correct it, unless it compromises security. [More about 3.3.3]()
+
+* If users are making a legal commitment, financial transaction, or updating personal data, give them a way to review and check the information they have entered. [More about 3.4.4]()
 
 ### Principle 4: Robust
 
-Your service must work with different browsers and assistive technologies in use now, and use technologies in ways that will make your service usable with the browsers and assistive technologies of the future.
+Your website/app must work with different web browsers and/or assistive technologies.
 
-#### Guideline 4.1: Make content compatible with different browsers and assistive technologies
-* 4.1.1 Make sure the code of each page does not contain errors that will have a negative impact on the way browsers and assistive technologies work together. [More about 4.1.1](/all.html#4-1-1-parsing-a)
-* 4.1.2 Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in. [More about 4.1.2](/all.html#4-1-2-name-role-value-a)
+#### Make content compatible with different browsers and assistive technologies
 
-* 4.1.3 <strong>[NEW]</strong> Make sure status messages are shown in a way that AT understands without recieving focus. [More about 4.1.3](/all.html#4-1-3-status-messages-aa)
+* [WEB ONLY] Make sure the code of each page does not contain errors that are known to cause conflicts. [More about 4.1.1]()
 
-## How to meet the WCAG 2.1
+* Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in. [More about 4.1.2]()
 
-Use our primer to find out more about the success criteria to understand how to meet WCAG 2.1. 
-
-View [all success criteria](/all.html), or view those that are related to [content](/content.html), [design](/design.html) or [code](/code.html).
+* Make sure status messages are identified in code so that assistive technologies can convey them to users. [More about 4.1.3]()
