@@ -12,28 +12,31 @@ Your website/app must present information in ways people can recognise and use, 
 
 #### Provide text alternatives for images
 
+* <strong>Text alternatives for images</strong>. Provide a text description for images, and make sure the description serves the same purpose as the image. [More about 1.1.1](/all.html#1-1-1-non-text-content-a)
 
+#### Provide alternatives for audio content, videos and presentations
 
-* **Text alternatives for images**. Provide a text description for images, and make sure the description serves the same purpose as the image. [More about 1.1.1](/all.html#1-1-1-non-text-content-a)
+* <strong>Transcript for audio content</strong>. Provide a transcript for audio content that has no video. The transcript must serve the same purpose as the original content. [More about 1.2.1]()
 
-#### Provide alternatives for audio, video and presentations
+* <strong>Captions for videos and presentations</strong>. The captions must include all dialogue and important sound-effects. [More about 1.2.2 and 1.2.4]()
 
-* **Transcript for audio content without video**. Provide a transcript for audio content that has no video. Make sure the transcript serves the same purpose as the original content. [More about 1.2.1]()
+* <strong>Text or audio description of videos and presentations</strong>. Provide a text or audio description of videos or presentations. The description must serve the same purpose as the original content. [More about 1.2.3]()
 
-* **Text description for video content without audio**. Provide a text description for video content that has no audio. Make sure the text description serves the same purpose as the original content. [More about 1.2.1]()
-
-* **Captions**. Provide captions for video content that has audio. Make sure the captions include all dialogue and important sound-effects. [More about 1.2.2 and 1.2.4]()
-
-* **Text description for video content with audio**. Provide a text description or a transcript for video content that has audio. Make sure the description or transcript serves the same purpose as the original content. [More about 1.2.3]()
-
-* **Audio description for video content**. Provide audio description for video content, and make sure the description includes all important activity that takes place on-screen. [More about 1.2.5]()
+* <strong>Audio description of pre-recorded videos or presentations</strong>. If the video or presentation is prerecorded (rather than live), provide an audio description of the recording (even if you're already provided a text description). [More about 1.2.5]()
 
 #### Guideline 1.3: Create content that can be presented in different ways
-* 1.3.1 Use elements like headings, lists and tables to properly convey the structure of content. [More about 1.3.1](/all.html#1-3-1-info-and-relationships-a)
-* 1.3.2 Make sure content can always be read in a logical order even when stylesheets are disabled. [More about 1.3.2](/all.html#1-3-2-meaningful-sequence-a)
-* 1.3.3 Do not use colour, size, shape, sound or location as the only way to convey instructions. [More about 1.3.3](/all.html#1-3-3-sensory-characteristics-a)
-* 1.3.4 <strong>[NEW]</strong> Make sure a page view is not be locked to either horizontal or vertical views only, unless this is essential. [More about 1.3.4](/all.html#1-3-4-orientation-aa)
-* 1.3.5 <strong>[NEW]</strong> In forms that collect information <strong>about the user</strong> add HTML autocomplete attributes to identify the purpose of the input. [More about 1.3.5](/all.html#1-3-5-input-purpose-aa)
+
+* Make sure that the visual structure of information is conveyed in code, so that assistive technologies can understand it. [More about 1.3.1]()
+
+<!-- ALTERNATIVE: * Use elements like headings, lists, tables, fieldsets and legends to make sure that assistive technologies understand the structure of the information presented on screen. [More about 1.3.1]() -->
+
+* Make sure that elements appear in the a logical reading order in website's Document Object Model or the app's View Hierarchy. [More about 1.3.2]()
+  
+* Do not use colour, size, shape, sound or location as the only way to convey any instruction. [More about 1.3.3]()
+
+* Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential. [More about 1.3.4]()
+
+* [WEB ONLY]. In forms that collect information <strong>about the user</strong>, add autocomplete attributes to identify the purpose of the input. [More about 1.3.5]()
 
 #### Guideline 1.4: Make content easy for people to see and hear
 * 1.4.1 Do not use colour as the only way to convey information of any kind. [More about 1.4.1](/all.html#1-4-1-use-of-colour-a)
