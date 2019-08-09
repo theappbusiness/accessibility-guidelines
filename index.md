@@ -1,116 +1,32 @@
-# WCAG 2.1 Getting started
+# Web Content Accessibility Guidelines Overview
 
-This document will help you get up to speed with WCAG 2.1 quickly and avoid common mistakes people make when creating or updating web content. You will find this really helpful if you design, build or create web content. 
+This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common mistakes people make when designing and developing both websites and native apps.
 
-WCAG 2.1 is the standard used by EN 301 549, the European procurement rules, and you need to pass these success criteria to comply with the UK Public Sector Bodies (Websites and Mobile Applications) Accessibility Regulations 2018. 
+It gives a short description of the requirements you must meet to ensure that a website or app is accessible under the Public Sector Bodies Accessibility Regulation 2018, and to ensure clients meet their legal obligations under the 2010 Equality Act.
 
-See Gov.uk for more on how to [Make your public sector website or app accessible](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
-
-## What is WCAG 2.1?
-
-The [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) explain how to make websites accessible for disabled and older people. The guidelines are written by accessibility specialists, volunteers and disabled people at the World Wide Web Consortium [W3C](https://w3.org/).
-
-Due to the rapidly changing technology landscape WCAG 2.1 was designed to better meet the needs of three major groups: mobile users, users with low vision, and users with cognitive or learning disabilities.
-
-WCAG 2.1 helps make websites, documents and mobile apps accessible to people with:
-
-* Visual impairments, including people who are blind, partially sighted, and people with conditions like being colour blind
-* Hearing impairments, including Deaf people who use sign language, and people who are hard of hearing
-* Mobility impairments, including people with restricted movement that stops them using a mouse or keyboard, and people who find it difficult to control a mouse
-* Cognitive impairments, including people who are Dyslexic, on the Autistic Spectrum, and people who have learning difficulties
-
-WCAG 2.1 also helps us think about the different ways people use the web:
-
-* By changing the way a website looks in their browser
-* By using a keyboard instead of a mouse
-* By using a screen reader to navigate and present the website content as speech or on an electronic Braille display
-* By using a screen magnifier to increase the size of everything on-screen
-* By using speech recognition to use the web with voice commands and dictation
-
-## How does it relate to WCAG 2.0?
-WCAG 2.1 is built on 2.0. So content that passes  WCAG 2.1 will also also pass WCAG 2.0. 
-
-
-## New things in WCAG 2.1:
-WCAG 2.1 extends WCAG 2.0 by adding new success criteria, definitions, and guidelines to organize the additions. There are some additions to the conformance section.
-
-### New Success Criteria
-
-The following Success Criteria are new in WCAG 2.1:
-
-* 1.3.4 Orientation (AA)
-* 1.3.5 Identify Input Purpose (AA) 
-* 1.3.6 Identify Purpose (AAA)
-* 1.4.10 Reflow (AA)
-* 1.4.11 Non-Text Contrast (AA)
-* 1.4.12 Text Spacing (AA)
-* 1.4.13 Content on Hover or Focus (AA)
-* 2.1.4 Character Key Shortcuts (A)
-* 2.2.6 Timeouts (AAA)
-* 2.3.3 Animation from Interactions (AAA)
-* 2.5.1 Pointer Gestures (A)
-* 2.5.2 Pointer Cancellation (A)
-* 2.5.3 Label in Name (A) 
-* 2.5.4 Motion Actuation (A)
-* 2.5.5 Target Size (AAA)
-* 2.5.6 Concurrent Input Mechanisms (AAA)
-* 4.1.3 Status Messages (AA) 
-
-This primer will only focus on new A and AA success criteria.
-
-#### Numbering changes in WCAG 2.1
-
-In order to avoid confusion and mixing up any old and new success criteria in WCAG 2.1, or changing existing numbering in 2.0 which people may have gotten used to - any new ones in 2.1 have just been added to the end of the set of success criteria within their guideline.
-
-Also remember that this having them at the end does not relate to its level at all. That is shown clearly on the success criterion itself as either A/AA/AAA. 
-
-#### Conforming or passing WCAG 2.1
-
-WCAG 2.1 uses the same conformance or passing model as WCAG 2.0 with some minor changes.  2.1 is designed to be compatible with the earlier version, so sites that conform/pass WCAG 2.1 also conform to WCAG 2.0.
-
-#### Conformance/Passing addition and changes
-There are some minor conformance or passing additions to note, firstly about ‘page variations’, relating to responsive page design which will be relevant if you have a responsive site.
-
-##### Page variations
-
-In a responsive website, a full ‘page’ includes each variation of the page that is automatically presented for different screen sizes. 
-
-Each of these responsive page ‘versions’ needs to pass (or have an alternative) in order for the entire page to pass. 
-
-## WCAG 2.1 architecture
-
-WCAG 2.1 has twelve guidelines, grouped into four principles. The principle are that content must be:
-
-* Perceivable
-* Operable
-* Understandable
-* Robust
-
-These principles inform the following twelve guidelines. They cover areas like alternative formats, keyboard accessibility, content readability, and functionality across different devices. 
-
-Each guideline has a number of Success Criteria (SC). Each SC has a conformance level: A, AA or AAA. These levels can be thought of to match some of the critical areas that need to be firstly addressed (at level A initially) and beyond to reduce barriers for the broadest range of users.
-
-## Meeting accessibility regulations
-
-Public sector websites, documents and mobile apps that meet WCAG 2.1 Level A and AA Success Criteria and publish an accessibility statement will comply with the [new accessibility regulations for public sector websites and apps](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps).
-
-## WCAG 2.1 overview
-
-Here is a short description of the principles, guidelines and success criteria you must meet.
+This short description is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
 
 ### Principle 1: Perceivable
 
-Your service must present information in ways people can recognise and use, no matter how they consume content (by touch, sound or sight for example)
+Your website/app must present information in ways people can recognise and use, no matter how they consume content (by touch, sound or sight for example).
 
-#### Guideline 1.1: Provide text alternatives
-* 1.1.1 Provide a text description for images, and make sure the description serves the same purpose as the image. [More about 1.1.1](/all.html#1-1-1-non-text-content-a)
+#### Provide text alternatives for images
 
-#### Guideline 1.2: Provide alternatives for time-based media
-* 1.2.1 Provide a text description for video content that has no audio, or a transcript for audio content that has no video, and make sure the description and transcript serve the same purpose as the original content. [More about 1.2.1](all.html#1-2-1-audio-only-and-video-only-a)
-* 1.2.2 Provide real-time captions for video content that has audio, and make sure the captions include all dialogue and important sound-effects. [More about 1.2.2](/all.html#1-2-2-captions-a)
-* 1.2.3 Provide a text description or a transcript for video content that has audio, and make sure the description or transcript serves the same purpose as the original content. [More about 1.2.3](/all.html#1-2-3-audio-description-or-media-alternative-a)
-* 1.2.4 Provide real-time captions for live video content that has audio, and make sure the captions include all dialogue and important sound-effects. [More about 1.2.4](/all.html#1-2-4-captions-live-aa)
-* 1.2.5 Provide audio description for video content, and make sure the description includes all important activity that takes place on-screen. [More about 1.2.5](/all.html#1-2-5-audio-description-pre-recorded-aa)
+
+
+* **Text alternatives for images**. Provide a text description for images, and make sure the description serves the same purpose as the image. [More about 1.1.1](/all.html#1-1-1-non-text-content-a)
+
+#### Provide alternatives for audio, video and presentations
+
+* **Transcript for audio content without video**. Provide a transcript for audio content that has no video. Make sure the transcript serves the same purpose as the original content. [More about 1.2.1]()
+
+* **Text description for video content without audio**. Provide a text description for video content that has no audio. Make sure the text description serves the same purpose as the original content. [More about 1.2.1]()
+
+* **Captions**. Provide captions for video content that has audio. Make sure the captions include all dialogue and important sound-effects. [More about 1.2.2 and 1.2.4]()
+
+* **Text description for video content with audio**. Provide a text description or a transcript for video content that has audio. Make sure the description or transcript serves the same purpose as the original content. [More about 1.2.3]()
+
+* **Audio description for video content**. Provide audio description for video content, and make sure the description includes all important activity that takes place on-screen. [More about 1.2.5]()
 
 #### Guideline 1.3: Create content that can be presented in different ways
 * 1.3.1 Use elements like headings, lists and tables to properly convey the structure of content. [More about 1.3.1](/all.html#1-3-1-info-and-relationships-a)
