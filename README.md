@@ -1,14 +1,12 @@
-# Web Content Accessibility Guidelines Overview
+# Web Content Accessibility Guidelines Summary
 
-This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common mistakes people make when designing and developing both websites and native apps.
-
-It gives a short description of the requirements you must meet to ensure that a website or app is accessible under the Public Sector Bodies Accessibility Regulation 2018, and to ensure clients meet their legal obligations under the 2010 Equality Act.
+This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common accessibility-related mistakes.
 
 This summary is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
 
-### Principle 1: Perceivable
+### 1. Easy to perceive
 
-Your website/app must present information in ways people can recognise and use, no matter how they consume content (by touch, sound or sight for example).
+Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision or use screen readers).
 
 #### Provide text alternatives for images
 
@@ -42,7 +40,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Use of colour:]() Do not use colour as the only way to convey information of any kind.
 
-* [Audio control:]() Give people a way to stop audio content if it plays automatically and lasts longer than three seconds, or give them a way to change the volume without changing their system settings.
+* [Audio control:]() Give people a way to stop audio content if it plays automatically and lasts longer than three seconds.
 
 * [Text contrast:]() Make sure that text has enough contrast against the background colour.
 
@@ -50,7 +48,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Images of text:]() Do not use images that contain text (except logos).
 
-* [Reflow:]() All information and functionality must be available a screen that's 320 CCS pixel wide, without needing to scroll horizontally
+* [Reflow:]() All information and functionality must be available on a screen that's 320 CSS pixel wide, without needing to scroll horizontally
 
 <!-- ALTERNATIVES
 * Make sure content will reflow to a single column when zoomed and not produce scrolling in both directions. [More about 1.4.10]()
@@ -59,11 +57,11 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Non-text contrast:]() Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours.
 
-* [Text spacing:]() Users that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
+* [Text spacing:]() Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
 
 * [Content on hover or focus:]() If extra content appears when users focus or hover an element, that extra content is easily dismissable, hoverable and persistent.
 
-### Principle 2: Operable
+### 2. Easy to operate
 
 Your website/app must be navigable and usable no matter how someone uses it (without a mouse, with voice commands, or with a screen magnifier for example).
 
@@ -109,9 +107,9 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 * When an interactive element has a visible label, make sure that the element's accessible name matches (or at least includes) what's on the label. [More about 2.5.3]()
 
-* If a feature uses shaking or tilting, make sure that it can also be activated in another way. And that responses to these motion can be turned off. [More about 2.5.4]()
+* If a feature uses shaking or tilting, make sure that it can also be activated in another way. And that responses to these motions can be turned off. [More about 2.5.4]()
 
-### Principle 3: Understandable
+### 3. Easy to understand
 
 Your website/app must make information understandable, and make it easy for people to understand how to complete tasks.
 
@@ -123,13 +121,13 @@ Your website/app must make information understandable, and make it easy for peop
 
 #### Make things appear and behave in consistent ways
 
-* Do not any trigger important or disorientating change when an element just receives focus. [More about 3.2.1]()
+* Do not trigger any important or disorientating change when an element just receives focus. [More about 3.2.1]()
 
 * Do not any trigger important or disorientating change when someone just changes the value of an form input. [More about 3.2.2]()
 
 * [WEB ONLY] Make sure that navigation elements that appear on multiple pages look and behave consistently. [More about 3.2.3]()
 
-* [WEB ONLY] Make sure that navigation elements that appear on multiple page are identified consistently. [More about 3.2.4]()
+* [WEB ONLY] Make sure that features that appear on multiple page are identified consistently. [More about 3.2.4]()
 
 #### Help people avoid and correct mistakes
 
@@ -141,7 +139,7 @@ Your website/app must make information understandable, and make it easy for peop
 
 * If users are making a legal commitment, financial transaction, or updating personal data, give them a way to review and check the information they have entered. [More about 3.4.4]()
 
-### Principle 4: Robust
+### 4. Robust
 
 Your website/app must work with different web browsers and/or assistive technologies.
 
