@@ -12,7 +12,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 #### Provide text alternatives for images
 
-* <strong>Text alternatives for images</strong>. Provide a text description for images, and make sure the description serves the same purpose as the image. [More about 1.1.1](/all.html#1-1-1-non-text-content-a)
+* <strong>Text alternatives for images</strong>. Provide a text description for images, and make sure the description serves the same purpose as the image. [More about 1.1.1](guidelines/1.1.1.md)
 
 #### Provide alternatives for audio content, videos and presentations
 
@@ -30,7 +30,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 <!-- ALTERNATIVE: * Use elements like headings, lists, tables, fieldsets and legends to make sure that assistive technologies understand the structure of the information presented on screen. [More about 1.3.1]() -->
 
-* Make sure that elements appear in the a logical reading order in website's Document Object Model or the app's View Hierarchy. [More about 1.3.2]()
+* Make sure that elements appear in the a logical reading order in website's Document Object Model or the app's View Hierarchy. [More about 1.3.2](guidelines/1.3.2.md)
 
 * Do not use colour, size, shape, sound or location as the only way to convey any instruction. [More about 1.3.3]()
 
