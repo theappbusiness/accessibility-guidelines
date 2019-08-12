@@ -1,79 +1,77 @@
-# Web Content Accessibility Guidelines Overview
+# Web Content Accessibility Guidelines Summary
 
-This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common mistakes people make when designing and developing both websites and native apps.
-
-It gives a short description of the requirements you must meet to ensure that a website or app is accessible under the Public Sector Bodies Accessibility Regulation 2018, and to ensure clients meet their legal obligations under the 2010 Equality Act.
+This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common accessibility-related mistakes.
 
 This summary is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
 
-### Principle 1: Perceivable
+### 1. Easy to perceive
 
-Your website/app must present information in ways people can recognise and use, no matter how they consume content (by touch, sound or sight for example).
+Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision or use screen readers).
 
 #### Provide text alternatives for images
 
-* <strong>Text alternatives for images</strong>. Provide a text description for images, and make sure the description serves the same purpose as the image. [More about 1.1.1](/all.html#1-1-1-non-text-content-a)
+* [Text alternatives for images](): Provide a text description for images. Make sure the description serves the same purpose as the image.
 
 #### Provide alternatives for audio content, videos and presentations
 
-* <strong>Transcript for audio content</strong>. Provide a transcript for audio content that has no video. The transcript must serve the same purpose as the original content. [More about 1.2.1]()
+* [Captions for videos and presentations](): Provide captions for videos and presentation, both live or pre-recorded. Include all dialogue and important sound-effects.
 
-* <strong>Captions for videos and presentations</strong>. The captions must include all dialogue and important sound-effects. [More about 1.2.2 and 1.2.4]()
+* [Transcript for audio content](): Provide a transcript for audio content that has no video (like a podcast). The transcript must serve the same purpose as the original content.
 
-* <strong>Text or audio description of videos and presentations</strong>. Provide a text or audio description of videos or presentations. The description must serve the same purpose as the original content. [More about 1.2.3]()
+* [Text or audio description of videos and presentations](): Provide a text or audio description of videos or presentations. The description must serve the same purpose as the original content.
 
-* <strong>Audio description of pre-recorded videos or presentations</strong>. If the video or presentation is prerecorded (rather than live), provide an audio description of the recording (even if you're already provided a text description). [More about 1.2.5]()
+* [Audio description of pre-recorded videos or presentations](): If a video or presentation is prerecorded (rather than live), provide an audio description of the recording, even if you've already provided a text description.
 
 #### Create content that can be presented in different ways
 
-* Make sure that the visual structure of information is conveyed in code, so that assistive technologies can understand it. [More about 1.3.1]()
+* [Information structure and relationships:]() Make sure that the structure of the information that is conveyed visually is also identified in code, so that assistive technologies can understand it.
 
 <!-- ALTERNATIVE: * Use elements like headings, lists, tables, fieldsets and legends to make sure that assistive technologies understand the structure of the information presented on screen. [More about 1.3.1]() -->
 
-* Make sure that elements appear in the a logical reading order in website's Document Object Model or the app's View Hierarchy. [More about 1.3.2]()
+* [Meaningful sequence:]() Make sure that elements appear in the a logical reading order in the website's Document Object Model or the app's View Hierarchy.
 
-* Do not use colour, size, shape, sound or location as the only way to convey any instruction. [More about 1.3.3]()
+* [Inclusive instructions:]() Do not use colour, size, shape, sound or location as the only way to convey any instruction.
 
-* Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential. [More about 1.3.4](guidelines/1.3.4.md)
+* [Orientation:](guidelines/1.3.4.md) Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential.
 
-* [WEB ONLY]. In forms that collect information <strong>about the user</strong>, add autocomplete attributes to identify the purpose of the input. [More about 1.3.5]()
+* [Identify input purpose:]() In forms that collect information about the user, add `autocomplete` html attributes to identify the purpose of the input. [WEB ONLY]
 
 #### Make content easy for people to see and hear
 
-* Do not use colour as the only way to convey information of any kind. [More about 1.4.1]()
+* [Use of colour:]() Do not use colour as the only way to convey information of any kind.
 
-* Give people a way to stop audio content if it plays automatically and lasts longer than three seconds, or give them a way to change the volume without changing their system settings. [More about 1.4.2]()
+* [Audio control:]() Give people a way to stop audio content if it plays automatically and lasts longer than three seconds.
 
-* Make sure that text has enough contrast against the background colour. [More about 1.4.3]()
+* [Text contrast:]() Make sure that text has enough contrast against the background colour.
 
-* Make sure it is possible to complete all tasks when text is resized up to 200%. [More about 1.4.4]()
+* [Resize text:]() Make sure it is possible to complete all tasks when text is resized up to 200%.
 
-* Do not use images that contain text (except logos). [More about 1.4.5]()
+* [Images of text:]() Do not use images that contain text (except logos).
 
-* All information and functionality must be available a screen that's 320 CCS pixel wide, without needing to scroll horizontally [More about 1.4.10]().
+* [Reflow:]() All information and functionality must be available on a screen that's 320 CSS pixel wide, without needing to scroll horizontally
 
 <!-- ALTERNATIVES
 * Make sure content will reflow to a single column when zoomed and not produce scrolling in both directions. [More about 1.4.10]()
 
 * All information and functionality must be available when 320 CSS pixel worth of concent fills the full width of the screen, without needing to scroll horizontally [More about 1.4.10](). -->
 
-* Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours. [More about 1.4.11]()
+* [Non-text contrast:]() Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours.
 
-* Users that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words. [More about 1.4.12]()
+* [Text spacing:]() Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
 
-* If extra content appears when users focus or hover an element, that extra content is easily dismissable, hoverable and persistent. [More about 1.4.13]()
+* [Content on hover or focus:]() If extra content appears when users focus or hover an element, that extra content is easily dismissable, hoverable and persistent.
 
-### Principle 2: Operable
+### 2. Easy to operate
 
 Your website/app must be navigable and usable no matter how someone uses it (without a mouse, with voice commands, or with a screen magnifier for example).
 
 #### Make functionality work with a keyboard
 
-* Make sure every task can be completed using just a keyboard. [More about 2.1.1]()
+* [Keyboard:]() Make sure every task can be completed using just a keyboard.
 
-* Make sure that keyboard-only users don't get trapped within any element. [More about 2.1.2]()
+* [No keyboard trap:]() Make sure that keyboard-only users don't get trapped within any element.
 
-* If you've added custom keyboard shortcuts, provide a way to switch off or remap these shortcuts. [More about 2.1.4]()
+* [Keyboard shortcuts:]() If you've added custom keyboard shortcuts, provide a way to switch off or remap these shortcuts.
 
 #### Give people enough time to read and use content
 
@@ -109,9 +107,9 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 * When an interactive element has a visible label, make sure that the element's accessible name matches (or at least includes) what's on the label. [More about 2.5.3]()
 
-* If a feature uses shaking or tilting, make sure that it can also be activated in another way. And that responses to these motion can be turned off. [More about 2.5.4]()
+* If a feature uses shaking or tilting, make sure that it can also be activated in another way. And that responses to these motions can be turned off. [More about 2.5.4]()
 
-### Principle 3: Understandable
+### 3. Easy to understand
 
 Your website/app must make information understandable, and make it easy for people to understand how to complete tasks.
 
@@ -123,13 +121,13 @@ Your website/app must make information understandable, and make it easy for peop
 
 #### Make things appear and behave in consistent ways
 
-* Do not any trigger important or disorientating change when an element just receives focus. [More about 3.2.1]()
+* Do not trigger any important or disorientating change when an element just receives focus. [More about 3.2.1]()
 
 * Do not any trigger important or disorientating change when someone just changes the value of an form input. [More about 3.2.2]()
 
 * [WEB ONLY] Make sure that navigation elements that appear on multiple pages look and behave consistently. [More about 3.2.3]()
 
-* [WEB ONLY] Make sure that navigation elements that appear on multiple page are identified consistently. [More about 3.2.4]()
+* [WEB ONLY] Make sure that features that appear on multiple page are identified consistently. [More about 3.2.4]()
 
 #### Help people avoid and correct mistakes
 
@@ -141,7 +139,7 @@ Your website/app must make information understandable, and make it easy for peop
 
 * If users are making a legal commitment, financial transaction, or updating personal data, give them a way to review and check the information they have entered. [More about 3.4.4]()
 
-### Principle 4: Robust
+### 4. Robust
 
 Your website/app must work with different web browsers and/or assistive technologies.
 
