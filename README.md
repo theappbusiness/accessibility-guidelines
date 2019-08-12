@@ -34,7 +34,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * Do not use colour, size, shape, sound or location as the only way to convey any instruction. [More about 1.3.3]()
 
-* Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential. [More about 1.3.4]()
+* Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential. [More about 1.3.4](guidelines/1.3.4.md)
 
 * [WEB ONLY]. In forms that collect information <strong>about the user</strong>, add autocomplete attributes to identify the purpose of the input. [More about 1.3.5]()
 
