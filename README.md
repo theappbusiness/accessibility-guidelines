@@ -12,56 +12,56 @@ Your website/app must present information in ways people can recognise and use, 
 
 #### Provide text alternatives for images
 
-* <strong>Text alternatives for images</strong>. Provide a text description for images, and make sure the description serves the same purpose as the image. [More about 1.1.1](/all.html#1-1-1-non-text-content-a)
+* [Text alternatives for images](): Provide a text description for images. Make sure the description serves the same purpose as the image.
 
 #### Provide alternatives for audio content, videos and presentations
 
-* <strong>Transcript for audio content</strong>. Provide a transcript for audio content that has no video. The transcript must serve the same purpose as the original content. [More about 1.2.1]()
+* [Captions for videos and presentations](): Provide captions for videos and presentation, both live or pre-recorded. Include all dialogue and important sound-effects.
 
-* <strong>Captions for videos and presentations</strong>. The captions must include all dialogue and important sound-effects. [More about 1.2.2 and 1.2.4]()
+* [Transcript for audio content](): Provide a transcript for audio content that has no video (like a podcast). The transcript must serve the same purpose as the original content.
 
-* <strong>Text or audio description of videos and presentations</strong>. Provide a text or audio description of videos or presentations. The description must serve the same purpose as the original content. [More about 1.2.3]()
+* [Text or audio description of videos and presentations](): Provide a text or audio description of videos or presentations. The description must serve the same purpose as the original content.
 
-* <strong>Audio description of pre-recorded videos or presentations</strong>. If the video or presentation is prerecorded (rather than live), provide an audio description of the recording (even if you're already provided a text description). [More about 1.2.5]()
+* [Audio description of pre-recorded videos or presentations](): If a video or presentation is prerecorded (rather than live), provide an audio description of the recording, even if you've already provided a text description.
 
 #### Create content that can be presented in different ways
 
-* Make sure that the visual structure of information is conveyed in code, so that assistive technologies can understand it. [More about 1.3.1]()
+* [Information structure and relationships:]() Make sure that the structure of the information that is conveyed visually is also identified in code, so that assistive technologies can understand it.
 
 <!-- ALTERNATIVE: * Use elements like headings, lists, tables, fieldsets and legends to make sure that assistive technologies understand the structure of the information presented on screen. [More about 1.3.1]() -->
 
-* Make sure that elements appear in the a logical reading order in website's Document Object Model or the app's View Hierarchy. [More about 1.3.2]()
+* [Meaningful sequence:]() Make sure that elements appear in the a logical reading order in the website's Document Object Model or the app's View Hierarchy.
 
-* Do not use colour, size, shape, sound or location as the only way to convey any instruction. [More about 1.3.3]()
+* [Inclusive instructions:]() Do not use colour, size, shape, sound or location as the only way to convey any instruction.
 
-* Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential. [More about 1.3.4]()
+* [Orientation:]() Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential.
 
-* [WEB ONLY]. In forms that collect information <strong>about the user</strong>, add autocomplete attributes to identify the purpose of the input. [More about 1.3.5]()
+* [Identify input purpose:]() In forms that collect information about the user, add `autocomplete` html attributes to identify the purpose of the input. [WEB ONLY]
 
 #### Make content easy for people to see and hear
 
-* Do not use colour as the only way to convey information of any kind. [More about 1.4.1]()
+* [Use of colour:]() Do not use colour as the only way to convey information of any kind.
 
-* Give people a way to stop audio content if it plays automatically and lasts longer than three seconds, or give them a way to change the volume without changing their system settings. [More about 1.4.2]()
+* [Audio control:]() Give people a way to stop audio content if it plays automatically and lasts longer than three seconds, or give them a way to change the volume without changing their system settings.
 
-* Make sure that text has enough contrast against the background colour. [More about 1.4.3]()
+* [Text contrast:]() Make sure that text has enough contrast against the background colour.
 
-* Make sure it is possible to complete all tasks when text is resized up to 200%. [More about 1.4.4]()
+* [Resize text:]() Make sure it is possible to complete all tasks when text is resized up to 200%.
 
-* Do not use images that contain text (except logos). [More about 1.4.5]()
+* [Images of text:]() Do not use images that contain text (except logos).
 
-* All information and functionality must be available a screen that's 320 CCS pixel wide, without needing to scroll horizontally [More about 1.4.10]().
+* [Reflow:]() All information and functionality must be available a screen that's 320 CCS pixel wide, without needing to scroll horizontally
 
 <!-- ALTERNATIVES
 * Make sure content will reflow to a single column when zoomed and not produce scrolling in both directions. [More about 1.4.10]()
 
 * All information and functionality must be available when 320 CSS pixel worth of concent fills the full width of the screen, without needing to scroll horizontally [More about 1.4.10](). -->
 
-* Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours. [More about 1.4.11]()
+* [Non-text contrast:]() Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours.
 
-* Users that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words. [More about 1.4.12]()
+* [Text spacing:]() Users that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
 
-* If extra content appears when users focus or hover an element, that extra content is easily dismissable, hoverable and persistent. [More about 1.4.13]()
+* [Content on hover or focus:]() If extra content appears when users focus or hover an element, that extra content is easily dismissable, hoverable and persistent.
 
 ### Principle 2: Operable
 
@@ -69,11 +69,11 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 #### Make functionality work with a keyboard
 
-* Make sure every task can be completed using just a keyboard. [More about 2.1.1]()
+* [Keyboard:]() Make sure every task can be completed using just a keyboard.
 
-* Make sure that keyboard-only users don't get trapped within any element. [More about 2.1.2]()
+* [No keyboard trap:]() Make sure that keyboard-only users don't get trapped within any element.
 
-* If you've added custom keyboard shortcuts, provide a way to switch off or remap these shortcuts. [More about 2.1.4]()
+* [Keyboard shortcuts:]() If you've added custom keyboard shortcuts, provide a way to switch off or remap these shortcuts.
 
 #### Give people enough time to read and use content
 
