@@ -32,7 +32,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Inclusive instructions:]() Do not use colour, size, shape, sound or location as the only way to convey any instruction.
 
-* [Orientation:]() Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential.
+* [Orientation:](guidelines/1.3.4.md) Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential.
 
 * [Identify input purpose:]() In forms that collect information about the user, add `autocomplete` html attributes to identify the purpose of the input. [WEB ONLY]
 
