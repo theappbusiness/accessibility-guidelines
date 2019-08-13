@@ -24,7 +24,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 #### Create content that can be presented in different ways
 
-* [Information structure and relationships:]() Make sure that the structure of the information that is conveyed visually is also identified in code, so that assistive technologies can understand it.
+* [Information structure and relationships:](guidelines/1.3.1.md) Make sure that the structure of the information that is conveyed visually is also identified in code, so that assistive technologies can understand it.
 
 <!-- ALTERNATIVE: * Use elements like headings, lists, tables, fieldsets and legends to make sure that assistive technologies understand the structure of the information presented on screen. [More about 1.3.1]() -->
 
