@@ -44,7 +44,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Text contrast:]() Make sure that text has enough contrast against the background colour.
 
-* [Resize text:]() Make sure it is possible to complete all tasks when text is resized up to 200%.
+* [Resize text:](guidelines/1.4.4.md) Make sure it is possible to complete all tasks when text is resized up to 200%.
 
 * [Images of text:]() Do not use images that contain text (except logos).
 
