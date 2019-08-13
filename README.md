@@ -72,7 +72,7 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 * [Complex gestures:]() Do not require complex gestures or using more than one finger to do things.
 
-* [Touch or click activation]() Make sure that custom buttons or links do not fire as soon as they are touched, so that users can cancel their action.
+* [Touch or click activation]() Make sure that custom buttons or links do not fire as soon as they are touched, so that users can slide their finger or mouse away to cancel the action.
 
 * [Accessibility name includes the visible name:]() When an interactive control has a visible name (like a button with text), make sure that its accessibility name matches (or at least includes) the name that is visible on the screen.
 
