@@ -1,6 +1,6 @@
 # Web Content Accessibility Guidelines Summary
 
-This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common accessibility-related mistakes.
+This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), avoid common accessibility-related mistakes, and will provide code examples where possible.
 
 This summary is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
 
