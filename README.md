@@ -2,13 +2,13 @@
 
 This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common accessibility-related mistakes.
 
-Where possible code examples are provided.
+Click on each guideline to see details and code examples.
 
 This summary is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
 
 ### 1. Easy to perceive
 
-Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision or use screen readers).
+Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision or use a screen reader).
 
 #### Provide text alternatives for images
 
@@ -16,9 +16,9 @@ Your website/app must present information in ways people can recognise and use, 
 
 #### Provide alternatives for audio content, videos and presentations
 
-* [Captions for videos and presentations](): Provide captions for videos and presentation, both live or pre-recorded. Include all dialogue and important sound-effects.
-
 * [Transcript for audio content](): Provide a transcript for audio content that has no video (like a podcast). The transcript must serve the same purpose as the original content.
+
+* [Captions for videos and presentations](): Provide captions for videos and presentation, both live or pre-recorded. Include all dialogue and important sound-effects.
 
 * [Text or audio description of videos and presentations](): Provide a text or audio description of videos or presentations. The description must serve the same purpose as the original content.
 
@@ -26,40 +26,33 @@ Your website/app must present information in ways people can recognise and use, 
 
 #### Create content that can be presented in different ways
 
-* [Information structure and relationships:](guidelines/1.3.1.md) Make sure that the structure of the information that is conveyed visually is also identified in code, so that assistive technologies can understand it.
+* [Structure and relationships:](guidelines/1.3.1.md) When designs convey a structure of information visually (like sections within a page, or a data table), that structure must also be identified in code so that screen readers can understand it.
 
-<!-- ALTERNATIVE: * Use elements like headings, lists, tables, fieldsets and legends to make sure that assistive technologies understand the structure of the information presented on screen. [More about 1.3.1]() -->
+* [Order of elements in code:](guidelines/1.3.2.md) Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users.
 
-* [Meaningful sequence:](guidelines/1.3.2.md) Make sure that elements appear in a logical reading order in the website's Document Object Model or the app's View Hierarchy.
-
-* [Inclusive instructions:]() Do not use colour, size, shape, sound or location as the only way to convey any instruction.
+* [Instructions don't rely on sensory characteristics:]() Do not use colour, size, shape, sound or location as the only way to convey any instruction.
 
 * [Orientation:](guidelines/1.3.4.md) Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential.
 
-* [Identify input purpose:]() In forms that collect information about the user, add `autocomplete` html attributes to identify the purpose of the input. [WEB ONLY]
+* [Purpose of text fields:]() If a text input field collects information about the user, identify its specific purpose in code (e.g. email, password, street address).
 
 #### Make content easy for people to see and hear
 
-* [Use of colour:]() Do not use colour as the only way to convey information of any kind.
+* [Audio control:]() If any audio content plays automatically for more than three seconds, give people a way to stop it.
 
-* [Audio control:]() Give people a way to stop audio content if it plays automatically and lasts longer than three seconds.
+* [Use of colour:]() Do not use colour as the only way to convey information of any kind.
 
 * [Text contrast:]() Make sure that text has enough contrast against the background colour.
 
-* [Resize text:](guidelines/1.4.4.md) Make sure it is possible to complete all tasks when text is resized up to 200%.
+* [Non-text contrast:]() Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours.
 
-* [Images of text:]() Do not use images that contain text (except logos).
+* [Resize text:](guidelines/1.4.4.md) Make sure it is possible to complete all tasks when text is resized up to 200%.
 
 * [Reflow:](guidelines/1.4.10.md) All information and functionality must be available on a screen that's 320 CSS pixel wide, without needing to scroll horizontally
 
-<!-- ALTERNATIVES
-* Make sure content will reflow to a single column when zoomed and not produce scrolling in both directions. [More about 1.4.10]()
-
-* All information and functionality must be available when 320 CSS pixel worth of concent fills the full width of the screen, without needing to scroll horizontally [More about 1.4.10](). -->
-
-* [Non-text contrast:]() Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours.
-
 * [Text spacing:]() Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
+
+* [Images of text:]() Use actual text rather than images of text.
 
 * [Content on hover or focus:]() If extra content appears when users focus or hover an element, that extra content is easily dismissable, hoverable and persistent.
 
@@ -127,9 +120,9 @@ Your website/app must make information understandable, and make it easy for peop
 
 * Do not any trigger important or disorientating change when someone just changes the value of an form input. [More about 3.2.2]()
 
-* [WEB ONLY] Make sure that navigation elements that appear on multiple pages look and behave consistently. [More about 3.2.3]()
+* Make sure that navigation elements that appear on multiple pages look and behave consistently. [More about 3.2.3]()
 
-* [WEB ONLY] Make sure that features that appear on multiple page are identified consistently. [More about 3.2.4]()
+* Make sure that features that appear on multiple page are identified consistently. [More about 3.2.4]()
 
 #### Help people avoid and correct mistakes
 
