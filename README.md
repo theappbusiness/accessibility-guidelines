@@ -70,35 +70,33 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 #### Give people enough time to read and use content
 
-* If there are time limits, give people a way to turn off or extend them. [More about 2.2.1]()
+* [Timing adjustable:]() If there is any time limit (like a session timeout), give people an easy way to extend it.
 
-* If any blinking, scrolling, animation or frequent updating happens automatically and last more than 5 seconds, give people a way to stop it. [More about 2.2.2]()
+* [Stop visual distractions:]() If any blinking, scrolling, animation or frequent updating happens automatically and last more than 5 seconds, give people a way to stop it.
 
 #### Do not cause seizures
 
-* Do not use content that flashes more than three times a second. [More about 2.3.1]()
+* [No three flashes:]() Do not show anything that flashes more than three times a second.
 
 #### Provide ways to help people navigate and find content
 
-* [WEB ONLY] Give keyboard users a way to go directly to the page's main content. [More about 2.4.1]()
+* [Skip to main content:]() Give keyboard and screen reader users a way to go directly to the page's main content. [WEB ONLY]
 
-* [WEB ONLY] Give every page a unique and helpful title that indicates the purpose of the page. [More about 2.4.2]()
+* [Page titled:]() Give every page a unique and helpful `title` that indicates the purpose of the page. [WEB ONLY]
 
-* [WEB ONLY] Make sure that interactive elements receive focus in an order that makes sense. [More about 2.4.3]()
+* [Focus order:]() Make sure that elements receive focus in an order that makes sense when people use a keyboard or a screen reader.
 
-* Make sure the purpose of a link is obvious from its link text alone, or its link text in context. [More about 2.4.4]()
+* [Link purpose:]() Make sure the purpose of every link is obvious from the link text alone (or the link text plus associated content – if screen readers recognise the association).
 
-* Give people different ways of finding each page (like searching or browsing links), unless the page is a step in a process. [More about 2.4.5]()
+* [Multiple ways to find a page]() Give people different ways of finding each page (like searching or browsing links), unless the page is a step in a process.
 
-* Provide headings and form labels that will help people find content and complete tasks. [More about 2.4.6]()
+* [Heading and labels:]() Provide headings and form labels that will help people find content and complete tasks.
 
-* Make sure that keyboard-only users can clearly see which element has the keyboard focus on a page. [More about 2.4.7]()
+* [Focus visible:]() Make sure that keyboard-only users can clearly see which element has the keyboard focus on a page.
 
-* Make sure that keyboard focus indicators are clearly visible. [More about 2.4.7]()
+* [Complex gestures:]() Do not require complex gestures or using more than one finger to do things.
 
-* Do not require complex gestures or using more than one finger to do things. [More about 2.5.1]()
-
-* Controls do not make things happen as soon as they are touched. [More about 2.5.2]()
+* [Touch or click cancellation]() Do not make custom buttons or links that fire as soon as they are touched, so that users can cancel their action.
 
 * When an interactive element has a visible label, make sure that the element's accessible name matches (or at least includes) what's on the label. [More about 2.5.3]()
 
