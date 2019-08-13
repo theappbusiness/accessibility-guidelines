@@ -48,25 +48,51 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Resize text:](guidelines/1.4.4.md) Make sure it is possible to complete all tasks when text is resized up to 200%.
 
-* [Reflow:](guidelines/1.4.10.md) All information and functionality must be available on a screen that's 320 CSS pixel wide, without needing to scroll horizontally
+* [Reflow:](guidelines/1.4.10.md) Make sure users can access all information and functionality on a screen that's as wide as on the iPhone5, without needing to scroll in both directions.
 
 * [Text spacing:]() Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
 
 * [Images of text:]() Use actual text rather than images of text.
 
-* [Extra content on hover or focus:]() If extra content (like tooltips or sub-menus) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible.
+* [Extra content on hover (or focus):]() If extra content (like tooltips or sub-menus) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible.
 
 ### 2. Easy to operate
 
 Your website/app must be navigable and usable no matter how someone uses it (without a mouse, with voice commands, or with a screen magnifier for example).
 
-#### Make functionality work with a keyboard
+#### Make all functionality work with a keyboard
 
 * [Keyboard:]() Make sure every task can be completed using just a keyboard.
 
 * [No keyboard trap:]() Make sure that keyboard-only users don't get trapped within any element.
 
 * [Keyboard shortcuts:]() If you've added custom keyboard shortcuts, provide a way to switch off or remap these shortcuts.
+
+#### Make it work with other input methods beyond keyboard
+
+* [Complex gestures:]() Do not require complex gestures or using more than one finger to do things.
+
+* [Touch or click activation]() Make sure that custom buttons or links do not fire as soon as they are touched, so that users can cancel their action.
+
+* [Accessibility name includes the visible name:]() When an interactive control has a visible name (like a button with text), make sure that its accessibility name matches (or at least includes) the name that is visible on the screen.
+
+* [Device motion:]() If a feature uses the device's motion (like shaking or tilting), make sure that responses to these motions can be turned off, and that the feature can be used in another way.
+
+#### Help people navigate and find content
+
+* [Skip to main content:]() Give keyboard and screen reader users a way to go directly to the page's main content. [WEB ONLY]
+
+* [Page titled:]() Give every page a unique and helpful `title` that indicates the purpose of the page. [WEB ONLY]
+
+* [Heading and labels:]() Provide headings and form labels that will help people find content and complete tasks.
+
+* [Focus order:]() Make sure that elements receive focus in an order that makes sense when people use a keyboard or a screen reader.
+
+* [Focus visible:]() Make sure that keyboard-only users can clearly see which element has the keyboard focus on a page.
+
+* [Link purpose:]() Make sure the purpose of every link is obvious from the link text alone (or the link text plus associated content – if screen readers recognise the association).
+
+* [Multiple ways to find a page]() Give people different ways of finding each page (like searching or browsing links), unless the page is a step in a process.
 
 #### Give people enough time to read and use content
 
@@ -78,72 +104,40 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 * [No three flashes:]() Do not show anything that flashes more than three times a second.
 
-#### Provide ways to help people navigate and find content
-
-* [Skip to main content:]() Give keyboard and screen reader users a way to go directly to the page's main content. [WEB ONLY]
-
-* [Page titled:]() Give every page a unique and helpful `title` that indicates the purpose of the page. [WEB ONLY]
-
-* [Focus order:]() Make sure that elements receive focus in an order that makes sense when people use a keyboard or a screen reader.
-
-* [Link purpose:]() Make sure the purpose of every link is obvious from the link text alone (or the link text plus associated content – if screen readers recognise the association).
-
-* [Multiple ways to find a page]() Give people different ways of finding each page (like searching or browsing links), unless the page is a step in a process.
-
-* [Heading and labels:]() Provide headings and form labels that will help people find content and complete tasks.
-
-* [Focus visible:]() Make sure that keyboard-only users can clearly see which element has the keyboard focus on a page.
-
-* [Complex gestures:]() Do not require complex gestures or using more than one finger to do things.
-
-* [Touch or click cancellation]() Do not make custom buttons or links that fire as soon as they are touched, so that users can cancel their action.
-
-* When an interactive element has a visible label, make sure that the element's accessible name matches (or at least includes) what's on the label. [More about 2.5.3]()
-
-* [Visible name included in name in code:]() When an interactive element has a visible label, make sure that the element's accessible name matches (or at least includes) what's on the label.
-
-* [Name in code includes visible name:]() When an interactive element has a visible label (like a button or text input field), make sure that the element's accessible name matches (or at least includes) what's on the label.
-
-* If a feature uses shaking or tilting, make sure that it can also be activated in another way. And that responses to these motions can be turned off. [More about 2.5.4]()
-
 ### 3. Easy to understand
 
 Your website/app must make information understandable, and make it easy for people to understand how to complete tasks.
 
-#### Make text readable and understandable
+#### Make text easy to understand
 
-* Identify the language that the content is written in. [More about 3.1.1]()
+* [Language of page:]() In code, identify the language that the content is written in. If the page uses several language, identify the language of each section.
 
-* Identify any changes in language within the content. [More about 3.1.2]()
+#### Make things appear and behave in consistent, predictable ways
 
-#### Make things appear and behave in consistent ways
+* [Changes on focus:]() Make sure that just navigating to a element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up).
 
-* Do not trigger any important or disorientating change when an element just receives focus. [More about 3.2.1]()
+* [Changes on input:]() Make sure that just changing the state of a form input (like a dropdown menu) does not trigger any important or disorientating change.
 
-* Do not any trigger important or disorientating change when someone just changes the value of an form input. [More about 3.2.2]()
+* [Consistent navigation:]() Make sure that navigation elements that appear on multiple pages look and behave consistently.
 
-* Make sure that navigation elements that appear on multiple pages look and behave consistently. [More about 3.2.3]()
-
-* Make sure that features that appear on multiple page are identified consistently. [More about 3.2.4]()
+* [Consistent feature names:]() Make sure that features that appear on multiple page are identified consistently.
 
 #### Help people avoid and correct mistakes
 
-* When someone makes a mistake, provide an error message in text and make it obvious where the mistake was made. [More about 3.3.1]()
+* [Error identification:](): When someone makes a mistake, provide an error message in text and make it obvious where the mistake was made.
 
-* Provide form labels to make it clear what information is expected, and optionally provide extra hints to help people avoid mistakes. [More about 3.3.2]()
+* [Form labels and instructions](): Provide form labels to make it clear what information is expected, and optionally provide extra hints to help people avoid mistakes.
 
-* When someone makes a mistake give them suggestions on how to correct it, unless it compromises security. [More about 3.3.3]()
+* [Error suggestions:]() When someone makes a mistake give them suggestions on how to correct it, unless it compromises security.
 
-* If users are making a legal commitment, financial transaction, or updating personal data, give them a way to review and check the information they have entered. [More about 3.4.4]()
+* [Error prevention:]() If users are making a legal commitment, financial transaction, or updating personal data, give them a way to review and check the information they have entered.
 
-### 4. Robust
+### 4. Robust and compatible
 
 Your website/app must work with different web browsers and/or assistive technologies.
 
-#### Make content compatible with different browsers and assistive technologies
+* [Valid HTML:]() Make sure the code of each page does not contain errors that are known to cause conflicts. [WEB ONLY]
 
-* [WEB ONLY] Make sure the code of each page does not contain errors that are known to cause conflicts. [More about 4.1.1]()
+* [Name, Role and State of interactive controls:]() Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in.
 
-* Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in. [More about 4.1.2]()
-
-* Make sure status messages are identified in code so that assistive technologies can convey them to users. [More about 4.1.3]()
+* [Status messages](): Make sure status messages are identified in code, so that assistive technologies can convey them to users.
