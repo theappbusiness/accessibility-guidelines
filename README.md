@@ -1,6 +1,8 @@
 # Web Content Accessibility Guidelines Summary
 
-This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), avoid common accessibility-related mistakes, and will provide code examples where possible.
+This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common accessibility-related mistakes.
+
+Where possible code examples are provided.
 
 This summary is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
 
@@ -48,7 +50,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Images of text:]() Do not use images that contain text (except logos).
 
-* [Reflow:]() All information and functionality must be available on a screen that's 320 CSS pixel wide, without needing to scroll horizontally
+* [Reflow:](guidelines/1.4.10.md) All information and functionality must be available on a screen that's 320 CSS pixel wide, without needing to scroll horizontally
 
 <!-- ALTERNATIVES
 * Make sure content will reflow to a single column when zoomed and not produce scrolling in both directions. [More about 1.4.10]()
