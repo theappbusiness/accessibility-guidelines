@@ -54,7 +54,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Images of text:]() Use actual text rather than images of text.
 
-* [Content on hover or focus:]() If extra content appears when users focus or hover an element, that extra content is easily dismissable, hoverable and persistent.
+* [Extra content on hover or focus:]() If extra content (like tooltips or sub-menus) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible.
 
 ### 2. Easy to operate
 
