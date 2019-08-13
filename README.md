@@ -100,6 +100,10 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 * When an interactive element has a visible label, make sure that the element's accessible name matches (or at least includes) what's on the label. [More about 2.5.3]()
 
+* [Visible name included in name in code:]() When an interactive element has a visible label, make sure that the element's accessible name matches (or at least includes) what's on the label.
+
+* [Name in code includes visible name:]() When an interactive element has a visible label (like a button or text input field), make sure that the element's accessible name matches (or at least includes) what's on the label.
+
 * If a feature uses shaking or tilting, make sure that it can also be activated in another way. And that responses to these motions can be turned off. [More about 2.5.4]()
 
 ### 3. Easy to understand
