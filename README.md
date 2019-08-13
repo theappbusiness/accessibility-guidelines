@@ -93,7 +93,7 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 * [WEB ONLY] Make sure that interactive elements receive focus in an order that makes sense. [More about 2.4.3]()
 
-* Make sure the purpose of a link is obvious from its link text alone, or its link text in context. [More about 2.4.4]()
+* Make sure the purpose of a link is obvious from its link text alone, or its link text in context. [More about 2.4.4](guidelines/2.4.4.md)
 
 * Give people different ways of finding each page (like searching or browsing links), unless the page is a step in a process. [More about 2.4.5]()
 
