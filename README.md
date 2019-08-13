@@ -86,11 +86,7 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 * [Heading and labels:]() Provide headings and form labels that will help people find content and complete tasks.
 
-<<<<<<< HEAD
 * [Focus order:]() Make sure that elements receive focus in an order that makes sense when people use a keyboard or a screen reader.
-=======
-* Make sure the purpose of a link is obvious from its link text alone, or its link text in context. [More about 2.4.4](guidelines/2.4.4.md)
->>>>>>> master
 
 * [Focus visible:]() Make sure that keyboard-only users can clearly see which element has the keyboard focus on a page.
 
