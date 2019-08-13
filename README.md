@@ -48,7 +48,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Resize text:](guidelines/1.4.4.md) Make sure it is possible to complete all tasks when text is resized up to 200%.
 
-* [Reflow:]() All information and functionality must be available on a screen that's 320 CSS pixel wide, without needing to scroll horizontally
+* [Reflow:](guidelines/1.4.10.md) All information and functionality must be available on a screen that's 320 CSS pixel wide, without needing to scroll horizontally
 
 * [Text spacing:]() Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
 
