@@ -1,6 +1,6 @@
 # Web Content Accessibility Guidelines Summary
 
-This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common accessibility-related mistakes.
+This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), avoid common accessibility-related mistakes, and will provide code examples where possible.
 
 This summary is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
 
@@ -28,7 +28,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 <!-- ALTERNATIVE: * Use elements like headings, lists, tables, fieldsets and legends to make sure that assistive technologies understand the structure of the information presented on screen. [More about 1.3.1]() -->
 
-* [Meaningful sequence:](guidelines/1.3.2.md) Make sure that elements appear in the a logical reading order in the website's Document Object Model or the app's View Hierarchy.
+* [Meaningful sequence:](guidelines/1.3.2.md) Make sure that elements appear in a logical reading order in the website's Document Object Model or the app's View Hierarchy.
 
 * [Inclusive instructions:]() Do not use colour, size, shape, sound or location as the only way to convey any instruction.
 
@@ -44,7 +44,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Text contrast:]() Make sure that text has enough contrast against the background colour.
 
-* [Resize text:]() Make sure it is possible to complete all tasks when text is resized up to 200%.
+* [Resize text:](guidelines/1.4.4.md) Make sure it is possible to complete all tasks when text is resized up to 200%.
 
 * [Images of text:]() Do not use images that contain text (except logos).
 
