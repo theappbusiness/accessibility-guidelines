@@ -6,6 +6,8 @@ Click on each guideline to see details and code examples.
 
 This summary is a simplification. If you're not sure how to meet a requirement, check the official [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/).
 
+---
+
 ### 1. Easy to perceive
 
 Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like a screen reader software).
@@ -61,6 +63,8 @@ For videos and presentations that are pre-recorded, provide an audio description
 [Extra content on hover (or focus):]() If extra content (like tooltips) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible. -->
 
 * [Extra content on hover or focus](): If extra content (like tooltips) appear when users hover over an element (or tab to it), it must be easy to dismiss, easy to reach and remain visible.
+
+---
 
 ### 2. Easy to operate
 
@@ -118,6 +122,8 @@ When an interactive control has a name on screen, make sure that assistive techn
 
 * [Flashes](): Do not show anything that flashes more than three times a second.
 
+---
+
 ### 3. Easy to understand
 
 Your website/app must make it easy for people to understand information and how to complete tasks.
@@ -131,9 +137,11 @@ Your website/app must make it easy for people to understand information and how 
 <!-- Previous version. Was approximately understood but caused struggles
 * [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up). -->
 
-* [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up).
+<!-- * [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up). -->
 
-When keyboard-only users navigate through interactive controls using the tab key,
+<!-- * [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger anything, and doesn't move the keyboard focus somewhere else. -->
+
+* [Changes on focus](): Make sure that just navigating to an interactive control using the keyboard doesn't trigger any action, and doesn't move the keyboard focus somewhere else.
 
 * [Changes on input](): Make sure that just changing the state of a form input (like a dropdown menu) does not trigger any important or disorientating change.
 
@@ -150,6 +158,8 @@ When keyboard-only users navigate through interactive controls using the tab key
 * [Error suggestions](): When someone makes a mistake give them suggestions on how to correct it, unless it compromises security.
 
 * [Error prevention](): If users are making a legal commitment, financial transaction, or updating personal data, give them a way to review and check the information they have entered.
+
+---
 
 ### 4. Robust and compatible
 
