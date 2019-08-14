@@ -10,10 +10,10 @@ More detail on **what** the requirement is. Do not put anything to do with why t
 
 * List of requirements to meet the standard. Do not use platform specific language here where possible, that should be below in "How"?
 
-### WCAG Success Criteria
+### Official guidelines
 
-* [\*.\*.\* WCAG Success Critera Link (A-Level)]()
-* [1.1.1 Non-text content (A)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
+* [\*.\*.\* "Guideline Heading" (A-Level) in the Web Content Accessibility Guidelines]()
+* [1.1.1 "Non-text content" (A) in the Web Content Accessibility Guidelines](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html)
 
 ## Why?
 
