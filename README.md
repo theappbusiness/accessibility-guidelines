@@ -12,17 +12,20 @@ Your website/app must present information in ways people can recognise and use, 
 
 #### Provide text alternatives for images
 
-* [Text alternatives for images](guidelines/1.1.1.md): Provide a text description for images. Make sure the description serves the same purpose as the image.
+* [Text alternatives for images](guidelines/1.1.1.md): Provide a text description for images. Make sure the description conveys the same message or functionality.
+
+* [Decorative images](guidelines/1.1.1.md): If an image doesn't convey any information, make sure that this is indicated in code.
 
 #### Provide alternatives for audio content, videos and presentations
 
-* [Transcript for audio content](): Provide a transcript for audio content that has no video (like a podcast). The transcript must serve the same purpose as the original content.
+* [Transcript (audio-only content)](): For audio content that has no video (like a podcast), provide a transcript.
 
-* [Captions for videos and presentations](): Provide captions for videos and presentation, both live or pre-recorded. Include all dialogue and important sound-effects.
+* [Captions (videos and presentations)](): For videos and presentations (both live and pre-recorded), provide captions.
 
-* [Text or audio description of videos and presentations](): Provide a text or audio description of videos or presentations. The description must serve the same purpose as the original content.
+* [Text or audio description (videos and presentations)](): For videos and presentations, provide an equivalent text description, or an audio description of what happens on screen.
 
-* [Audio description of pre-recorded videos or presentations](): If a video or presentation is prerecorded (rather than live), provide an audio description of the recording, even if you've already provided a text description.
+* [Audio description (videos presentations if pre-recorded)](): 
+For videos and presentations that are pre-recorded, provide an audio description of what happens on screen, even if you've already provided a text description.
 
 #### Create content that can be presented in different ways
 
@@ -102,7 +105,7 @@ Your website/app must be easy to navigate and use, no matter how someone interac
 
 #### Do not cause seizures
 
-* [No flashes:]() Do not show anything that flashes more than three times a second.
+* [Flashes:]() Do not show anything that flashes more than three times a second.
 
 ### 3. Easy to understand
 
