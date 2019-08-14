@@ -43,11 +43,11 @@ For videos and presentations that are pre-recorded, provide an audio description
 
 * [Audio control:]() If any audio content plays automatically for more than three seconds, give people a way to stop it.
 
-* [Use of colour:]() Do not use colour as the only way to convey information of any kind.
+* [Use of colour:]() Do not use colour as the only way to convey any piece of information.
 
 * [Text contrast:]() Make sure that text has enough contrast against the background colour.
 
-* [Non-text contrast:]() Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours.
+* [Non-text contrast:]() Make sure that visual information that identifies important graphics, interactive controls and their state has enough contrast against adjacent colours.
 
 * [Resize text:](guidelines/1.4.4.md) Make sure it is possible to complete all tasks when text is resized up to 200%.
 
@@ -55,13 +55,17 @@ For videos and presentations that are pre-recorded, provide an audio description
 
 * [Text spacing:]() Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
 
-* [Images of text:]() Use actual text rather than images of text.
+* [Images of text:]() Use real text rather than images of text.
 
-* [Extra content on hover (or focus):]() If extra content (like tooltips or sub-menus) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible.
+* [Extra content on hover (or focus):]() If extra content (like tooltips) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible.
 
 ### 2. Easy to operate
 
-Your website/app must be easy to navigate and use, no matter how someone interacts with it (for example without a mouse, using voice commands or with a screen magnifier).
+<!-- Your website/app must be easy to navigate and use, no matter how someone interacts with it (for example using voice commands, or just -->
+
+Your website/app must be easy to navigate and use, no matter how someone interacts with it. 
+
+For example people who don't use a mouse may use their voice, or press the 'Tab' key to move their keyboard's focus to interactive controls.
 
 #### Make all functionality work with a keyboard
 
