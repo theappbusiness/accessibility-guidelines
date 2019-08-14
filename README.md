@@ -29,7 +29,7 @@ For videos and presentations that are pre-recorded, provide an audio description
 
 #### Create content that can be presented in different ways
 
-* [Structure and relationships:](guidelines/1.3.1.md) When designs convey a structure of information visually (like sections within a page, or a data table), that structure must also be identified in code so that screen readers can understand it.
+* [Structure and relationships:](guidelines/1.3.1.md) When designs convey a structure visually (like distinct sections within a page, or a label next to a checkbox) that structure must also be identified in code.
 
 * [Order of elements in code:](guidelines/1.3.2.md) Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users.
 
