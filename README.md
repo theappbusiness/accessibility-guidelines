@@ -10,12 +10,13 @@ This summary is a simplification. If you're not sure how to meet a requirement, 
 
 ### 1. Easy to perceive
 
-Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like a screen reader software).
+Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like a screen reader).
 
 #### Provide text alternatives for images
 
 * [Text alternatives for images](guidelines/1.1.1.md): Provide a text description for images. Make sure the description conveys the same message or functionality.
 
+<!-- Note to reviewer: I'm experimenting with adding this bullet point, in spite of the fact that we want to keep the document as short as possible. Because this is one of the most frequent accessibility mistakes on the web, and a pain to screen reader users as they use the image's file name every time this happens. Also, this requirement is part of the success criterion, but is not included in the bullet point above. -->
 * [Decorative images](guidelines/1.1.1.md): If an image doesn't convey any information, make sure that this is indicated in code.
 
 #### Provide alternatives for audio content, videos and presentations
@@ -26,8 +27,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Text or audio description (videos and presentations)](): For videos and presentations, provide an equivalent text description, or an audio description of what happens on screen.
 
-* [Audio description (videos presentations if pre-recorded)](): 
-For videos and presentations that are pre-recorded, provide an audio description of what happens on screen, even if you've already provided a text description.
+* [Audio description (videos presentations if pre-recorded)](): For videos and presentations that are pre-recorded, provide an audio description of what happens on screen, even if you've already provided a text description.
 
 #### Create content that can be presented in different ways
 
@@ -35,7 +35,7 @@ For videos and presentations that are pre-recorded, provide an audio description
 
 * [Order of elements in code](guidelines/1.3.2.md): Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users.
 
-* [Instructions don't rely on sensory characteristics](): If you give tips or instructions, don't assume that users can perceive colour, size, shape, sound, or the location of elements on screen.
+* [Instructions don't rely on sensory characteristics](): If you give tips or instructions, don't assume that users can perceive colour, size, shape, sound or the location of elements on screen.
 
 * [Orientation](guidelines/1.3.4.md): Make sure a page's view is not locked to either portrait or landscape mode, unless this is essential.
 
@@ -48,6 +48,9 @@ For videos and presentations that are pre-recorded, provide an audio description
 * [Use of colour](): Do not use colour as the only way to convey any piece of information.
 
 * [Text contrast](): Make sure that text has enough contrast against the background colour.
+
+<!-- Previous version. Testers struggled to understand the bit about 'indicate their state', and struggled to read the sentence as a whole.
+* [Non-text contrast:]() Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours. -->
 
 * [Non-text contrast](): Make sure that visual information that identifies important graphics, interactive controls and their state has enough contrast against adjacent colours.
 
@@ -62,15 +65,15 @@ For videos and presentations that are pre-recorded, provide an audio description
 <!-- Previous version that used the phrase "keyboard focus" before it was explained.
 [Extra content on hover (or focus):]() If extra content (like tooltips) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible. -->
 
-* [Extra content on hover or focus](): If extra content (like tooltips) appear when users hover over an element (or tab to it), it must be easy to dismiss, easy to reach and remain visible.
+* [Extra content on hover or focus](): If content (like a tooltip) appears when users hover over an element with their mouse (or tab to it with their keyboard), it must be easy to dismiss, easy to reach and remain visible.
 
 ---
 
 ### 2. Easy to operate
 
-<!-- Your website/app must be easy to navigate and use, no matter how someone interacts with it (for example using voice commands, or just -->
-
 Your website/app must be easy to navigate and use, no matter how someone interacts with it. 
+
+<!-- Note to reviewer: I don't want to add length to this document, and I don't want to start adding any more examples than is necessary. But I've added this in order to clarify what is meant by 'keyboard focus', and give readers that bit of domain knowledge upfront. Because we can't define or paraphrase 'keyboard focus' in every relevant bullet point. -->
 
 For example people who don't use a mouse may use their voice, or press the 'Tab' key to move their keyboard's focus to interactive controls.
 
@@ -88,20 +91,19 @@ For example people who don't use a mouse may use their voice, or press the 'Tab'
 
 * [Touch or click activation](): Make sure that custom buttons or links do not activate as soon as they are touched, so that users can slide their finger or mouse away to cancel the action.
 
-* [Label in name](): 
-When an interactive control has a name on screen, make sure that assistive technologies (like Voice Control) know it by the same name (or a name that includes the name on screen).
+* [Label in name](): When an interactive control has a name on screen, make sure that assistive technologies (like Voice Control) know it by the same name (or a name that includes the name on screen).
 
 * [Device motion](): If a feature uses the device's motion (like shaking or tilting), make sure that responses to these motions can be turned off, and that the feature can be used in another way.
 
 #### Help people navigate and find content
 
-* [Skip to main content](): Give keyboard and screen reader users a way to go directly to the page's main content. [WEB ONLY]
+* [Skip to main content](): Give keyboard and screen reader users a way to go directly to the page's main content. [Web only]
 
-* [Page titled](): Give every page a unique and helpful title that indicates the purpose of the page. [WEB ONLY]
+* [Page titled](): Give every page a unique and helpful title that indicates the purpose of the page. [Web only]
 
 * [Heading and labels](): Provide headings and form labels that help people find content and complete tasks.
 
-* [Focus order](): Make sure that interactive controls receive focus in an order that makes sense, when users navigate through them with their keyboard.
+* [Focus order](): Make sure that interactive controls receive focus in an order that makes sense, when users navigate through them with the keyboard.
 
 * [Focus visible](): Make sure that keyboard-only users can clearly see which interactive control is focused when they tab through them.
 
@@ -137,6 +139,8 @@ Your website/app must make it easy for people to understand information and how 
 <!-- Previous version. Was approximately understood but caused struggles
 * [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up). -->
 
+* [Changes on focus](): Make sure that just navigating to an interactive control with the keyboard doesn't trigger any action, and doesn't move the keyboard focus somewhere else.
+
 * [Changes on input](): Make sure that just changing the state of a form input (like a checkbox) does not cause anything surprising to happen (like submitting a form, or automatically moving the keyboard focus).
 
 * [Consistent navigation](): Make sure that navigation controls that appear on multiple pages (like links in a header) look and behave consistently.
@@ -159,7 +163,7 @@ Your website/app must make it easy for people to understand information and how 
 
 Your website/app must work with different web browsers and/or assistive technologies.
 
-* [Valid HTML](): Make sure the code of each page does not contain errors that are known to cause conflicts. [WEB ONLY]
+* [Valid HTML](): Make sure the code of each page does not contain errors that are known to cause conflicts. [Web only]
 
 * [Name, Role and State of interactive controls](): Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in.
 
