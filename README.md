@@ -137,13 +137,7 @@ Your website/app must make it easy for people to understand information and how 
 <!-- Previous version. Was approximately understood but caused struggles
 * [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up). -->
 
-<!-- * [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up). -->
-
-<!-- * [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger anything, and doesn't move the keyboard focus somewhere else. -->
-
-* [Changes on focus](): Make sure that just navigating to an interactive control using the keyboard doesn't trigger any action, and doesn't move the keyboard focus somewhere else.
-
-* [Changes on input](): Make sure that just changing the state of a form input (like a dropdown menu) does not trigger any important or disorientating change.
+* [Changes on input](): Make sure that just changing the state of a form input (like a checkbox) does not cause anything surprising to happen (like submitting a form, or automatically moving the keyboard focus).
 
 * [Consistent navigation](): Make sure that navigation elements that appear on multiple pages look and behave consistently.
 
