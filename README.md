@@ -8,7 +8,7 @@ This summary is a simplification. If you're not sure how to meet a requirement, 
 
 ### 1. Easy to perceive
 
-Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision or use a screen reader).
+Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like a screen reader software).
 
 #### Provide text alternatives for images
 
@@ -33,9 +33,9 @@ For videos and presentations that are pre-recorded, provide an audio description
 
 * [Order of elements in code:](guidelines/1.3.2.md) Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users.
 
-* [Instructions don't rely on sensory characteristics:]() Do not use colour, size, shape, sound or location as the only way to convey any instruction.
+* [Instructions don't rely on sensory characteristics:]() If you give tips or instructions, don't assume that users can perceive colour, size, shape, sound, or the location of elements on screen.
 
-* [Orientation:](guidelines/1.3.4.md) Make sure a page's view is not locked to either horizontal or vertical only, unless this is essential.
+* [Orientation:](guidelines/1.3.4.md) Make sure a page's view is not locked to either portrait or landscape mode, unless this is essential.
 
 * [Purpose of text fields:]() If a text input field collects information about the user, identify its specific purpose in code (e.g. email, password, street address).
 
