@@ -102,7 +102,7 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 #### Do not cause seizures
 
-* [No three flashes:]() Do not show anything that flashes more than three times a second.
+* [No flashes:]() Do not show anything that flashes more than three times a second.
 
 ### 3. Easy to understand
 
@@ -110,11 +110,11 @@ Your website/app must make information understandable, and make it easy for peop
 
 #### Make text easy to understand
 
-* [Language of page:]() In code, identify the language that the content is written in. If the page uses several language, identify the language of each section.
+* [Language of page:]() In code, identify the language that the content is written in. If the page uses several languages, identify the language of each section.
 
 #### Make things appear and behave in consistent, predictable ways
 
-* [Changes on focus:]() Make sure that just navigating to a element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up).
+* [Changes on focus:]() Make sure that just navigating to an element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up).
 
 * [Changes on input:]() Make sure that just changing the state of a form input (like a dropdown menu) does not trigger any important or disorientating change.
 
