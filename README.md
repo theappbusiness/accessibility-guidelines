@@ -139,9 +139,9 @@ Your website/app must make it easy for people to understand information and how 
 
 * [Changes on input](): Make sure that just changing the state of a form input (like a checkbox) does not cause anything surprising to happen (like submitting a form, or automatically moving the keyboard focus).
 
-* [Consistent navigation](): Make sure that navigation elements that appear on multiple pages look and behave consistently.
+* [Consistent navigation](): Make sure that navigation controls that appear on multiple pages (like links in a header) look and behave consistently.
 
-* [Consistent feature names](): Make sure that features that appear on multiple page are identified consistently.
+* [Consistent feature names](): If a feature exists on multiple pages, make sure that it looks the same and is named consistently.
 
 #### Help people avoid and correct mistakes
 
