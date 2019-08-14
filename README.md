@@ -81,7 +81,8 @@ For example people who don't use a mouse may use their voice, or press the 'Tab'
 
 * [Touch or click activation]() Make sure that custom buttons or links do not activate as soon as they are touched, so that users can slide their finger or mouse away to cancel the action.
 
-* [Accessibility name includes the visible name:]() When an interactive control has a visible name (like a button with text), make sure that its accessibility name matches (or at least includes) the name that is visible on the screen.
+* [Label in name:]() 
+When an interactive control has a name on screen, make sure that assistive technologies (like Voice Control) know it by the same name (or a name that includes the name on screen).
 
 * [Device motion:]() If a feature uses the device's motion (like shaking or tilting), make sure that responses to these motions can be turned off, and that the feature can be used in another way.
 
@@ -89,9 +90,9 @@ For example people who don't use a mouse may use their voice, or press the 'Tab'
 
 * [Skip to main content:]() Give keyboard and screen reader users a way to go directly to the page's main content. [WEB ONLY]
 
-* [Page titled:]() Give every page a unique and helpful `title` that indicates the purpose of the page. [WEB ONLY]
+* [Page titled:]() Give every page a unique and helpful title that indicates the purpose of the page. [WEB ONLY]
 
-* [Heading and labels:]() Provide headings and form labels that will help people find content and complete tasks.
+* [Heading and labels:]() Provide headings and form labels that help people find content and complete tasks.
 
 * [Focus order:]() Make sure that elements receive focus in an order that makes sense when people use a keyboard or a screen reader.
 
