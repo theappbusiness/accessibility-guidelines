@@ -1,10 +1,10 @@
 # Web Content Accessibility Guidelines Summary
 
-This document will help you quickly get up to speed with Web Content Accessibility Guidelines 2.1 (WCAG), and avoid common accessibility-related mistakes.
+This document will help you quickly get up to speed with the [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/) (WCAG), and avoid common accessibility-related mistakes.
 
 Click on each guideline to see details and code examples.
 
-This summary is a simplification. If you're unsure about how to meet a requirement, check the [official Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/).
+This summary is a simplification. If you're not sure how to meet a requirement, check the official [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/).
 
 ### 1. Easy to perceive
 
@@ -58,7 +58,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 ### 2. Easy to operate
 
-Your website/app must be navigable and usable no matter how someone uses it (without a mouse, with voice commands, or with a screen magnifier for example).
+Your website/app must be easy to navigate and use, no matter how someone interacts with it (for example without a mouse, using voice commands or with a screen magnifier).
 
 #### Make all functionality work with a keyboard
 
@@ -106,7 +106,7 @@ Your website/app must be navigable and usable no matter how someone uses it (wit
 
 ### 3. Easy to understand
 
-Your website/app must make information understandable, and make it easy for people to understand how to complete tasks.
+Your website/app must make it easy for people to understand information and how to complete tasks.
 
 #### Make text easy to understand
 
