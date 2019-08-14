@@ -57,7 +57,10 @@ For videos and presentations that are pre-recorded, provide an audio description
 
 * [Images of text:]() Use real text rather than images of text.
 
-* [Extra content on hover (or focus):]() If extra content (like tooltips) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible.
+<!-- Previous version that used the phrase "keyboard focus" before it was explained.
+[Extra content on hover (or focus):]() If extra content (like tooltips) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible. -->
+
+* [Extra content on hover or focus:]() If extra content (like tooltips) appear when users hover over an element (or tab to it), it must be easy to dismiss, easy to reach and remain visible.
 
 ### 2. Easy to operate
 
