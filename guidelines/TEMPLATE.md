@@ -75,5 +75,4 @@ Information and code examples on how Web developers can fulfil this requirement.
 
 ### Sources
 
-* TODO: Link to GDS
-* TODO: Link to BBC
+* [GOV.UK Government Digital Service (GDS)](https://alphagov.github.io/wcag-primer/#wcag-2-1-getting-started "The GOV.UK GDS")
