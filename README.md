@@ -97,7 +97,7 @@ When an interactive control has a name on screen, make sure that assistive techn
 
 * [Heading and labels](): Provide headings and form labels that help people find content and complete tasks.
 
-* [Focus order](): Make sure that elements receive focus in an order that makes sense when people use a keyboard or a screen reader.
+* [Focus order](): Make sure that interactive controls receive focus in an order that makes sense, when users navigate through them with their keyboard.
 
 * [Focus visible](): Make sure that keyboard-only users can clearly see which interactive control is focused when they tab through them.
 
@@ -128,7 +128,12 @@ Your website/app must make it easy for people to understand information and how 
 
 #### Make things appear and behave in consistent, predictable ways
 
+<!-- Previous version. Was approximately understood but caused struggles
+* [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up). -->
+
 * [Changes on focus](): Make sure that just navigating to an element using the keyboard doesn't trigger any important or disorientating change (like opening a pop up).
+
+When keyboard-only users navigate through interactive controls using the tab key,
 
 * [Changes on input](): Make sure that just changing the state of a form input (like a dropdown menu) does not trigger any important or disorientating change.
 
