@@ -99,7 +99,7 @@ When an interactive control has a name on screen, make sure that assistive techn
 
 * [Focus order:]() Make sure that elements receive focus in an order that makes sense when people use a keyboard or a screen reader.
 
-* [Focus visible:]() Make sure that keyboard-only users can clearly see which element has the keyboard focus on a page.
+* [Focus visible:]() Make sure that keyboard-only users can clearly see which interactive control is focused when they tab through them.
 
 * [Link purpose:]() Make sure the purpose of every link is obvious from the link text alone (or the link text plus associated content – if screen readers recognise the association).
 
