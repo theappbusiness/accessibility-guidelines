@@ -25,7 +25,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Captions (videos and presentations)](): For videos and presentations (both live and pre-recorded), provide captions.
 
-* [Text or audio description (videos and presentations)](): For videos and presentations, provide an equivalent text description, or an audio description of what happens on screen.
+* [Text or audio description (videos and presentations)](guidelines/1.2.3.md): For videos and presentations, provide an equivalent text description, or an audio description of what happens on screen.
 
 * [Audio description (videos presentations if pre-recorded)](): For videos and presentations that are pre-recorded, provide an audio description of what happens on screen, even if you've already provided a text description.
 
@@ -71,7 +71,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 ### 2. Easy to operate
 
-Your website/app must be easy to navigate and use, no matter how someone interacts with it. 
+Your website/app must be easy to navigate and use, no matter how someone interacts with it.
 
 <!-- Note to reviewer: I don't want to add length to this document, and I don't want to start adding any more examples than is necessary. But I've added this in order to clarify what is meant by 'keyboard focus', and give readers that bit of domain knowledge upfront. Because we can't define or paraphrase 'keyboard focus' in every relevant bullet point. -->
 
