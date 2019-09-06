@@ -43,7 +43,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 #### Make content easy for people to see and hear
 
-* [Audio control](): If any audio content plays automatically for more than three seconds, give people a way to stop it.
+* [Audio control](guidelines/1.4.1.md): If any audio content plays automatically for more than three seconds, give people a way to stop it.
 
 * [Use of colour](): Do not use colour as the only way to convey any piece of information.
 
