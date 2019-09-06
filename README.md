@@ -27,7 +27,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Text or audio description (videos and presentations)](guidelines/1.2.3.md): For videos and presentations, provide an equivalent text description, or an audio description of what happens on screen.
 
-* [Audio description (videos presentations if pre-recorded)](): For videos and presentations that are pre-recorded, provide an audio description of what happens on screen, even if you've already provided a text description.
+* [Audio description (videos presentations if pre-recorded)](guidelines/1.2.4.md): For videos and presentations that are pre-recorded, provide an audio description of what happens on screen, even if you've already provided a text description.
 
 #### Create content that can be presented in different ways
 
