@@ -23,7 +23,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Transcript (audio-only content)](guidelines/1.2.1.md): For audio content that has no video (like a podcast), provide a transcript.
 
-* [Captions (videos and presentations)](): For videos and presentations (both live and pre-recorded), provide captions.
+* [Captions (videos and presentations)](guidelines/1.2.2.md): For videos and presentations (both live and pre-recorded), provide captions.
 
 * [Text or audio description (videos and presentations)](): For videos and presentations, provide an equivalent text description, or an audio description of what happens on screen.
 
