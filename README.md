@@ -25,7 +25,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Captions (videos and presentations)](guidelines/1.2.2.md): For videos and presentations (both live and pre-recorded), provide captions.
 
-* [Text or audio description (videos and presentations)](): For videos and presentations, provide an equivalent text description, or an audio description of what happens on screen.
+* [Text or audio description (videos and presentations)](guidelines/1.2.3.md): For videos and presentations, provide an equivalent text description, or an audio description of what happens on screen.
 
 * [Audio description (videos presentations if pre-recorded)](): For videos and presentations that are pre-recorded, provide an audio description of what happens on screen, even if you've already provided a text description.
 
