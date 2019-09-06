@@ -39,7 +39,7 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Orientation](guidelines/1.3.4.md): Make sure a page's view is not locked to either portrait or landscape mode, unless this is essential.
 
-* [Purpose of text fields](): If a text input field collects information about the user, identify its specific purpose in code (e.g. email, password, street address).
+* [Purpose of text fields](guidelines/1.3.5.md): If a text input field collects information about the user, identify its specific purpose in code (e.g. email, password, street address).
 
 #### Make content easy for people to see and hear
 
