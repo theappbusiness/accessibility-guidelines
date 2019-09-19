@@ -45,27 +45,27 @@ Your website/app must present information in ways people can recognise and use, 
 
 * [Use of colour](guidelines/1.4.1.md): Do not use colour as the only way to convey any piece of information.
 
-* [Audio control](): If any audio content plays automatically for more than three seconds, give people a way to stop it.
+* [Audio control](guidelines/1.4.2.md): If any audio content plays automatically for more than three seconds, give people a way to stop it.
 
-* [Text contrast](): Make sure that text has enough contrast against the background colour.
+* [Text contrast](guidelines/1.4.3.md): Make sure that text has enough contrast against the background colour.
 
 <!-- Previous version. Testers struggled to understand the bit about 'indicate their state', and struggled to read the sentence as a whole.
 * [Non-text contrast:]() Make sure that interactive controls (including visual elements that indicate their states) and important graphics have enough contrast against their adjacent colours. -->
 
-* [Non-text contrast](): Make sure that visual information that identifies important graphics, interactive controls and their state has enough contrast against adjacent colours.
+* [Non-text contrast](guidelines/1.4.11.md): Make sure that visual information that identifies important graphics, interactive controls and their state has enough contrast against adjacent colours.
 
 * [Resize text](guidelines/1.4.4.md): Make sure it is possible to complete all tasks when text is resized up to 200%.
 
 * [Reflow](guidelines/1.4.10.md): Make sure users can access all information and functionality on a screen that's as wide as on the iPhone5, without needing to scroll in both directions.
 
-* [Text spacing](): Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
+* [Text spacing](guidelines/1.4.12.md): Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
 
-* [Images of text](): Use real text rather than images of text.
+* [Images of text](guidelines/1.4.5.md): Use real text rather than images of text.
 
 <!-- Previous version that used the phrase "keyboard focus" before it was explained.
 [Extra content on hover (or focus):]() If extra content (like tooltips) appear when users hover over an element (or move the keyboard focus to it), it must be easy to dismiss, easy to reach and remain visible. -->
 
-* [Extra content on hover or focus](): If content (like a tooltip) appears when users hover over an element with their mouse (or tab to it with their keyboard), it must be easy to dismiss, easy to reach and remain visible.
+* [Extra content on hover or focus](guidelines/1.4.13.md): If content (like a tooltip) appears when users hover over an element with their mouse (or tab to it with their keyboard), it must be easy to dismiss, easy to reach and remain visible.
 
 ---
 
