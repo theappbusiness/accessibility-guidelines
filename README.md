@@ -10,7 +10,7 @@ This summary is a simplification. If you're not sure how to meet a requirement, 
 
 ### 1. Easy to perceive
 
-Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like a screen reader).
+Your website/app must present information in ways that people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like a screen reader).
 
 #### Provide text alternatives for images
 
