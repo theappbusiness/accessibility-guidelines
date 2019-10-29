@@ -163,7 +163,7 @@ Your website/app must make it easy for people to understand information and how 
 
 Your website/app must work with different web browsers and/or assistive technologies.
 
-* [Valid HTML](): Make sure the code of each page does not contain errors that are known to cause conflicts. [Web only]
+* [Valid HTML](): Make sure the code of each page does not contain errors that are known to cause conflicts with assistive technologies (such as incorrect nesting of elements or duplicate ids). [Web only]
 
 * [Name, Role and State of interactive controls](): Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in.
 
