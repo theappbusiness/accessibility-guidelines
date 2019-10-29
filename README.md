@@ -35,7 +35,7 @@ Your website/app must present information in ways that people can recognise and 
 
 * [Order of elements in code](guidelines/1.3.2.md): Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users.
 
-* [Instructions don't rely on sensory characteristics](guidelines/1.3.3.md): If you give tips or instructions, don't assume that users can perceive colour, size, shape, sound or the location of elements on screen.
+* [Instructions don't rely on sensory characteristics](guidelines/1.3.3.md): When giving guidance or instructions, don't assume that users can perceive colour, size, shape, sound or the location of elements on screen.
 
 * [Orientation](guidelines/1.3.4.md): Make sure a page's view is not locked to either portrait or landscape mode, unless this is essential.
 
