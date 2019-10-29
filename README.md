@@ -151,7 +151,7 @@ Your website/app must make it easy for people to understand information and how 
 
 * [Error identification](): When someone makes a mistake, provide an error message in text and make it obvious where the mistake was made.
 
-* [Form labels and instructions](): Provide form labels to make it clear what information is expected, and optionally provide extra hints to help people avoid mistakes.
+* [Form labels and instructions](): Provide labels to make it clear how users should fill a form, and optionally provide extra hints to help them avoid mistakes.
 
 * [Error suggestions](): When someone makes a mistake give them suggestions on how to correct it, unless it compromises security.
 
