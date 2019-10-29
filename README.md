@@ -168,3 +168,5 @@ Your website/app must work with different web browsers and/or assistive technolo
 * [Name, Role and State of interactive controls](): Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in.
 
 * [Status messages](): Make sure status messages are identified in code, so that assistive technologies can convey them to users.
+
+* [Status messages](): Make sure status messages (like error or success notifications) are identified in code in such a way that assistive technologies can communicate them without requiring users to change their position on the page.
