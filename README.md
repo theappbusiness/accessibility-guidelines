@@ -132,7 +132,7 @@ Your website/app must make it easy for people to understand information and how 
 
 #### Make text easy to understand
 
-* [Language of page](): In code, identify the language that the content is written in. If the page uses several languages, identify the language of each section.
+* [Language of content](): In code, identify the language that the content is written in (English for example). If the page uses several languages, identify the language of each part.
 
 #### Make things appear and behave in consistent, predictable ways
 
