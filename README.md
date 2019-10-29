@@ -145,7 +145,7 @@ Your website/app must make it easy for people to understand information and how 
 
 * [Consistent navigation](): Make sure that navigation controls that appear on multiple pages (like links in a header) look and behave consistently.
 
-* [Consistent feature names](): If a feature exists on multiple pages, make sure that it looks the same and is named consistently.
+* [Consistent feature names](): If a user interface component exists on multiple pages, make sure that the way it looks and the way it is named is consistent across pages.
 
 #### Help people avoid and correct mistakes
 
