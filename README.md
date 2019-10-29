@@ -153,7 +153,7 @@ Your website/app must make it easy for people to understand information and how 
 
 * [Form labels and instructions](): Provide form labels to make it clear what information is expected, and optionally provide extra hints to help people avoid mistakes.
 
-* [Error suggestions](): When someone makes a mistake give them suggestions on how to correct it, unless it compromises security.
+* [Error suggestions](): When someone makes an error while filling a form, give them suggestions on how to correct it.
 
 * [Error prevention](): If users are making a legal commitment, financial transaction, or updating personal data, give them a way to review and check the information they have entered.
 
