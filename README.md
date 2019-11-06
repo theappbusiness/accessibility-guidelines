@@ -14,7 +14,7 @@ Your website/app must present information in ways that people can recognise and 
 
 #### Provide text alternatives for images
 
-* [Text alternatives for images](guidelines/1.1.1.md): Provide a text description for images. Make sure the description conveys the same message or functionality.
+* [Text alternatives for images](guidelines/1.1.1.md): Provide an alternative text description for images. Make sure the alternative description conveys the same message or functionality.
 
 <!-- Note to reviewer: I'm experimenting with adding this bullet point, in spite of the fact that we want to keep the document as short as possible. Because this is one of the most frequent accessibility mistakes on the web, and a pain to screen reader users as they use the image's file name every time this happens. Also, this requirement is part of the success criterion, but is not included in the bullet point above. -->
 * [Decorative images](guidelines/1.1.1.md): If an image doesn't convey any information, make sure that this is indicated in code.
