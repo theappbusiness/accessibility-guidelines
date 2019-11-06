@@ -155,7 +155,7 @@ Your website/app must make it easy for people to understand information and how 
 
 * [Error suggestions](): When someone makes an error while filling a form, give them suggestions on how to correct it.
 
-* [Error prevention](): If users are making a legal commitment, financial transaction, or updating personal data, give them a way to review and check the information they have entered.
+* [Error prevention (legal, financial, data)](): If users are making a legal commitment, a financial transaction, or updating personal data, give them a way to review and check the information they've entered before submitting it.
 
 ---
 
