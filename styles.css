@@ -502,7 +502,7 @@ kbd {
 
 main, header {
   margin: 0 auto;
-  width: 92ch;
+  max-width: 92ch;
 }
 
 h1 {
@@ -576,7 +576,9 @@ ul {
 }
 ul.badges {
   padding: 0;
-  margin-left: -0.1rem;
+  margin-left: 0.2rem;
+  display: inline-block;
+  margin-top: 0.3rem;
 }
 ul.badges > * {
   margin-left: 0.1rem;
@@ -599,7 +601,6 @@ li.badge, span.badge {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25rem;
-  margin-top: 0.3rem;
 }
 .badge--web-only {
   color: #000;
