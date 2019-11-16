@@ -14,13 +14,13 @@ Your website/app must present information in ways that people can recognise and 
 
 #### Provide text alternatives for images
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Design, Content, Engineering | [Text alternatives for images](guidelines/1.1.1.md): Provide an alternative text description for images. Make sure the alternative description conveys the same message or functionality. |
 
 #### Provide alternatives for audio content, videos and presentations
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Content | [Transcript (for prerecorded audio-only content)](guidelines/1.2.1.md): For audio content that has no video (like a podcast), provide a transcript. |
 | A | Content | [Captions (for prerecorded videos and presentations)](guidelines/1.2.2.md): Provide captions for videos and presentations that are pre-recorded. |
@@ -30,7 +30,7 @@ Your website/app must present information in ways that people can recognise and 
 
 #### Create content that can be presented in different ways
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Design, Engineering | [Structure and relationships](guidelines/1.3.1.md): When designs convey a structure visually (like distinct sections within a page, or a label next to a checkbox) that structure must also be identified in code. |
 | A | Design, Engineering | [Order of elements in code](guidelines/1.3.2.md): Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users. |
@@ -40,7 +40,7 @@ Your website/app must present information in ways that people can recognise and 
 
 #### Make content easy for people to see and hear
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Design | [Use of colour](guidelines/1.4.1.md): Do not use colour as the only way to convey any piece of information. |
 | A | Design | [Audio control](guidelines/1.4.2.md): If any audio content plays automatically for more than three seconds, give people a way to stop it. |
@@ -62,7 +62,7 @@ For example people who don't use a mouse may use their voice, or press the 'Tab'
 
 #### Make all functionality work with a keyboard
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Design, Engineering | [Keyboard](): Make sure every task can be completed using just a keyboard. |
 | A | Design, Engineering | [No keyboard trap](): Make sure that keyboard-only users don't get trapped within any element. |
@@ -70,7 +70,7 @@ For example people who don't use a mouse may use their voice, or press the 'Tab'
 
 #### Make it work with other input methods beyond keyboard
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | AA | Design | [Complex gestures](): Do not require complex gestures or using more than one finger to do things. |
 | AA | Engineering | [Touch or click activation](): Make sure that custom buttons or links do not activate as soon as they are touched, so that users can slide their finger or mouse away to cancel the action. |
@@ -79,7 +79,7 @@ For example people who don't use a mouse may use their voice, or press the 'Tab'
 
 #### Help people navigate and find content
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Design | [Skip to main content](): Give keyboard and screen reader users a way to go directly to the page's main content. [Web only] |
 | A | Design, Engineering | [Page titled](): Give every page a unique and helpful title that indicates the purpose of the page. [Web only] |
@@ -91,14 +91,14 @@ For example people who don't use a mouse may use their voice, or press the 'Tab'
 
 #### Give people enough time to read and use content
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Design | [Timing adjustable](): If there is any time limit (like a session timeout), give people an easy way to extend it. |
 | A | Design | [Visual distractions](): Do not show anything that automatically blinks, scrolls, animates or updates frequently if it lasts more than 5 seconds. Or give people a way to stop it. |
 
 #### Do not cause seizures
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Design, Content | [Flashes](): Do not show anything that flashes more than three times a second. |
 
@@ -110,14 +110,14 @@ Your website/app must make it easy for people to understand information and how 
 
 #### Make text easy to understand
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Content, Engineering | [Language of page](): In code, identify the language that the content of the page is written in (English for example). |
 | AA | Design, Content, Engineering | [Language of parts](): If the page has content in more than one language (for example, if a page in English has a button labelled in Welsh), identify the language of each part in code. |
 
 #### Make things appear and behave in consistent, predictable ways
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Design | [Changes on focus](): Make sure that just navigating to an interactive control with the keyboard doesn't trigger any action, and doesn't move the keyboard focus somewhere else. |
 | A | Design | [Changes on input](): Make sure that just changing the state of a form input (like a checkbox) does not cause anything surprising to happen (like submitting a form, or automatically moving the keyboard focus). |
@@ -126,7 +126,7 @@ Your website/app must make it easy for people to understand information and how 
 
 #### Help people avoid and correct mistakes
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Design | [Error identification](): When someone makes an error while filling a form, describe the error in text and clearly identify where the error is. |
 | A | Design, Engineering | [Form labels and instructions](): Provide labels to make it clear how users should fill a form, and optionally provide extra hints to help them avoid errors. |
@@ -139,7 +139,7 @@ Your website/app must make it easy for people to understand information and how 
 
 Your website/app must work with different web browsers and/or assistive technologies.
 
-| Level | Responsibility | Requirement |
+| Level | Who | Requirement |
 | --- | --- | --- |
 | A | Engineering | [Valid HTML](): Make sure the code of each page does not contain errors that are known to cause conflicts with assistive technologies (such as incorrect nesting of elements or duplicate ids). [Web only] |
 | A | Design, Engineering | [Name, Role and State of interactive controls](): Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in. |
