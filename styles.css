@@ -500,27 +500,38 @@ kbd {
 
 /* Better defaults */
 
-h1, h2, h3 {
+h2 {
+  margin-top: 2rem;
+}
+
+h3 {
   margin-top: 1.4rem;
 }
 
 p, li * {
   font-size: 1.165rem;
 }
+@media screen and (max-width: 55rem) {
+  p, li * {
+    font-size: 1rem;
+  }
+}
 
 p, li {
   max-width: 80ch;
 }
 
-li {
-  margin: 1.4rem 0;
-}
-
 /* Project specific styles */
 
 body {
+  padding: 1rem;
   padding-bottom: 2rem;
   line-height: 1.5;
+}
+@media screen and (max-width: 55rem) {
+  body {
+    padding: 0.5rem;
+  }
 }
 
 a {
@@ -549,8 +560,24 @@ ul {
   list-style: none;
   padding-left: 1.5rem;
 }
+@media screen and (max-width: 55rem) {
+  ul {
+    padding-left: 0.5rem;
+  }
+}
+ul.badges {
+  padding: 0;
+  margin-left: -0.1rem;
+}
+ul.badges > * {
+  margin-left: 0.1rem;
+}
 
-.badge {
+li.guideline {
+  margin: 1.4rem 0;
+}
+
+li.badge {
   display: inline-block;
   padding: .25em .4em;
   font-size: 0.875rem;
@@ -560,13 +587,6 @@ ul {
   vertical-align: baseline;
   border-radius: .25rem;
   margin-top: 0.3rem;
-}
-ul.badges {
-  padding: 0;
-  margin-left: -0.1rem;
-}
-ul.badges > * {
-  margin-left: 0.1rem;
 }
 .badge--web-only {
   color: #000;
