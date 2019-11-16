@@ -1,58 +1,3 @@
-<style>
-  .badge {
-    display: inline-block;
-    padding: .25em .4em;
-    font-size: 75%;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25rem;
-  }
-  .badge--web-only {
-    color: #000;
-    background-color: #FBCA0B;
-  }
-  .badge--web-only::after {
-    content: 'Web only';
-  }
-  .badge--level-A {
-    color: #000;
-    background-color: #bdf298;
-  }
-  .badge--level-A::after {
-    content: 'A-level';
-  }
-  .badge--level-AA {
-    color: #000;
-    background-color: #bdf298;
-  }
-  .badge--level-AA::after {
-    content: 'AA-level';
-  }
-  .badge--design {
-    color: #000;
-    background-color: #a2eeef;
-  }
-  .badge--design::after {
-    content: 'Design';
-  }
-  .badge--content {
-    color: #000;
-    background-color: #e4e669;
-  }
-  .badge--content::after {
-    content: 'Content';
-  }
-  .badge--engineering {
-    color: #000;
-    background-color: #ffc9f8;
-  }
-  .badge--engineering::after {
-    content: 'Engineering';
-  }
-</style>
-
 # Web Content Accessibility Guidelines Summary
 
 This document will help you quickly get up to speed with the [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/) (WCAG), and avoid common accessibility-related mistakes.
@@ -210,3 +155,58 @@ Your website/app must work with different web browsers and/or assistive technolo
 * [Name, Role and State of interactive controls](): Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
 
 * [Status messages](): Make sure status messages are identified in code, so that assistive technologies can convey them to users. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
+
+<style>
+  .badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+  }
+  .badge--web-only {
+    color: #000;
+    background-color: #FBCA0B;
+  }
+  .badge--web-only::after {
+    content: 'Web only';
+  }
+  .badge--level-A {
+    color: #000;
+    background-color: #bdf298;
+  }
+  .badge--level-A::after {
+    content: 'A-level';
+  }
+  .badge--level-AA {
+    color: #000;
+    background-color: #bdf298;
+  }
+  .badge--level-AA::after {
+    content: 'AA-level';
+  }
+  .badge--design {
+    color: #000;
+    background-color: #a2eeef;
+  }
+  .badge--design::after {
+    content: 'Design';
+  }
+  .badge--content {
+    color: #000;
+    background-color: #e4e669;
+  }
+  .badge--content::after {
+    content: 'Content';
+  }
+  .badge--engineering {
+    color: #000;
+    background-color: #ffc9f8;
+  }
+  .badge--engineering::after {
+    content: 'Engineering';
+  }
+</style>
