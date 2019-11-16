@@ -1,59 +1,57 @@
-<head>
-  <style>
-    .badge {
-      display: inline-block;
-      padding: .25em .4em;
-      font-size: 75%;
-      line-height: 1;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: baseline;
-      border-radius: .25rem;
-    }
-    .badge--web-only {
-      color: #000;
-      background-color: #FBCA0B;
-    }
-    .badge--web-only::after {
-      content: 'Web only';
-    }
-    .badge--level-A {
-      color: #000;
-      background-color: #bdf298;
-    }
-    .badge--level-A::after {
-      content: 'A-level';
-    }
-    .badge--level-AA {
-      color: #000;
-      background-color: #bdf298;
-    }
-    .badge--level-AA::after {
-      content: 'AA-level';
-    }
-    .badge--design {
-      color: #000;
-      background-color: #a2eeef;
-    }
-    .badge--design::after {
-      content: 'Design';
-    }
-    .badge--content {
-      color: #000;
-      background-color: #e4e669;
-    }
-    .badge--content::after {
-      content: 'Content';
-    }
-    .badge--engineering {
-      color: #000;
-      background-color: #ffc9f8;
-    }
-    .badge--engineering::after {
-      content: 'Engineering';
-    }
-  </style>
-</head>
+<style>
+  .badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+  }
+  .badge--web-only {
+    color: #000;
+    background-color: #FBCA0B;
+  }
+  .badge--web-only::after {
+    content: 'Web only';
+  }
+  .badge--level-A {
+    color: #000;
+    background-color: #bdf298;
+  }
+  .badge--level-A::after {
+    content: 'A-level';
+  }
+  .badge--level-AA {
+    color: #000;
+    background-color: #bdf298;
+  }
+  .badge--level-AA::after {
+    content: 'AA-level';
+  }
+  .badge--design {
+    color: #000;
+    background-color: #a2eeef;
+  }
+  .badge--design::after {
+    content: 'Design';
+  }
+  .badge--content {
+    color: #000;
+    background-color: #e4e669;
+  }
+  .badge--content::after {
+    content: 'Content';
+  }
+  .badge--engineering {
+    color: #000;
+    background-color: #ffc9f8;
+  }
+  .badge--engineering::after {
+    content: 'Engineering';
+  }
+</style>
 
 # Web Content Accessibility Guidelines Summary
 
