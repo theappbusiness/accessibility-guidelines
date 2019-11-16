@@ -559,7 +559,14 @@ ul {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25rem;
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
+}
+ul.badges {
+  padding: 0;
+  margin-left: -0.1rem;
+}
+ul.badges > * {
+  margin-left: 0.1rem;
 }
 .badge--web-only {
   color: #000;
