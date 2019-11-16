@@ -577,6 +577,10 @@ li.guideline {
   margin: 1.4rem 0;
 }
 
+li.guideline > a {
+  font-size: 1.2em;
+}
+
 li.badge {
   display: inline-block;
   padding: .25em .4em;
