@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Web Content Accessibility Guidelines Summary</title>
+    <title>Accessibility Guidelines Summary</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./styles.css">
   </head>
 
   <body>
-    <h1>Web Content Accessibility Guidelines Summary</h1>
+    <h1>Accessibility Guidelines Summary</h1>
 
-    <p>This document will help you quickly get up to speed with the <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines 2.1</a>, and avoid common accessibility-related mistakes. It covers all A- and AA-level requirements.</p>
+    <p>
+      This document will help you quickly get up to speed with the <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines 2.1</a>, and avoid common accessibility mistakes.
+      It covers <span class="badge badge--level-A"></span> and <span class="badge badge--level-AA"></span> requirements.
+    </p>
 
-    <p>This summary is a simplification. If you're not sure how to meet a requirement, check the official <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines 2.1</a>.</p>
+    <p>All guidelines, except three, apply to native apps as well as websites and web apps. The three exceptions are marked <span class="badge badge--web-only"></span>.</p>
 
-    <section id="principle_1_header">
+    <p>This summary is a simplification. If you're not sure whether a guideline applies, check the <a href="https://www.w3.org/TR/WCAG21/">official W3C document</a>.</p>
+
+
+    <section aria-labelledby="principle_1_header">
       <h2 id="principle_1_header">1. Easy to perceive</h2>
 
       <p>Your website/app must present information in ways that people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like screen readers).</p>
@@ -76,13 +82,437 @@
           <span class="badge badge--content"></span>
         </li>
 
-        <h3>Create content that can be presented in different ways</h3>
+      </ul>
 
+      <h3>Create content that can be presented in different ways</h3>
+
+      <ul>
         <li>
           <a href="./guidelines/1.3.1.html">Structure and relationships</a>.
           When designs convey a structure visually (like distinct sections within a page, or a label next to a checkbox) that structure must also be identified in code.
           <br/>
           <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="./guidelines/1.3.2.html">Order of elements in code</a>.
+          Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="./guidelines/1.3.3.html">Instructions don't rely on sensory characteristics</a>.
+          When giving guidance or instructions, don't assume that users can perceive colour, size, shape, sound or the location of elements on screen.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="./guidelines/1.3.4.html">Orientation</a>.
+          Make sure a page's view is not locked to either portrait or landscape mode, unless this is essential.
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="./guidelines/1.3.5.html">Purpose of text fields</a>.
+          If a text input field collects information about the user, identify its specific purpose in code (e.g. email, password, street address).
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+      </ul>
+
+      <h3>Make content easy for people to see and hear</h3>
+
+      <ul>
+          <li>
+            <a href="./guidelines/1.4.1.html">Use of colour</a>.
+            Do not use colour as the only way to convey any piece of information.
+            <br/>
+            <span class="badge badge--level-A"></span>
+            <span class="badge badge--design"></span>
+          </li>
+
+          <li>
+            <a href="./guidelines/1.4.2.html">Audio control</a>.
+            If any audio content plays automatically for more than three seconds, give people a way to stop it.
+            <br/>
+            <span class="badge badge--level-A"></span>
+            <span class="badge badge--design"></span>
+          </li>
+
+          <li>
+            <a href="./guidelines/1.4.3.html">Text contrast</a>.
+            Make sure that text has enough contrast against the background colour.
+            <span class="badge badge--level-AA"></span>
+            <span class="badge badge--design"></span>
+          </li>
+
+          <li>
+            <a href="./guidelines/1.4.11.html">Non-text contrast</a>.
+            Make sure that visual information that identifies important graphics, interactive controls and their state has enough contrast against adjacent colours.
+            <br/>
+            <span class="badge badge--level-AA"></span>
+            <span class="badge badge--design"></span>
+          </li>
+
+          <li>
+            <a href="./guidelines/1.4.4.html">Resize text</a>.
+            Make sure it is possible to complete all tasks when text is resized up to 200%.
+            <br/>
+            <span class="badge badge--level-AA"></span>
+            <span class="badge badge--design"></span>
+            <span class="badge badge--engineering"></span>
+          </li>
+
+          <li>
+            <a href="./guidelines/1.4.10.html">Reflow</a>.
+            Make sure users can access all information and functionality on a screen that's as wide as on the iPhone5, without needing to scroll in both directions.
+            <br/>
+            <span class="badge badge--level-AA"></span>
+            <span class="badge badge--design"></span>
+            <span class="badge badge--engineering"></span>
+          </li>
+
+          <li>
+            <a href="./guidelines/1.4.12.html">Text spacing</a>.
+            Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
+            <br/>
+            <span class="badge badge--level-AA"></span>
+            <span class="badge badge--design"></span>
+            <span class="badge badge--engineering"></span>
+          </li>
+
+          <li>
+            <a href="./guidelines/1.4.5.html">Images of text</a>.
+            Use real text rather than images of text.
+            <br/>
+            <span class="badge badge--level-AA"></span>
+            <span class="badge badge--engineering"></span>
+          </li>
+
+          <li>
+            <a href="./guidelines/1.4.13.html">Extra content on hover or focus</a>.
+            If content (like a tooltip) appears when users hover over an element with their mouse (or tab to it with their keyboard), it must be easy to dismiss, easy to reach and remain visible.
+            <br/>
+            <span class="badge badge--level-AA"></span>
+            <span class="badge badge--design"></span>
+            <span class="badge badge--engineering"></span>
+          </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="principle_2_header">
+      <h2 id="principle_2_header">2. Easy to operate</h2>
+
+      <p>Your website/app must be easy to navigate and use, no matter how someone interacts with it.</p>
+
+      <p>For example people who don't use a mouse may use their voice, or press the 'Tab' key to move their keyboard's focus to interactive controls.</p>
+
+      <h3>Make all functionality work with a keyboard</h3>
+
+      <ul>
+        <li>
+          <a href="">Keyboard</a>.
+          Make sure every task can be completed using just a keyboard.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">No keyboard trap</a>.
+          Make sure that keyboard-only users don't get trapped within any element.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Keyboard shortcuts</a>
+          If you've added custom keyboard shortcuts, provide a way to switch off or remap these shortcuts.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+        </li>
+      </ul>
+
+      <h3>Give people enough time to read and use content</h3>
+
+      <ul>
+        <li>
+          <a href="">Timing adjustable</a>.
+          If there is any time limit (like a session timeout), give people an easy way to extend it.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="">Visual distractions</a>.
+          Do not show anything that automatically blinks, scrolls, animates or updates frequently if it lasts more than 5 seconds. Or give people a way to stop it.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+        </li>
+      </ul>
+
+      <h3>Do not cause seizures</h3>
+
+      <ul>
+        <li>
+          <a href="">Flashes</a>.
+          Do not show anything that flashes more than three times a second.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--content"></span>
+        </li>
+      </ul>
+
+      <h3>Help people navigate and find content</h3>
+
+      <ul>
+        <li>
+          <a href="">Skip to main content</a>.
+          Give keyboard and screen reader users a way to go directly to the page's main content.
+          <span class="badge badge--web-only"></span>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="">Page titled</a>.
+          Give every page a unique and helpful title that indicates the purpose of the page.
+          <br/>
+          <span class="badge badge--web-only"></span>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Focus order</a>.
+          Make sure that interactive controls receive focus in an order that makes sense, when users navigate through them with the keyboard.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Link purpose</a>.
+          Make sure the purpose of every link is clear from the link text alone, or together with associated content (if screen readers recognise the association).
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Multiple ways to find a page</a>.
+          Give people different ways of finding each page (like searching or browsing links), unless the page is a step in a process.
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="">Focus visible</a>.
+          Make sure that keyboard-only users can clearly see which interactive control is focused when they tab through them.
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Heading and labels</a>.
+          Provide headings and form labels that help people find content and complete tasks.
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+        </li>
+      </ul>
+
+      <h3>Make it work with other input methods beyond keyboard</h3>
+
+      <ul>
+        <li>
+          <a href="">Complex gestures</a>.
+          Do not require complex gestures or using more than one finger to do things.
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="">Touch or click activation</a>.
+          Make sure that custom buttons or links do not activate as soon as they are touched, so that users can slide their finger or mouse away to cancel the action.
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Label in name</a>.
+          When an interactive control has a name on screen, make sure that assistive technologies (like Voice Control) know it by the same name (or a name that includes the name on screen).
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Device motion</a>.
+          If a feature uses the device's motion (like shaking or tilting), make sure that responses to these motions can be turned off, and that the feature can be used in another way.
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="principle_3_heading">
+      <h2 id="principle_3_heading">3. Easy to understand</h2>
+
+      <p>Your website/app must make it easy for people to understand information and how to complete tasks.</p>
+
+      <h3>Make text easy to understand</h3>
+
+      <ul>
+        <li>
+          <a href="">Language of page</a>.
+          In code, identify the language that the content of the page is written in (English for example).
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--content"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Language of parts</a>.
+          If the page has content in more than one language (for example, if a page in English has a button labelled in Welsh), identify the language of each part in code.
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--content"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+      </ul>
+
+      <h3>Make things appear and behave in consistent, predictable ways</h3>
+
+      <ul>
+        <li>
+          <a href="">Changes on focus</a>.
+          Make sure that just navigating to an interactive control with the keyboard doesn't trigger any action, and doesn't move the keyboard focus somewhere else.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="">Changes on input</a>.
+          Make sure that just changing the state of a form input (like a checkbox) does not cause anything surprising to happen (like submitting a form, or automatically moving the keyboard focus).
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="">Consistent navigation</a>.
+          Make sure that navigation controls that appear on multiple pages (like links in a header) look and behave consistently.
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="">Consistent feature names</a>.
+          If a user interface component exists on multiple pages, make sure that the way it looks and the way it is named is consistent across pages.
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+        </li>
+      </ul>
+
+      <h3>Help people avoid and correct mistakes</h3>
+
+      <ul>
+        <li>
+          <a href="">Error identification</a>.
+          When someone makes an error while filling a form, describe the error in text and clearly identify where the error is.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="">Form labels and instructions</a>.
+          Provide labels to make it clear how users should fill a form, and optionally provide extra hints to help them avoid errors.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Error suggestions</a>.
+          When someone makes an error while filling a form, give them suggestions on how to correct it.
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+        </li>
+
+        <li>
+          <a href="">Error prevention (legal, financial, data)</a>.
+          If users are making a legal commitment, a financial transaction, or updating personal data, give them a way to review and check the information they've entered before submitting it.
+          <br/>
+          <span class="badge badge--level-AA"></span>
+          <span class="badge badge--design"></span>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="principle_4_heading">
+      <h2 id="principle_4_heading">Robust and compatible</h2>
+
+      <p>Your website/app must work with different web browsers and/or assistive technologies.</p>
+
+      <ul>
+        <li>
+          <a href="">Valid HTML</a>.
+          Make sure the code of each page does not contain errors that are known to cause conflicts with assistive technologies (such as incorrect nesting of elements or duplicate ids).
+          <br/>
+          <span class="badge badge--web-only"></span>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Name, Role and State of interactive controls</a>.
+          Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in.
+          <br/>
+          <span class="badge badge--level-A"></span>
+          <span class="badge badge--design"></span>
+          <span class="badge badge--engineering"></span>
+        </li>
+
+        <li>
+          <a href="">Status messages</a>.
+          Make sure status messages are identified in code, so that assistive technologies can convey them to users.
+          <br/>
+          <span class="badge badge--level-AA"></span>
           <span class="badge badge--design"></span>
           <span class="badge badge--engineering"></span>
         </li>

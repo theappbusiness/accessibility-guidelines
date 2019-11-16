@@ -10,7 +10,7 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #333;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -210,14 +210,6 @@ pre {
 
 .octicon-link:before {
   content: '\f05c';
-}
-
-.markdown-body>*:first-child {
-  margin-top: 0 !important;
-}
-
-.markdown-body>*:last-child {
-  margin-bottom: 0 !important;
 }
 
 a:not(:link):not(:visited) {
@@ -678,6 +670,10 @@ li:not(:first-of-type) {
 
 /* Project specific styles */
 
+body {
+  padding-bottom: 2rem;
+}
+
 .badge {
   display: inline-block;
   padding: .25em .4em;
@@ -690,42 +686,44 @@ li:not(:first-of-type) {
 }
 .badge--web-only {
   color: #000;
-  background-color: #FBCA0B;
+  background-color: #eee;
 }
 .badge--web-only::after {
   content: 'Web only';
 }
 .badge--level-A {
   color: #000;
-  background-color: #bdf298;
+  background-color: #eee;
 }
 .badge--level-A::after {
-  content: 'A-level';
+  content: 'Level A';
 }
 .badge--level-AA {
   color: #000;
-  background-color: #bdf298;
+  /* background-color: #FBCA0B; */
+  /* background-color: #f9db65; */
+  background-color: #eee;
 }
 .badge--level-AA::after {
-  content: 'AA-level';
+  content: 'Level AA';
 }
 .badge--design {
   color: #000;
-  background-color: #a2eeef;
+  background-color: #ffc9f8;
 }
 .badge--design::after {
   content: 'Design';
 }
 .badge--content {
   color: #000;
-  background-color: #e4e669;
+  background-color: #bdf298;
 }
 .badge--content::after {
   content: 'Content';
 }
 .badge--engineering {
   color: #000;
-  background-color: #ffc9f8;
+  background-color: #a2eeef;
 }
 .badge--engineering::after {
   content: 'Engineering';
