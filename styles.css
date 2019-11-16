@@ -500,9 +500,13 @@ kbd {
 
 /* Better defaults */
 
-main {
+main, header {
   margin: 0 auto;
   width: 92ch;
+}
+
+h1 {
+  margin-top: 3rem;
 }
 
 h2 {
@@ -567,7 +571,7 @@ ul {
 }
 @media screen and (max-width: 55rem) {
   ul {
-    padding-left: 0.5rem;
+    padding-left: 0rem;
   }
 }
 ul.badges {
