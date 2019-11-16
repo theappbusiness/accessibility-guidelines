@@ -14,9 +14,7 @@ Your website/app must present information in ways that people can recognise and 
 
 #### Provide text alternatives for images
 
-* [Text alternative for images](guidelines/1.1.1.md): Provide an alternative text description for images. Make sure the description conveys the same message or functionality.
-
-* [Decorative images](guidelines/1.1.1.md): If an image doesn't convey any information, make sure that this is indicated in code.
+* [Text alternative for images](guidelines/1.1.1.md): Provide an alternative text description for images, that conveys the same message as the image. If an image is purely decorative, make sure that this is indicated in code so that screen readers can ignore it.
 
 #### Provide alternatives for audio content, videos and presentations
 
