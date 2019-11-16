@@ -500,6 +500,11 @@ kbd {
 
 /* Better defaults */
 
+main {
+  margin: 0 auto;
+  width: 92ch;
+}
+
 h2 {
   margin-top: 2rem;
 }
@@ -581,7 +586,7 @@ li.guideline > a {
   font-size: 1.2em;
 }
 
-li.badge {
+li.badge, span.badge {
   display: inline-block;
   padding: .25em .4em;
   font-size: 0.875rem;
