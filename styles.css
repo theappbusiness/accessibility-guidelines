@@ -13,17 +13,7 @@ body {
   /* overflow: hidden; */
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
   font-size: 16px;
-  line-height: 1.6;
   word-wrap: break-word;
-}
-
-a {
-  background: transparent;
-}
-
-a:active,
-a:hover {
-  outline: 0;
 }
 
 strong {
@@ -92,16 +82,6 @@ input {
   font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-a {
-  color: #4183c4;
-  text-decoration: none;
-}
-
-a:hover,
-a:active {
-  text-decoration: underline;
-}
-
 hr {
   height: 0;
   margin: 15px 0;
@@ -134,27 +114,27 @@ h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 h2 {
-  font-size: 21px;
+  font-size: 1.3125rem;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 h5 {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 h6 {
-  font-size: 11px;
+  font-size: 0.70rem;
 }
 
 blockquote {
@@ -350,11 +330,6 @@ hr {
   border: 0 none;
 }
 
-ul,
-ol {
-  padding-left: 2em;
-}
-
 ul ul,
 ul ol,
 ol ol,
@@ -510,135 +485,6 @@ kbd {
   box-shadow: inset 0 -1px 0 #bbb;
 }
 
-.pl-c {
-  color: #969896;
-}
-
-.pl-c1,
-.pl-mdh,
-.pl-mm,
-.pl-mp,
-.pl-mr,
-.pl-s1 .pl-v,
-.pl-s3,
-.pl-sc,
-.pl-sv {
-  color: #0086b3;
-}
-
-.pl-e,
-.pl-en {
-  color: #795da3;
-}
-
-.pl-s1 .pl-s2,
-.pl-smi,
-.pl-smp,
-.pl-stj,
-.pl-vo,
-.pl-vpf {
-  color: #333;
-}
-
-.pl-ent {
-  color: #63a35c;
-}
-
-.pl-k,
-.pl-s,
-.pl-st {
-  color: #a71d5d;
-}
-
-.pl-pds,
-.pl-s1,
-.pl-s1 .pl-pse .pl-s2,
-.pl-sr,
-.pl-sr .pl-cce,
-.pl-sr .pl-sra,
-.pl-sr .pl-sre,
-.pl-src {
-  color: #183691;
-}
-
-.pl-v {
-  color: #ed6a43;
-}
-
-.pl-id {
-  color: #b52a1d;
-}
-
-.pl-ii {
-  background-color: #b52a1d;
-  color: #f8f8f8;
-}
-
-.pl-sr .pl-cce {
-  color: #63a35c;
-  font-weight: bold;
-}
-
-.pl-ml {
-  color: #693a17;
-}
-
-.pl-mh,
-.pl-mh .pl-en,
-.pl-ms {
-  color: #1d3e81;
-  font-weight: bold;
-}
-
-.pl-mq {
-  color: #008080;
-}
-
-.pl-mi {
-  color: #333;
-  font-style: italic;
-}
-
-.pl-mb {
-  color: #333;
-  font-weight: bold;
-}
-
-.pl-md,
-.pl-mdhf {
-  background-color: #ffecec;
-  color: #bd2c00;
-}
-
-.pl-mdht,
-.pl-mi1 {
-  background-color: #eaffea;
-  color: #55a532;
-}
-
-.pl-mdr {
-  color: #795da3;
-  font-weight: bold;
-}
-
-.pl-mo {
-  color: #1d3e81;
-}
-
-kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb;
-}
-
 .task-list-item {
   list-style-type: none;
 }
@@ -652,26 +498,56 @@ kbd {
   vertical-align: middle;
 }
 
-:checked+.radio-label {
-  z-index: 1;
-  position: relative;
-  border-color: #4183c4;
+/* Better defaults */
+
+h1, h2, h3 {
+  margin-top: 1.4rem;
 }
 
-/* Better defaults */
+p, li * {
+  font-size: 1.165rem;
+}
 
 p, li {
   max-width: 80ch;
 }
 
-li:not(:first-of-type) {
-  margin-top: 1rem;
+li {
+  margin: 1.4rem 0;
 }
 
 /* Project specific styles */
 
 body {
   padding-bottom: 2rem;
+  line-height: 1.5;
+}
+
+a {
+  color: rgb(0, 122, 255);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a[href] {
+  box-shadow: 0 2px 0 0 currentColor;
+  box-shadow: 0 3px 0 0 currentColor;
+}
+
+a[href]:hover {
+  text-decoration: none;
+  color: #209dab;
+}
+
+a[href]:focus {
+  box-shadow: none;
+  outline: 4px solid currentColor;
+  outline-offset: 0.3rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1.5rem;
 }
 
 .badge {
@@ -683,6 +559,7 @@ body {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25rem;
+  margin-top: 0.5rem;
 }
 .badge--web-only {
   color: #000;
@@ -700,8 +577,6 @@ body {
 }
 .badge--level-AA {
   color: #000;
-  /* background-color: #FBCA0B; */
-  /* background-color: #f9db65; */
   background-color: #eee;
 }
 .badge--level-AA::after {
