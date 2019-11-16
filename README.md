@@ -1,64 +1,43 @@
-# Web Content Accessibility Guidelines Summary
 
-This document will help you quickly get up to speed with the [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/) (WCAG), and avoid common accessibility-related mistakes.
+* []():  
 
-Click on each guideline to see details and code examples.
+* []():  
 
-This summary is a simplification. If you're not sure how to meet a requirement, check the official [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/).
+* []():  
 
----
+* []():  
 
-### 1. Easy to perceive
+#### 
 
-Your website/app must present information in ways that people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like a screen reader).
+* []():  
 
-#### Provide text alternatives for images
+* [Order of elements in code](./guidelines/1.3.2.html): Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
 
-* [Text alternatives for images](guidelines/1.1.1.md): Provide an alternative text description for images. Make sure the alternative description conveys the same message or functionality. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span> <span class="badge badge--content"></span> <span class="badge badge--engineering"></span>
+* [Instructions don't rely on sensory characteristics](./guidelines/1.3.3.html): When giving guidance or instructions, don't assume that users can perceive colour, size, shape, sound or the location of elements on screen. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span>
 
-#### Provide alternatives for audio content, videos and presentations
+* [Orientation](./guidelines/1.3.4.html): Make sure a page's view is not locked to either portrait or landscape mode, unless this is essential. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
 
-* [Transcript (for prerecorded audio-only content)](guidelines/1.2.1.md): For audio content that has no video (like a podcast), provide a transcript. <span class="badge badge--level-A"></span> <span class="badge badge--content"></span>
-
-* [Captions (for prerecorded videos and presentations)](guidelines/1.2.2.md): Provide captions for videos and presentations that are pre-recorded. <span class="badge badge--level-A"></span> <span class="badge badge--content"></span>
-
-* [Text or audio description (for prerecorded videos and presentations)](guidelines/1.2.3.md): For videos and presentations that are pre-recorded, provide an equivalent text description, or an audio description of what happens on screen. <span class="badge badge--level-A"></span> <span class="badge badge--content"></span>
-
-* [Captions (for live videos and presentations)](guidelines/1.2.2.md): Provide captions for videos and presentations that are performed live. <span class="badge badge--level-AA"></span> <span class="badge badge--content"></span>
-
-* [Audio description (for prerecorded videos and presentations)](guidelines/1.2.4.md): For videos and presentations that are pre-recorded, provide an audio description of what happens on screen, even if you've already provided a text description. <span class="badge badge--level-AA"></span> <span class="badge badge--content"></span>
-
-#### Create content that can be presented in different ways
-
-* [Structure and relationships](guidelines/1.3.1.md): When designs convey a structure visually (like distinct sections within a page, or a label next to a checkbox) that structure must also be identified in code. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
-
-* [Order of elements in code](guidelines/1.3.2.md): Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
-
-* [Instructions don't rely on sensory characteristics](guidelines/1.3.3.md): When giving guidance or instructions, don't assume that users can perceive colour, size, shape, sound or the location of elements on screen. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span>
-
-* [Orientation](guidelines/1.3.4.md): Make sure a page's view is not locked to either portrait or landscape mode, unless this is essential. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
-
-* [Purpose of text fields](guidelines/1.3.5.md): If a text input field collects information about the user, identify its specific purpose in code (e.g. email, password, street address). <span class="badge badge--level-AA"></span> <span class="badge badge--engineering"></span>
+* [Purpose of text fields](./guidelines/1.3.5.html): If a text input field collects information about the user, identify its specific purpose in code (e.g. email, password, street address). <span class="badge badge--level-AA"></span> <span class="badge badge--engineering"></span>
 
 #### Make content easy for people to see and hear
 
-* [Use of colour](guidelines/1.4.1.md): Do not use colour as the only way to convey any piece of information. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span>
+* [Use of colour](./guidelines/1.4.1.html): Do not use colour as the only way to convey any piece of information. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span>
 
-* [Audio control](guidelines/1.4.2.md): If any audio content plays automatically for more than three seconds, give people a way to stop it. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span>
+* [Audio control](./guidelines/1.4.2.html): If any audio content plays automatically for more than three seconds, give people a way to stop it. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span>
 
-* [Text contrast](guidelines/1.4.3.md): Make sure that text has enough contrast against the background colour. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span>
+* [Text contrast](./guidelines/1.4.3.html): Make sure that text has enough contrast against the background colour. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span>
 
-* [Non-text contrast](guidelines/1.4.11.md): Make sure that visual information that identifies important graphics, interactive controls and their state has enough contrast against adjacent colours. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span>
+* [Non-text contrast](./guidelines/1.4.11.html): Make sure that visual information that identifies important graphics, interactive controls and their state has enough contrast against adjacent colours. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span>
 
-* [Resize text](guidelines/1.4.4.md): Make sure it is possible to complete all tasks when text is resized up to 200%. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
+* [Resize text](./guidelines/1.4.4.html): Make sure it is possible to complete all tasks when text is resized up to 200%. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
 
-* [Reflow](guidelines/1.4.10.md): Make sure users can access all information and functionality on a screen that's as wide as on the iPhone5, without needing to scroll in both directions. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
+* [Reflow](./guidelines/1.4.10.html): Make sure users can access all information and functionality on a screen that's as wide as on the iPhone5, without needing to scroll in both directions. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
 
-* [Text spacing](guidelines/1.4.12.md): Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
+* [Text spacing](./guidelines/1.4.12.html): Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
 
-* [Images of text](guidelines/1.4.5.md): Use real text rather than images of text. <span class="badge badge--level-AA"></span> <span class="badge badge--engineering"></span>
+* [Images of text](./guidelines/1.4.5.html): Use real text rather than images of text. <span class="badge badge--level-AA"></span> <span class="badge badge--engineering"></span>
 
-* [Extra content on hover or focus](guidelines/1.4.13.md): If content (like a tooltip) appears when users hover over an element with their mouse (or tab to it with their keyboard), it must be easy to dismiss, easy to reach and remain visible. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
+* [Extra content on hover or focus](./guidelines/1.4.13.html): If content (like a tooltip) appears when users hover over an element with their mouse (or tab to it with their keyboard), it must be easy to dismiss, easy to reach and remain visible. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
 
 ---
 
@@ -155,58 +134,3 @@ Your website/app must work with different web browsers and/or assistive technolo
 * [Name, Role and State of interactive controls](): Make sure the code of each page enables assistive technologies to discover the purpose of every feature, the way that feature is identified, and the state it is currently in. <span class="badge badge--level-A"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
 
 * [Status messages](): Make sure status messages are identified in code, so that assistive technologies can convey them to users. <span class="badge badge--level-AA"></span> <span class="badge badge--design"></span> <span class="badge badge--engineering"></span>
-
-<style>
-  .badge {
-    display: inline-block;
-    padding: .25em .4em;
-    font-size: 75%;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25rem;
-  }
-  .badge--web-only {
-    color: #000;
-    background-color: #FBCA0B;
-  }
-  .badge--web-only::after {
-    content: 'Web only';
-  }
-  .badge--level-A {
-    color: #000;
-    background-color: #bdf298;
-  }
-  .badge--level-A::after {
-    content: 'A-level';
-  }
-  .badge--level-AA {
-    color: #000;
-    background-color: #bdf298;
-  }
-  .badge--level-AA::after {
-    content: 'AA-level';
-  }
-  .badge--design {
-    color: #000;
-    background-color: #a2eeef;
-  }
-  .badge--design::after {
-    content: 'Design';
-  }
-  .badge--content {
-    color: #000;
-    background-color: #e4e669;
-  }
-  .badge--content::after {
-    content: 'Content';
-  }
-  .badge--engineering {
-    color: #000;
-    background-color: #ffc9f8;
-  }
-  .badge--engineering::after {
-    content: 'Engineering';
-  }
-</style>
