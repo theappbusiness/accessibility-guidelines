@@ -562,7 +562,7 @@ a[href]:hover {
 a[href]:focus {
   box-shadow: none;
   outline: 4px solid currentColor;
-  outline-offset: 0.3rem;
+  outline-offset: 0.16rem;
 }
 
 ul {
@@ -654,4 +654,8 @@ li.badge, span.badge {
   position: absolute;
   white-space: nowrap; 
   width: 1px;
+}
+
+.\!font-weight-400 {
+  font-weight: 400 !important;
 }
