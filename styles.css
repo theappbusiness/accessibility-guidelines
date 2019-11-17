@@ -514,7 +514,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 1.4rem;
+  margin-top: 1.5rem;
 }
 
 p, li * {
@@ -556,7 +556,7 @@ a[href] {
 
 a[href]:hover {
   text-decoration: none;
-  color: #209dab;
+  color: #1d838e;
 }
 
 a[href]:focus {
