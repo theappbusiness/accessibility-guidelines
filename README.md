@@ -2,4 +2,4 @@
 
 [See the guidelines](https://theappbusiness.github.io/accessibility-guidelines/)
 
-This document is in **beta**. Please help by reporting issues via Github or [email](mailto:jeanfrancois@theappbusiness.com), or contributing content.
+**This document is in beta**. Please help by reporting issues via Github or [email](mailto:jeanfrancois@theappbusiness.com), or contributing content.
