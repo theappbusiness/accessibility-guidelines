@@ -24,9 +24,9 @@ For example:
 * In a 'Submit' button, the text 'Submit' provides the name of the button.
 * The name of a button represented by a magnifying glass icon might be 'Search'. In this example, the word 'Search' name might not be visible on the screen, but the button still needs a name. That name can be set in code (using `aria-label` for the Web, or `accessibilityLabel` on iOS, for example).
 
-#### How interactive UI components get given an 'Accessible Name'
+#### Where does the 'Accessible Name' of a UI components come from?
 
-An interactive element might be given its Accessibility Name automatically from:
-1. **its content** (like in the 'Submit' button example above)
-2. **a visible label** it is associated with in code (in HTML this might be by associating an `input` element with a `label` element, or by using `aria-labelledby`)
-3. **a property** set in code (like `aria-label="Search"` for the Web or `textField.accessibilityLabel = "First Name"` for iOS).
+An interactive UI component might be given an Accessibility Name in a number of ways:
+1. **from its content** (like in the 'Submit' button example above)
+2. **from a visible label** it is associated with in code (in HTML this might be by associating an `input` element with a `label` element, or by using `aria-labelledby`)
+3. **from a property** set in code (like `aria-label="Search"` for the Web or `textField.accessibilityLabel = "First Name"` for iOS).
