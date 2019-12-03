@@ -552,6 +552,10 @@ a[href] {
   box-shadow: 0 1.5px 0 0 currentColor;
 }
 
+main a[href] {
+  font-weight: 500;
+}
+
 a[href]:hover {
   text-decoration: none;
   color: #23828b;
