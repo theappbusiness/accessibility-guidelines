@@ -544,24 +544,22 @@ body {
 }
 
 a {
-  color: rgb(0, 122, 255);
-  text-decoration: none;
-  font-weight: 700;
+  color: #0070f0;
 }
 
 a[href] {
-  box-shadow: 0 2px 0 0 currentColor;
-  box-shadow: 0 3px 0 0 currentColor;
+  text-decoration: none;
+  box-shadow: 0 1.5px 0 0 currentColor;
 }
 
 a[href]:hover {
   text-decoration: none;
-  color: #1d838e;
+  color: #23828b;
 }
 
 a[href]:focus {
   box-shadow: none;
-  outline: 4px solid currentColor;
+  outline: 3px solid currentColor;
   outline-offset: 0.16rem;
 }
 
