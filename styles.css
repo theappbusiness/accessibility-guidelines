@@ -606,43 +606,21 @@ li.badge, span.badge {
   color: #000;
   background-color: #eee;
 }
-.badge--web-only::after {
-  content: 'Web only';
-}
-.badge--level-A {
+.badge--level {
   color: #000;
   background-color: #eee;
-}
-.badge--level-A::after {
-  content: 'Level A';
-}
-.badge--level-AA {
-  color: #000;
-  background-color: #eee;
-}
-.badge--level-AA::after {
-  content: 'Level AA';
 }
 .badge--design {
   color: #000;
   background-color: #ffc9f8;
 }
-.badge--design::after {
-  content: 'Design';
-}
 .badge--content {
   color: #000;
   background-color: #bdf298;
 }
-.badge--content::after {
-  content: 'Content';
-}
-.badge--engineering {
+.badge--code {
   color: #000;
   background-color: #a2eeef;
-}
-.badge--engineering::after {
-  content: 'Engineering';
 }
 
 /* Utility classes */
