@@ -580,6 +580,7 @@ ul.badges {
   padding: 0;
   display: inline-block;
   margin-top: 0.3rem;
+  -webkit-print-color-adjust: exact;
 }
 ul.badges > * {
   margin-left: 0.1rem;
