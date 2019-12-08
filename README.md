@@ -1,4 +1,4 @@
-# Plain language summary of the Web Content Accessibility Guidelines, with guidance for design and development across Web, iOS and Android
+# Plain language summary of the Web Content Accessibility Guidelines, with guidance for design and development (Web, iOS and Android)
 
 [See the guidelines](https://theappbusiness.github.io/accessibility-guidelines/)
 
