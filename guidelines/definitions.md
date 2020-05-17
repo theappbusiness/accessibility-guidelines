@@ -23,7 +23,7 @@ That name is called the 'Accessible Name'. (In the official Web Content Accessib
 For example:
 
 - In a 'Submit' button, the text 'Submit' provides the name of the button.
-- The name of a button represented by a magnifying glass icon might be 'Search'. In this example, the word 'Search' name might not be visible on the screen, but the button still needs a name. That name can be set in code (using `aria-label` for the Web, or `accessibilityLabel` on iOS, for example).
+- The name of a button represented by a magnifying glass icon might be 'Search'. In this example, the word 'Search' name might not be visible on the screen, but the button still needs a name. That name can be set in code (using `aria-label` for example).
 
 #### Where does the 'Accessible Name' of a UI components come from?
 
@@ -31,4 +31,4 @@ An interactive UI component might be given an Accessibility Name in a number of 
 
 1. **from its content** (like in the 'Submit' button example above)
 2. **from a visible label** it is associated with in code (in HTML this might be by associating an `input` element with a `label` element, or by using `aria-labelledby`)
-3. **from a property** set in code (like `aria-label="Search"` for the Web or `textField.accessibilityLabel = "First Name"` for iOS).
+3. **from a property** set in code (like `aria-label="Search"`).
