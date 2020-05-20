@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Text alternative for images – Simple Web Accessibility Guidelines
+    </title>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <link rel="stylesheet" href="./../styles.css" >
+    <script defer src="../scripts.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <p>
+        This document is in beta. Help us by
+        <a href="https://github.com/jfhector/accessibility-guidelines"
+          ><span id="reporting_issues">reporting issues via</span> Github</a
+        >
+        or
+        <a
+          id="via_email"
+          aria-labelledby="reporting_issues via_email"
+          href="mailto:jeanfrancois.hector@googlemail.com"
+          >email</a
+        >.
+      </p>
+    </header>
+  </body>
+
+  <main>
+    <h1>Text alternative for images</h1>
+
+    <section class="page_section" aria-labelledby="in_a_nutshell">
+        <h2 id="in_a_nutshell">In a nutshell ...</h2>
+    
+        <strong>Provide alternative text for images.<br >Make sure it conveys the same message.</strong>
+    
+        <p>
+            <p>Every image must ...</p>
+    
+            <ul>
+                <li>
+                    <p>
+                        ... have a text equivalent that serves the same purpose,<br>
+                        if it conveys information or a functionality.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        ... or be silenced,<br>
+                        if it doesn't convey any information,<br>
+                        or if the information it conveys is always available in text.
+                    </p>
+                </li>
+    
+            </ul>
+        </p>
+    
+        <h3>This is so that ...</h3>
+    
+        <ul>
+            <li>People who use screen readers can perceive information conveyed via images.</li>
+            <li>People who use speech input software can trigger buttons and links that include icons.</li>
+        </ul>
+    </section>
+
+    <section class="page_section" aria-labelledby="on_this_page">
+        <h2 id="on_this_page">On this page:</h2>
+    
+        <ul>
+            <li><a href="#images_that_convey_information">1. Images that convey information</a></li>
+            <li><a href="#images_that_convey_functionality">2. Images that convey functionality</a></li>
+            <li><a href="#images_that_are_purely_decorative_or_redundant">3. Images that are purely decorative or redundant</a></li>
+            <li><a href="#complex_images">4. Complex images</a></li>
+            <li><a href="#common_mistakes"><span aria-hidden="true">😅&nbsp;</span>Common mistakes</a></li>
+            <li><a href="#more_info">More info</a></li>
+        </ul>
+    </section>
+
+    <section class="page_section" aria-labelledby="images_that_convey_information">
+        <div class="header_and_permalink">
+            <h2 id="images_that_convey_information">1. Images that convey information</h2>
+            <a href="#images_that_convey_information" aria-label="Permalink for 1. Images that convey information" title="Permalink for 1. Images that convey information">§</a>
+        </div>
+    
+        <ul>
+            <li>
+                <p>
+                    Does the image convey any information?<br>
+                    &rarr; <strong>The text alternative should convey the same information as the image.</strong>
+                </p>
+            </li>
+    
+            <li>
+                <p>
+                    It's not about describing what's on the image:<br>
+                    It's about serving the same purpose as the image (conveying the same information).
+                </p>
+    
+                <p>
+                    A picture can seek to convey different information in different contexts.                
+                </p>
+            </li>
+        </ul>
+    
+        <h3>Example</h3>
+    
+        <p>On a page promoting a holiday resort, the purpose of this picture might be to convey that the resort is family friendly.</p>
+    
+        <img src="../assets/family-938c2790.jpg" alt="We’re family-friendly.">
+    
+        <pre><code>
+<img src="family.jpg" alt="We’re family-friendly.">
+        </code></pre>
+    </section>
+
+    <section class="page_section" aria-labelledby="images_that_convey_functionality">
+        <div class="header_and_permalink">
+            <h2 id="images_that_convey_functionality">2. Images that convey functionality</h2>
+            <a href="#images_that_convey_functionality" aria-label="Permalink for 2. Images that convey functionality" title="Permalink for 2. Images that convey functionality">§</a>
+        </div>
+    
+        <ul>
+            <li>
+                <p>
+                    Does the image describe what a button or a link is going to do?<br>
+                    &rarr; <strong>The text alternative should describe the action that will be performed.</strong>
+                </p>
+            </li>
+    
+            <li>
+                <p>
+                    It's not about describing what's on the image:<br>
+                    It's about serving the same purpose as the image: indicating what action will be triggered, or where users will be taken to.
+                </p>
+            </li>
+    
+            <li>
+                <p>
+                    If the button or link also has text label, see <a href="#images_that_are_purely_decorative_or_redundant">Images that are purely decorative or redundant</a> below.
+                </p>
+            </li>
+        </ul>
+    
+        <h3>Example</h3>
+    
+        <form>
+            <div style="display: flex; align-items: center;">
+                <input type="search" aria-labelledby="search_button" style="height: 2rem;" >
+                <button id="search_button" type="submit">
+                <img src="../assets/search_icon_3r5y.png" style="width: 2rem; height: 2rem;" alt="Search">
+                </button>
+            </div>
+        </form>
+    
+          <pre><code>
+<form>
+    <input type="search" aria-labelledby="search_button"  >
+    <button type="submit" id="search_button">
+        <img src="search_icon.png" alt="Search" >
+    </button>
+</form>
+          </code></pre>
+    </section>
+
+    <section class="page_section" aria-labelledby="images_that_are_purely_decorative_or_redundant">
+        <div class="header_and_permalink">
+            <h2 id="images_that_are_purely_decorative_or_redundant">3. Images that are purely decorative or redundant</h2>
+            <a href="#images_that_are_purely_decorative_or_redundant" aria-label="Permalink for 3. Images that are purely decorative or redundant" title="Permalink for 3. Images that are purely decorative or redundant">§</a>
+        </div>
+    
+        <ul>
+            <li>
+                <p>
+                    The image does not convey any information?<br>
+                    Or it conveys information that's already conveyed in text?<br>
+                    &rarr; <strong>It should be silenced using <code>alt=''</code>, or be a CSS <code>background-image</code>.</strong>
+                </p>
+            </li>
+    
+            <li>
+                <p>
+                    This is so that screen readers and speech-input software ignore it.
+                </p>
+            </li>
+        </ul>
+    
+        <h3>Example</h3>
+    
+        <p>If a button's name is already included in text, the icon shouldn't be read out by screen readers.</p>
+    
+        <form>
+            <div style="display: flex; align-items: center;">
+                <input type="search" aria-labelledby="search_button" style="height: 2rem;" >
+                <button type="submit" id="search_button" style="display: flex; align-items: center; font-size: 1.2rem;">
+                <img src="../assets/search_icon_3r5y.png" style="width: 2rem; height: 2rem;" alt="">
+                Search
+                </button>
+            </div>
+        </form>
+    
+        <pre><code>
+<form>
+    <input type="search" aria-labelledby="search_button">
+    <button type="submit" id="search_button">
+        <img src="search_icon.png" alt="" >
+        Search
+    </button>
+</form>
+        </code></pre>
+    </section>
+
+
+    <section class="page_section" aria-labelledby="complex_images">
+        <div class="header_and_permalink">
+            <h2 id="complex_images">4. Complex images</h2>
+            <a href="#complex_images" aria-label="Permalink for 4. Complex images" title="Permalink for 4. Complex images">§</a>
+
+        </div>
+    
+        <ul>
+            <li>
+                <p>
+                    Does the communicate complex information (like an infographics, a chart or a diagram)?<br>
+                    &rarr; <strong>The same information should be available in text or as a table within the same page.</strong>
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="page_section" aria-labelledby="common_mistakes">
+        <div class="header_and_permalink">
+            <h2 id="common_mistakes"><span aria-hidden="true">😅&nbsp;</span>Common mistakes</h2>
+            <a href="#common_mistakes" aria-label="Permalink for Common mistakes" title="Permalink for Common mistakes">§</a>
+        </div>
+    
+        <ol role="list" class="common_mistakes_list">
+            <li>
+                <details>
+                    <summary>
+                      <h3>An <code>img</code> element with no <code>alt</code> attribute</h3>
+                    </summary>
+            
+                    <ul>
+                        <li>
+                            <p>
+                                If an image doesn't have an <code>alt</code> attribute (or <code>role=</code> <code>'presentation'</code> or <code>'none'</code>), then screen readers will read the filename.
+                            </p>
+                        </li>
+            
+                        <li>
+                            <p>
+                                Always give <code>img</code> elements an <code>alt</code> attribute.
+                            </p>
+            
+                            <p>
+                                <code>role=</code> <code>'presentation'</code> or <code>'none'</code> achieve the same outcome. But <a href="https://www.w3.org/TR/using-aria/#firstrule">it's better not to use ARIA attributes when the same outcome can be achieved with just HTML</a>.
+                            </p>
+                        </li>
+                    </ul>
+                  
+                    <h4>Example</h4>
+            
+                    <p>
+                        With the code below, screen readers would read out the image like this:<br>
+                        <quote>"search underscore icon underscore jeo87668 underscore medium underscore 2x.png Search, button".</quote>
+                    </p>
+            
+                    <pre><code>
+<form>
+    <input type="search" aria-labelledby="search_button">
+    <button type="submit" id="search_button">
+        <img src="search_icon_jeo87668_medium_2x.png" alt="" >
+        Search
+    </button>
+</form>
+                    </code></pre>
+                  
+                </details>
+    
+            </li>
+    
+            <li>
+                <details>
+                    <summary>
+                      <h3>Text alternative that does not serve the same purpose as the image</h3>
+                    </summary>
+                  
+                    <h4>Example 1</h4>
+                  
+                    <p>
+                        The purpose of this magnifying glass icon is to convey a 'Search'
+                        functionality. So its alternative text should be 'Search', not 'Magnifying
+                        glass'.
+                    </p>
+            
+                    <form>
+                        <div style="display: flex; align-items: center;">
+                            <input type="search" aria-labelledby="search_button" style="height: 2rem;" >
+                            <button type="submit" id="search_button">
+                                <img src="../assets/search_icon_3r5y.png" style="width: 2rem; height: 2rem;" alt="Magnifying glass">
+                            </button>
+                        </div>
+                    </form>
+            
+                    <pre>
+                        <code>
+<form>
+    <input type="search" aria-labelledby="search_button">
+    <button type="submit" id="search_button">
+        <img src="search_icon.png" alt="Magnifying glass" >
+    </button>
+</form>
+            
+                        </code>
+                    </pre>
+                  
+                  <h4>Example 2</h4>
+            
+                  <p>
+                    This alt text describes what's on the image, but doesn't serve the same purpose as the image.
+                  </p>
+            
+                  <img src="../assets/family-938c2790.jpg" alt="A man, a woman and their son smiling.">
+                  
+                  <pre>
+                      <code>
+<img src="family.jpg" alt="A man, a woman and their son smiling." >
+                      </code>
+                  </pre>      
+                  
+                </details>
+            </li>
+    
+            <li>
+                <details>
+                    <summary>
+                      <h3>Text alternative that includes redundant words like 'image', 'icon', 'button' or 'select this to ...'</h3>
+                    </summary>
+
+                    <ul>
+                        <li>
+                            <p>
+                                The type of the element (such as image or button) should not be included in the text alternative.<br>
+                            </p>
+        
+                            <p>
+                                An element's type is programmatically determined (based on the HTML element's tag name or `role` attribute) and announced by the screen reader.
+                            </p>
+                        </li>
+                    </ul>
+
+                  <h4>Example 1</h4>
+
+                  <p>The alt text should not include 'button'.<br>
+                    This would be read out by screen readers as <quote>"Play button, button"</quote>.</p>
+                  
+                  <button>
+                      <img src="../assets/play_967632.png" style="width: 2rem; height: 2rem;" alt="Play button" >
+                  </button>
+
+                  <pre><code>
+<button>
+    <img src="play.png" alt="Play button" >
+</button>
+                  </code></pre>
+                  
+                  <h4>Example 2</h4>
+
+                  <p>
+                    This would be read out by screen readers as <quote>"Picture of a happy family, image"</quote>.
+                  </p>
+
+                  <img src="../assets/family-938c2790.jpg" alt="Picture of a happy family." >    
+
+                  <pre><code>
+<img src="family.jpg" alt="Picture of a happy family." >    
+                  </code></pre>                  
+                </details>
+            </li>
+
+            <li>
+                <details>
+                    <summary>
+                      <h3>Using CSS <code>background-image</code> for images that are not purely decorative or redundant</h3>
+                    </summary>
+
+                    <ul>
+                        <li>
+                            <p>
+                                Do not use a CSS `background-image` for images that convey purpose or information not already available in text.<br>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>CSS background images are not available to assistive technologies.</p>
+                        </li>
+
+                        <li>
+                            <p>
+                                CSS background images may only used for:
+
+                                <ul>
+                                    <li>
+                                        decorative images
+                                    </li>
+
+                                    <li>
+                                        images that communicate information or functionality that's also described in text.
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                    </ul>
+                  </details>
+            </li>
+
+            <li>
+                <details>
+                    <summary>
+                      <h3>Text alternative that is too verbose</h3>
+                    </summary>
+                  
+                    <ul>
+                        <li>
+                            <p>
+                                Try to be succinct (50 characters max).
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Verbose alternatives make content harder to listen to and understand for screen reader users.
+                            </p>
+                        </li>
+                    </ul>
+                  
+                  </details>
+            </li>
+        </ol>
+    </section>
+
+
+
+    <section class="page_section" aria-labelledby="more_info">
+        <div class="header_and_permalink">
+            <h2 id="more_info">More info</h2>
+            <a href="#more_info" aria-label="Permalink for More info" title="Permalink for More info">§</a>
+        </div>
+
+        <details>
+            <summary>
+              <h3 id="more_guidance">More guidance</h3>
+            </summary>
+
+            <ul aria-labelledby="more_guidance">
+                <li>
+                    <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html">Official wording in the Web Content Accessibility Guidelines</a>
+                </li>
+                <li>
+                    <a href="https://webaim.org/techniques/alttext/">Alternative text tutorial</a> by WebAIM explains how to write and set alternative text
+                </li>
+
+                <li>
+                    The <a href="https://www.w3.org/WAI/tutorials/images/">Image concepts tutorial</a> by the W3C Web Accessibility Initiative
+                </li>
+
+                <li>
+                    <a href="https://www.w3.org/WAI/tutorials/images/decision-tree/">W3C Alt text decision tree</a>
+                </li>
+
+                <li>
+                    <a href="https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text">Requirements for providing text to act as an alternative for images</a> in the HTML 5.1 specification
+                </li>
+
+                <li>
+                    <a href="https://www.w3.org/TR/WCAG20-TECHS/F3.html">Why CSS `background-image` should not be used to include images that convey important information</a>
+                </li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>
+                <h3>Sources and copyright</h3>
+            </summary>
+
+            <h4 id="source_guidance">General guidance and examples</h4>
+
+            <ul aria-labelledby="source_guidance">
+                <li>
+                    <a href="https://www.w3.org/TR/WCAG21/">W3C Web Content Accessibility Guidelines 2.1</a> Copyright © 2019 W3C ® (MIT, ERCIM, Keio, Beihang). <a href="http://www.w3.org/Consortium/Legal/2015/doc-license">License</a>
+                </li>
+                <li>
+                    <a href="https://www.w3.org/WAI/tutorials/">W3C Web Accessibility Tutorials</a> Copyright © 2019 W3C ® (MIT, ERCIM, Keio, Beihang). <a href="http://www.w3.org/Consortium/Legal/2015/doc-license">License</a>
+                </li>
+                <li>
+                    <a href="https://alphagov.github.io/wcag-primer/">Government Digital Service WCAG 2.1 Primer</a> licensed under the Open Government Licence v3.0.
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/guidelines/futuremedia/accessibility/mobile/summary">BBC Mobile Accessibility Guidelines</a> licensed under the Open Government Licence v3.0.
+                </li>
+                <li>
+                    <a href="https://github.com/theappbusiness/accessibility-guidelines">Kin+Carta Accessibility Guidelines</a> licensed under MIT License.
+                </li>
+
+            </ul>
+
+            <h4 id="source_images">Images</h4>
+
+            <ul aria-labelledby="source_images">
+                <li>
+                    Search icon: Copyright Rohith M S from the Noun Project, licensed under Creative Commons license
+                </li>
+                <li>
+                    Pay icon: Copyright Alena Artemova from the Noun Project, licensed under Creative Commons license
+                </li>
+            </ul>
+          </details>
+    </section>
+  </main>
+</html>
