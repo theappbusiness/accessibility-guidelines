@@ -1,623 +1,816 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Accessibility Guidelines Summary</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./styles.css">
+    <title>Simple Web Accessibility Guidelines</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
 
   <body>
     <header>
-      <p>This document is in beta. Help us by <a href="https://github.com/theappbusiness/accessibility-guidelines">reporting issues via Github</a> or <a href="mailto:jeanfrancois@theappbusiness.com">email</a>.</p>
-      
-      <p>v0.8.0. See the <a href="https://jfhector.github.io/accessibility-guidelines/">latest version</a>.</p>
-      
+      <p>
+        This document is in beta. Help us by
+        <a href="https://github.com/jfhector/accessibility-guidelines"
+          ><span id="reporting_issues">reporting issues via</span> Github</a
+        >
+        or
+        <a
+          id="via_email"
+          aria-labelledby="reporting_issues via_email"
+          href="mailto:jeanfrancois.hector@googlemail.com"
+          >email</a
+        >.
+      </p>
+
       <h1>Accessibility Guidelines Summary</h1>
-  
-      <p>This document provided by <a href="https://www.kinandcarta.com/">Kin + Carta Create</a> will help you quickly get up to speed with the <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG) 2.1</a>, and avoid common accessibility mistakes.</p>
 
-      <p>It only covers <span class="badge badge--level">Level A</span> and <span class="badge badge--level">Level AA</span> requirements, which are referenced in <a href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps">public sector procurement laws in the UK</a>, <a href="https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973">US <span class="!visually-hidden">public sector procurement laws</span></a>, <a href="http://mandate376.standards.eu/standard/technical-requirements/#9">EU <span class="!visually-hidden">public sector procurement laws</span></a> and <a href="https://www.w3.org/WAI/policies/"><span class="!visually-hidden">public sector procurement laws </span>around the world</a>.
-  
-      <p>These guidelines apply to both native apps and web-based apps, except for three which are labelled <span class="badge badge--web-only">Web only</span>.</p>
+      <p>
+        This will help you quickly get up to speed with the
+        <a href="https://www.w3.org/TR/WCAG21/"
+          >Web Content Accessibility Guidelines (WCAG)</a
+        >
+        , and avoid common accessibility mistakes.
+      </p>
 
-      <p>This summary is a simplification. If you're not sure how a guideline applies, check the official <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1</a>.</p>
+      <p>
+        It covers WCAG level A and AA requirements. Those are the accessibility
+        standard referenced in
+        <a
+          href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps"
+          >public sector procurement laws in the UK</a
+        >,
+        <a
+          href="https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973"
+          >US
+          <span class="!visually-hidden"
+            >public sector procurement laws</span
+          ></a
+        >,
+        <a
+          href="http://mandate376.standards.eu/standard/technical-requirements/#9"
+          >EU
+          <span class="!visually-hidden"
+            >public sector procurement laws</span
+          ></a
+        >
+        and
+        <a href="https://www.w3.org/WAI/policies/"
+          ><span class="!visually-hidden">public sector procurement laws </span
+          >around the world</a
+        >.
+      </p>
+
+      <p>
+        This summary is a simplification. If you're not sure how a guideline
+        applies, check the official
+        <a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1</a>.
+      </p>
     </header>
 
     <main>
       <section aria-labelledby="principle_1_header">
-        <h2 id="principle_1_header">1. Easy to perceive</h2>
-  
-        <p>Your website/app must present information in ways that people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like screen readers).</p>
-  
+        <h2 id="principle_1_header">Principle 1: Perceivable</h2>
+
+        <p>
+          Your website must present information in ways that people can
+          perceive.
+        </p>
+
         <h3 id="1_1_heading">1.1. Provide text alternatives for images</h3>
-  
-        <ul aria-labelledby="1_1_heading">
+
+        <ul class="guidelines" aria-labelledby="1_1_heading">
           <li class="guideline">
             <a href="./guidelines/1.1.1.html">Text alternatives for images</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--content">Content</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Provide an alternative text description for images. Make sure the description conveys the same message or functionality.</div>
+            <div>
+              Provide alternative text for images.<br />
+              Make sure it conveys the same message.
+            </div>
           </li>
         </ul>
-  
-        <h3 id="1_2_heading">1.2. Provide alternatives for audio content, videos and presentations</h3>
-  
-        <ul aria-labelledby="1_2_heading">
+
+        <h3 id="1_2_heading">
+          1.2. Provide alternatives for audio and videos
+        </h3>
+
+        <ul class="guidelines" aria-labelledby="1_2_heading">
           <li class="guideline">
-            <a href="./guidelines/1.2.1-audio-only.html">Transcript <span class="!font-weight-400">for pre-recorded audio-only content</span></a>
+            <a href="./guidelines/1.2.1-audio-only.html"
+              >Transcript
+              <span class="!font-weight-400"
+                >for pre-recorded audio-only content</span
+              ></a
+            >
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--content">Content</li>
             </ul>
-            <div>For audio content that has no video (like a podcast), provide a transcript.</div>
+            <div>
+              Does your site include audio content that has no video, like a
+              podcast?<br />
+              &#8594; Provide a transcript.
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/1.2.2.html">Captions <span class="!font-weight-400">for pre-recorded videos</span></a>
+            <a href="./guidelines/1.2.2-and-1.2.4.html">Captions </a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--content">Content</li>
             </ul>
-            <div>Provide captions for videos that are pre-recorded.</div>
+            <div>
+              Does your site show pre-recorded or live videos?<br />
+              &#8594; Provide captions.
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/1.2.3.html">Text or audio description <span class="!font-weight-400">for pre-recorded videos</span></a>
+            <a href="./guidelines/1.2.5.html"
+              >Audio description
+              <span class="!font-weight-400">for pre-recorded videos</span></a
+            >
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--content">Content</li>
             </ul>
-            <div>For videos that are pre-recorded, provide an equivalent text description, or audio description of what happens on screen.</div>
-          </li>
-  
-          <li class="guideline">
-            <a href="./guidelines/1.2.4.html">Captions <span class="!font-weight-400">for live videos and presentations</span></a>
-            <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
-              <li class="badge badge--content">Content</li>
-            </ul>
-            <div>Provide captions for videos and presentations that are performed live.</div>
-          </li>
-  
-          <li class="guideline">
-            <a href="./guidelines/1.2.5.html">Audio description <span class="!font-weight-400">for pre-recorded videos</span></a>
-            <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
-              <li class="badge badge--content">Content</li>
-            </ul>
-            <div>For videos that are pre-recorded, provide audio description of what happens on screen, even if you've already provided a text description.</div>
+            <div>
+              Does your site show pre-recorded videos?<br />
+              &#8594; Provide an audio description of what happens on screen.<br />
+              (If you don't, it's good to provide at least a text equivalent).
+            </div>
           </li>
         </ul>
-  
-        <h3 id="1_3_heading">1.3. Create content that can be presented in different ways</h3>
-  
-        <ul aria-labelledby="1_3_heading">
+
+        <h3 id="1_3_heading">
+          1.3. Make sure content can be presented in different ways
+        </h3>
+
+        <ul class="guidelines" aria-labelledby="1_3_heading">
           <li class="guideline">
             <a href="./guidelines/1.3.1.html">Information and relationships</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure that information and relationships that are conveyed visually (like distinct sections within a page, or a label next to a checkbox) are also identified in code.</div>
+            <div>
+              Your page conveys information, structure and relationships
+              visually.<br />
+              &#8594; Make sure those are described in code in ways that
+              assistive technologies understand.
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/1.3.2.html">Order of elements in code</a>
+            <a href="./guidelines/1.3.2.html">Order of elements</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure that elements appear in a logical reading order in code, so that they are presented in a meaningful order to screen reader users.</div>
+            <div>
+              The order in which elements appear in the HTML should match the
+              order in which they appear on screen.
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/1.3.3.html">Instructions don't rely on sensory characteristics</a>
+            <a href="./guidelines/1.3.3.html"
+              >Instructions don't rely on sensory characteristics</a
+            >
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
             </ul>
-            <div>If you give tips or instructions, do not assume that users can perceive colour, size, shape, sound or the location of elements on screen.</div>
+            <div>
+              Does your page provide instructions?<br />
+              &#8594; Do not assume that people can perceive colours, sizes,
+              shapes, sounds or the location of elements on screen.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/1.3.4.html">Orientation</a>
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure a page's view is not locked to either portrait or landscape mode, unless this is essential.</div>
+            <div>
+              Make sure that people can do everything in both portrait and
+              landscape modes.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/1.3.5.html">Purpose of text fields</a>
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>If a text input field collects information about the user, identify its specific purpose in code (for example email, password or given name).</div>
+            <div>
+              Does a text input field collect information about the user?<br />
+              &#8594; Use the HTML
+              <code>autocomplete</code>
+              attribute to identify its purpose. For example: email, password,
+              given-name, ...
+            </div>
           </li>
         </ul>
-  
-        <h3 id="1_4_heading">1.4. Make content easy for people to see and hear</h3>
-  
-        <ul aria-labelledby="1_4_heading">
-            <li class="guideline">
-              <a href="./guidelines/1.4.1.html">Use of colour</a>
-              <ul class="badges">
-                <li class="badge badge--level">Level A</li>
-                <li class="badge badge--design">Design</li>
-              </ul>
-              <div>Do not use colour as the only way to convey any piece of information.</div>
-            </li>
-  
-            <li class="guideline">
-              <a href="./guidelines/1.4.2.html">Audio control</a>
-              <ul class="badges">
-                <li class="badge badge--level">Level A</li>
-                <li class="badge badge--design">Design</li>
-              </ul>
-              <div>If any audio content plays automatically for more than three seconds, give people a way to stop it.</div>
-            </li>
-  
-            <li class="guideline">
-              <a href="./guidelines/1.4.3.html">Text contrast</a>
-              <ul class="badges">
-                <li class="badge badge--level">Level AA</li>
-                <li class="badge badge--design">Design</li>
-              </ul>
-              <div>Make sure that text has enough contrast against the background colour.</div>
-            </li>
-  
-            <li class="guideline">
-              <a href="./guidelines/1.4.11.html">Non-text contrast</a>
-              <ul class="badges">
-                <li class="badge badge--level">Level AA</li>
-                <li class="badge badge--design">Design</li>
-              </ul>
-              <div>Make sure that visual information that identifies important graphics, interactive controls and their state has enough contrast against adjacent colours.</div>
-            </li>
-  
-            <li class="guideline">
-              <a href="./guidelines/1.4.4.html">Resize text</a>
-              <ul class="badges">
-                <li class="badge badge--level">Level AA</li>
-                <li class="badge badge--design">Design</li>
-                <li class="badge badge--code">Code</li>
-              </ul>
-              <div>Make sure it is possible to complete all tasks when text is resized up to 200%.</div>
-            </li>
-  
-            <li class="guideline">
-              <a href="./guidelines/1.4.10.html">Reflow</a>
-              <ul class="badges">
-                <li class="badge badge--level">Level AA</li>
-                <li class="badge badge--design">Design</li>
-                <li class="badge badge--code">Code</li>
-              </ul>
-              <div>Make sure users can access all information and functionality on a screen that's as wide as on the iPhone5, without needing to scroll in both directions.</div>
-            </li>
 
-            <li class="guideline">
-              <a href="./guidelines/1.4.5.html">Images of text</a>
-              <ul class="badges">
-                <li class="badge badge--level">Level AA</li>
-                <li class="badge badge--code">Code</li>
-              </ul>
-              <div>Use real text rather than images of text.</div>
-            </li>
-  
-            <li class="guideline">
-              <a href="./guidelines/1.4.12.html">Text spacing</a>
-              <ul class="badges">
-                <span class="badge badge--web-only">Web only</span>
-                <li class="badge badge--level">Level AA</li>
-                <li class="badge badge--design">Design</li>
-                <li class="badge badge--code">Code</li>
-              </ul>
-              <div>Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.</div>
-            </li>
-  
-            <li class="guideline">
-              <a href="./guidelines/1.4.13.html">Extra content on hover or focus</a>
-              <ul class="badges">
-                <li class="badge badge--level">Level AA</li>
-                <li class="badge badge--design">Design</li>
-                <li class="badge badge--code">Code</li>
-              </ul>
-              <div>If content (like a tooltip) appears when users hover over an element with their mouse (or tab to it with their keyboard), it must be easy to dismiss, easy to reach and remain visible.</div>
-            </li>
+        <h3 id="1_4_heading">
+          1.4. Make content easy for people to see and hear
+        </h3>
+
+        <ul class="guidelines" aria-labelledby="1_4_heading">
+          <li class="guideline">
+            <a href="./guidelines/1.4.1.html">Use of colour</a>
+            <ul class="badges">
+              <li class="badge badge--design">Design</li>
+            </ul>
+            <div>
+              Does the page use colour to convey information?<br />
+              &#8594; Also communicate that information in a way that doesn't
+              assume people can distinguish colours.
+            </div>
+          </li>
+
+          <li class="guideline">
+            <a href="./guidelines/1.4.2.html">Audio control</a>
+            <ul class="badges">
+              <li class="badge badge--design">Design</li>
+            </ul>
+            <div>
+              Does your page automatically play sound?<br />
+              &#8594; Make it easy to stop it.
+            </div>
+          </li>
+
+          <li class="guideline">
+            <a href="./guidelines/1.4.3.html">Text contrast</a>
+            <ul class="badges">
+              <li class="badge badge--design">Design</li>
+            </ul>
+            <div>
+              Make sure text has enough contrast.
+            </div>
+          </li>
+
+          <li class="guideline">
+            <a href="./guidelines/1.4.11.html">Non-text contrast</a>
+            <ul class="badges">
+              <li class="badge badge--design">Design</li>
+            </ul>
+            <div>
+              Your page uses visual elements (like background colours or
+              borders) to help users identify controls, their states, and
+              understand infographics.<br />
+              &#8594; Make sure those visual elements have enough contrast.
+            </div>
+          </li>
+
+          <li class="guideline">
+            <a href="./guidelines/1.4.4.html">Resize text</a>
+            <ul class="badges">
+              <li class="badge badge--design">Design</li>
+              <li class="badge badge--code">Code</li>
+            </ul>
+            <div>
+              People must be able to resize text to 200%, without losing access
+              to any content or functionality.
+            </div>
+          </li>
+
+          <li class="guideline">
+            <a href="./guidelines/1.4.10.html">Reflow</a>
+            <ul class="badges">
+              <li class="badge badge--design">Design</li>
+              <li class="badge badge--code">Code</li>
+            </ul>
+            <div>
+              On a 1280px screen at 400% zoom, make sure people can access all
+              of your site's content and functionalities without needing to
+              scroll in two directions.
+            </div>
+          </li>
+
+          <li class="guideline">
+            <a href="./guidelines/1.4.5.html">No images of text</a>
+            <ul class="badges">
+              <li class="badge badge--code">Code</li>
+            </ul>
+            <div>
+              Don't use images of text (except for logos). Use real text
+              instead.
+            </div>
+          </li>
+
+          <li class="guideline">
+            <a href="./guidelines/1.4.12.html">Text spacing</a>
+            <ul class="badges">
+              <li class="badge badge--design">Design</li>
+              <li class="badge badge--code">Code</li>
+            </ul>
+            <div>
+              If users increase the space between lines, paragraphs, letters and
+              words, make sure they can still access all content and
+              functionalities.
+            </div>
+          </li>
+
+          <li class="guideline">
+            <a href="./guidelines/1.4.13.html"
+              >Extra content on hover or focus</a
+            >
+            <ul class="badges">
+              <li class="badge badge--design">Design</li>
+              <li class="badge badge--code">Code</li>
+            </ul>
+            <div>
+              Do some elements (like tooltips) appear on hover or keyboard
+              focus?<br />
+              &#8594; Make sure they're easy to dismiss, easy to reach with the
+              mouse, and don't automatically disappear.
+            </div>
+          </li>
         </ul>
       </section>
-  
+
       <section aria-labelledby="principle_2_header">
-        <h2 id="principle_2_header">2. Easy to operate</h2>
-  
-        <p>Your website/app must be easy to navigate and use, no matter how someone interacts with it.</p>
-  
-        <p>For example people who do not use a mouse may use their voice, or press the 'Tab' key to move their keyboard's focus to interactive controls.</p>
-  
-        <h3 id="2_1_heading">2.1. Make all functionality work with a keyboard</h3>
-  
-        <ul aria-labelledby="2_1_heading">
+        <h2 id="principle_2_header">Principle 2: Operable</h2>
+
+        <p>
+          Your website must be easy to navigate and use, no matter how people
+          interact with it.
+        </p>
+
+        <h3 id="2_1_heading">
+          2.1. Make it easy to use with just the keyboard
+        </h3>
+
+        <ul class="guidelines" aria-labelledby="2_1_heading">
           <li class="guideline">
             <a href="./guidelines/2.1.1.html">Keyboard</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure every task can be completed using just a keyboard.</div>
+            <div>
+              Make sure every task can be completed using just the keyboard.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/2.1.2.html">No keyboard trap</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure that keyboard-only users do not get trapped within any element.</div>
+            <div>
+              Make sure keyboard-only users can easily move away from any
+              element.
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/2.1.4.html">Character key shortcuts</a>
+            <a href="./guidelines/2.1.4.html">Custom keyboard shortcuts</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
             </ul>
-            <div>If you've added custom keyboard shortcuts, provide a way to switch off or remap these shortcuts.</div>
+            <div>
+              Does your page provide custom keyboard shortcuts?<br />
+              &#8594; Provide a way to turn them off.
+            </div>
           </li>
         </ul>
-  
-        <h3 id="2_2_heading">2.2. Give people enough time to read and use content</h3>
-  
-        <ul aria-labelledby="2_2_heading">
+
+        <h3 id="2_2_heading">
+          2.2. Give people enough time to read and use content
+        </h3>
+
+        <ul class="guidelines" aria-labelledby="2_2_heading">
           <li class="guideline">
             <a href="./guidelines/2.2.1.html">Timing adjustable</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
+              <li class="badge badge--code">Code</li>
             </ul>
-            <div>If there is any time limit (like a session timeout), give people an easy way to extend it.</div>
+            <div>
+              Is there any time limit (like a session timeout)?<br />
+              &#8594; Make it easy for people to extend it.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/2.2.2.html">Visual distractions</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
             </ul>
-            <div>Do not show anything that automatically blinks, scrolls, animates or updates frequently if it lasts more than 5 seconds. Or give people a way to stop it.</div>
+            <div>
+              Does your page show anything that blinks, scrolls, animates or
+              updates frequently for more than 5 seconds?<br />
+              &#8594; Make it easy for people to stop it.
+            </div>
           </li>
         </ul>
-  
+
         <h3 id="2_3_heading">2.3. Make sure it won't trigger seizures</h3>
-  
-        <ul aria-labelledby="2_3_heading">
+
+        <ul class="guidelines" aria-labelledby="2_3_heading">
           <li class="guideline">
             <a href="./guidelines/2.3.1.html">Flashes</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--content">Content</li>
             </ul>
-            <div>Do not show anything that flashes more than three times a second.</div>
+            <div>
+              Do not show anything that flashes more than three times in a
+              second.
+            </div>
           </li>
         </ul>
-  
+
         <h3 id="2_4_heading">2.4. Help people navigate and find content</h3>
-  
-        <ul aria-labelledby="2_4_heading">
+
+        <ul class="guidelines" aria-labelledby="2_4_heading">
           <li class="guideline">
             <a href="./guidelines/2.4.1.html">Skip to main content</a>
             <ul class="badges">
-              <li class="badge badge--web-only">Web only</li>
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Give keyboard and screen reader users a way to go directly to the page's main content.</div>
+            <div>
+              Give keyboard-only users a way to go directly to the page's main
+              content.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/2.4.2.html">Page title</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Give every page a unique and helpful title that indicates the purpose of the page.</div>
+            <div>
+              Give every page a title that describes its topic or purpose.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/2.4.3.html">Focus order</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure that interactive controls receive focus in an order that makes sense, when users navigate through them with the keyboard.</div>
+            <div>
+              The order in which interactive elements receive keyboard focus
+              must be natural and predictable.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/2.4.4.html">Link purpose</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure the purpose of every link is clear from the link text alone, or together with associated content (if screen readers recognise the association).</div>
+            <div>
+              The purpose of every link must be clear from the link text alone.
+              Or together with associated text (if screen readers recognise the
+              association).
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/2.4.5.html">Multiple ways to find a page</a>
+            <a href="./guidelines/2.4.5.html"
+              >Multiple ways to find each page</a
+            >
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--design">Design</li>
             </ul>
-            <div>Give people different ways of finding each page (like searching or browsing links), unless the page is a step in a process.</div>
+            <div>
+              There must be more than one way to find each page. For example
+              browsing categories and search. (Unless the page is a step in a
+              process).
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/2.4.6.html">Headings and labels</a>
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--design">Design</li>
             </ul>
-            <div>Headings and form labels should help people find content and complete tasks.</div>
+            <div>
+              Headings must describe the topic of the page's sections.<br />
+              Labels must describe the purpose of form inputs.
+            </div>
           </li>
 
           <li class="guideline">
             <a href="./guidelines/2.4.7.html">Focus visible</a>
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure that keyboard-only users can clearly see which interactive control is focused when they tab through them.</div>
+            <div>
+              When they use the Tab key to navigate through the page, make sure
+              keyboard users can see which interactive element has the keyboard
+              focus.
+            </div>
           </li>
-  
         </ul>
-  
-        <h3 id="2_5_heading">2.5. Make it work with other input methods beyond keyboard</h3>
-  
-        <ul aria-labelledby="2_5_heading">
+
+        <h3 id="2_5_heading">
+          2.5. Make the page work with other input methods, beyond mouse and
+          keyboard
+        </h3>
+
+        <ul class="guidelines" aria-labelledby="2_5_heading">
           <li class="guideline">
             <a href="./guidelines/2.5.1.html">Complex gestures</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
             </ul>
-            <div>Do not require complex gestures or using more than one finger to do things.</div>
+            <div>
+              Do not require complex gestures, or using more than one finger to
+              do things.
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/2.5.2.html">Touch or click cancellation</a>
+            <a href="./guidelines/2.5.2.html">Touch and click cancellation</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure that custom buttons or links do not activate as soon as they are touched, so that users can slide their finger or mouse away to cancel the action.</div>
+            <div>
+              Interactive elements must not activate as soon as the user's
+              finger is down.
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/2.5.3.html">Label in name</a>
+            <a href="./guidelines/2.5.3.html"
+              >Accessibility name matches or includes visible label</a
+            >
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>When an interactive control has a name on screen, make sure that assistive technologies (like Voice Control) know it by the same name (or a name that includes the name on screen).</div>
+            <div>
+              Does an interactive element have a visible label?<br />
+              &#8594; Make sure that assistive technologies know it by the same
+              name. Or by a name that includes the name shown on screen.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/2.5.4.html">Device motion</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>If a feature uses the device's motion (like shaking or tilting), make sure that responses to these motions can be turned off, and that the feature can be used in another way.</div>
+            <div>
+              Does a feature uses the device's motion (like shaking or
+              tilting)?<br />
+              &#8594; Make sure that responses to these motions can be turned
+              off. And that the feature can be used in another way.
+            </div>
           </li>
         </ul>
       </section>
-  
+
       <section aria-labelledby="principle_3_heading">
-        <h2 id="principle_3_heading">3. Easy to understand</h2>
-  
-        <p>Your website/app must make it easy for people to understand information and how to complete tasks.</p>
-  
+        <h2 id="principle_3_heading">Principle 3: Understandable</h2>
+
+        <p>
+          Your website must make it easy for people to understand information,
+          and how to complete tasks.
+        </p>
+
         <h3 id="3_1_heading">3.1. Make text easy to understand</h3>
-  
-        <ul aria-labelledby="3_1_heading">
+
+        <ul class="guidelines" aria-labelledby="3_1_heading">
           <li class="guideline">
             <a href="./guidelines/3.1.1.html">Language of page</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
-              <li class="badge badge--content">Content</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>In code, identify the language that the content of the page is written in (English for example).</div>
+            <div>
+              In code, identify the human language that the page content is
+              written in.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/3.1.2.html">Language of parts</a>
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
-              <li class="badge badge--design">Design</li>
-              <li class="badge badge--content">Content</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>If the page has content in more than one language (for example, if a page in English has a button labelled in Welsh), identify the language of each part in code.</div>
+            <div>
+              Does your page include content in more than one language? (For
+              example, a page in English with a paragraph in Welsh).<br />
+              &#8594; In code, identify the language of each part of the page.
+            </div>
           </li>
         </ul>
-  
-        <h3 id="3_2_heading">3.2. Make things appear and behave in consistent, predictable ways</h3>
-  
-        <ul aria-labelledby="3_2_heading">
+
+        <h3 id="3_2_heading">
+          3.2. Make things appear and behave in consistent, predictable ways
+        </h3>
+
+        <ul class="guidelines" aria-labelledby="3_2_heading">
           <li class="guideline">
             <a href="./guidelines/3.2.1.html">Changes on focus</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Just navigating to an interactive control with the keyboard shouldn't trigger any action, and shouldn't move the keyboard focus somewhere else.</div>
+            <div>
+              Just navigating to an interactive control with the keyboard
+              shouldn't trigger any action, and shouldn't move the keyboard
+              focus somewhere else.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/3.2.2.html">Changes on input</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Just changing the state of a form input (like a radio button) must not cause anything surprising to happen, like submitting a form, significantly changing the content on the page, or moving the keyboard focus.</div>
+            <div>
+              Just changing the state of a form input (like a checkbox) must not
+              cause anything surprising to happen (like submitting a form,
+              significantly changing the content on the page, or moving the
+              keyboard focus).
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/3.2.3.html">Consistent navigation</a>
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--design">Design</li>
             </ul>
-            <div>Make sure that navigation controls that appear on multiple pages (like links in a header) are consistent across pages.</div>
+            <div>
+              Navigation links that appear on multiple pages must appear in the
+              same order.
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/3.2.4.html">Consistent feature names</a>
+            <a href="./guidelines/3.2.4.html">Consistent names</a>
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--design">Design</li>
             </ul>
-            <div>If a user interface component exists on multiple pages, make sure that the way it looks and the way it is named is consistent across pages.</div>
+            <div>
+              Does the same interactive element appear on multiple pages?<br />
+              &#8594; It must have the same name across the pages.
+            </div>
           </li>
         </ul>
-  
+
         <h3 id="3_3_heading">3.3. Help people avoid and correct mistakes</h3>
-  
-        <ul aria-labelledby="3_3_heading">
+
+        <ul class="guidelines" aria-labelledby="3_3_heading">
           <li class="guideline">
             <a href="./guidelines/3.3.1.html">Error identification</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>When someone makes an error while filling in a form, describe the error with text and clearly identify where the error is.</div>
+            <div>
+              When someone makes a mistake filling in a form:<br />
+              &#8594; Clearly identify where the error is, and describe it in
+              text.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/3.3.2.html">Form labels and instructions</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Provide labels to make it clear how users should fill in a form, and optionally provide extra hints to help them avoid errors.</div>
+            <div>
+              Provide labels to clearly communicate how people should fill in a
+              form.<br />Optionally provide extra hints to help them avoid
+              errors.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/3.3.3.html">Error suggestions</a>
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>When someone makes an error while filling in a form, give them suggestions on how to correct it.</div>
+            <div>
+              When someone makes a mistake filling in a form:<br />
+              &#8594; Give them suggestions for correcting it.
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/3.3.4.html">Error prevention (legal, financial, data)</a>
+            <a href="./guidelines/3.3.4.html"
+              >Error prevention (legal, financial, data)</a
+            >
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--design">Design</li>
             </ul>
-            <div>If users are making a legal commitment, a financial transaction or updating personal data, give them a way to review and check that the information they've entered before submitting it.</div>
+            <div>
+              Do people make financial transactions, legal commitments or update
+              personal data through your site?<br />
+              &#8594; Let them review and check the information they've entered
+              before submitting it.
+            </div>
           </li>
         </ul>
       </section>
-  
+
       <section aria-labelledby="principle_4_heading">
-        <h2 id="principle_4_heading">4. Robust and compatible</h2>
-  
-        <p>Your website/app must work with different web browsers and/or assistive technologies.</p>
-  
-        <ul aria-labelledby="principle_4_heading">
+        <h2 id="principle_4_heading">Principle 4: Robust</h2>
+
+        <p>
+          Your website/app must work with different web browsers and/or
+          assistive technologies.
+        </p>
+
+        <ul class="guidelines" aria-labelledby="principle_4_heading">
           <li class="guideline">
             <a href="./guidelines/4.1.1.html">Valid HTML</a>
             <ul class="badges">
-              <li class="badge badge--web-only">Web only</li>
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure the HTML does not contain markup errors that are known to cause conflicts with assistive technologies (such as incorrect nesting of elements, or duplicate <code>id</code>s).</div>
+            <div>
+              Make sure the HTML does not contain errors that are known to cause
+              conflicts with assistive technologies (such as incorrect nesting
+              of elements, or duplicate <code>id</code>s).
+            </div>
           </li>
-  
+
           <li class="guideline">
-            <a href="./guidelines/4.1.2.html">Name, Role and State of interactive components</a>
+            <a href="./guidelines/4.1.2.html">Name, Role and State</a>
             <ul class="badges">
-              <li class="badge badge--level">Level A</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>The code should enable assistive technologies to understand the name, role and state of every user interface component.</div>
+            <div>
+              Assistive technologies should be able to understand the name, role
+              and state of user interface elements.
+            </div>
           </li>
-  
+
           <li class="guideline">
             <a href="./guidelines/4.1.3.html">Status messages</a>
             <ul class="badges">
-              <li class="badge badge--level">Level AA</li>
               <li class="badge badge--design">Design</li>
               <li class="badge badge--code">Code</li>
             </ul>
-            <div>Make sure status messages are identified in code, so that assistive technologies can convey them to users.</div>
+            <div>
+              Does your page shows alerts or status messages?<br />
+              &#8594; Make sure that they're coded so that assistive
+              technologies announce them.
+            </div>
           </li>
         </ul>
       </section>
     </main>
-    
+
     <footer>
-      <h2 id="contributors_list">Key contributors</h2>
+      <h2 id="contributors_list">Main contributors</h2>
       <ul aria-describedby="contributors_list">
         <li>
-          <a href="https://www.linkedin.com/in/jfhector/">Jean-Francois Hector</a>
+          <a href="https://www.linkedin.com/in/jfhector/"
+            >Jean-Francois Hector</a
+          >
         </li>
         <li>
           <a href="https://www.linkedin.com/in/kanecheshire/">Kane Cheshire</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/robert-kinder-40175411a/">Robert Kinder</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/georgi-eftimov-b079095b/">Georgi Eftimov</a>
+          <a href="https://www.linkedin.com/in/robert-kinder-40175411a/"
+            >Robert Kinder</a
+          >
         </li>
         <li>
           <a href="https://www.linkedin.com/in/talia-craiu/">Talia Craiu</a>
-        </li>
-        <li>
-          <a>Jacek Kulinski</a>
         </li>
       </ul>
 
       <h2 id="sources_list">Main sources</h2>
       <ul aria-describedby="sources_list">
         <li>
-          <a href="https://www.w3.org/TR/WCAG21/">W3C Web Content Accessibility Guidelines</a>
+          <a href="https://www.w3.org/TR/WCAG21/"
+            >W3C Web Content Accessibility Guidelines</a
+          >
         </li>
         <li>
-          <a href="https://github.com/alphagov/wcag-primer">Government Digital Service</a>
+          <a
+            href="http://www.bbc.co.uk/guidelines/futuremedia/accessibility/mobile"
+            >BBC Mobile Accessibility Guidelines</a
+          >
         </li>
         <li>
-          <a href="http://www.bbc.co.uk/guidelines/futuremedia/accessibility/mobile">BBC</a>
+          <a href="https://github.com/alphagov/wcag-primer"
+            >Government Digital Service</a
+          >
         </li>
       </ul>
     </footer>
