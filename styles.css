@@ -626,6 +626,11 @@ li.badge, span.badge {
   background-color: #a2eeef;
 }
 
+.badge--guidance {
+  color: #000;
+  background-color: #ffeec9;
+}
+
 /* Utility classes */
 
 .\!visually-hidden:not(:focus):not(:active) {
